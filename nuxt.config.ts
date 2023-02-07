@@ -10,7 +10,9 @@ export default defineNuxtConfig({
       },
       modules: [
           'nuxt-windicss',
-          'nuxt-headlessui'
+          'nuxt-headlessui',
+          'nuxt-icon',
+          '@vueuse/nuxt',
       ],
       
 })
