@@ -73,8 +73,8 @@ export default defineConfig({
   },
   theme: {
     extend: {
-      maxWidth: {
-        '8xl': '90rem',
+      backgroundImage: {
+        'hero-pattern': "url('/assets/img/n.jfif')",
       },
       colors: {
         primary: MyTheme.colors.green,
