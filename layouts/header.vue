@@ -1,10 +1,9 @@
 <template>
-  <div class="container mt-4 py-4 mx-auto flex justify-between items-center px-4 bg-white/20 shadow-lg shadow-primary/30 rounded-md border-1 border-white/10">
-    <div>
-      <h1 class="text-2xl text-white font-medium">
-        KURDTOOLS
-      </h1>
-    </div>
+  <div class="w-full gap-4 px-4 pt-4 items-start flex flex-row-reverse">
+  <div class="w-full py-4 flex justify-between lg:justify-end items-center px-4 bg-white/5 rounded-md border-1 border-white/10">
+    <button class="hidden">
+      <Icon name="gg:menu-left" class="w-7 h-7 text-white"/>
+    </button>
     <div class="flex items-center gap-3 text-white">
       <NuxtLink to="">
         <Icon
@@ -33,4 +32,25 @@
       </NuxtLink>
     </div>
   </div>
+
+    <div class="w-[20%] p-4 bg-white/5 rounded-md border-1 border-white/10">
+      <div class="flex justify-center items-center gap-1 text-3xl font-bold">
+        <span class="text-primary">
+          K
+        </span>
+        <span class="text-white">
+          TOOLS
+        </span>
+      </div>
+      <hr class="my-4 border-white/20">
+      <sidebar />
+    </div>
+
+  </div>
+
+  <slot />
+  <NuxtLayout name="footer" />
 </template>
+<script setup lang="ts">
+import Sidebar from "~/layouts/sidebar.vue";
+</script>

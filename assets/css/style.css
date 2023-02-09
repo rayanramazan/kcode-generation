@@ -1,6 +1,8 @@
 body {
-    background-image: url('../img/n.jfif');
+    background-image: url('../img/bg-12.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    backdrop-filter: blur(40px);
     /* background: linear-gradient(to right top, #65dfc9, #6cdbeb); */
 }

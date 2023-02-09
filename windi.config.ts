@@ -27,6 +27,9 @@ const MyTheme = {
       '800': '#0F2A1E',
       '900': '#000000',
     },
+    dark:{
+      DEFAULT: '#202020'
+    },
     blue: {
       DEFAULT: '#0096FF',
       '50': '#B8E2FF',
