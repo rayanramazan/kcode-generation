@@ -6,6 +6,9 @@
         <button class="hidden">
           <Icon name="gg:menu-left" class="w-7 h-7 text-white"/>
         </button>
+
+        <ButtonLang />
+        <hr class="mx-5 w-[0.5px] bg-white/10 h-8">
         <div class="flex items-center gap-3 text-white">
           <NuxtLink to="">
             <Icon
