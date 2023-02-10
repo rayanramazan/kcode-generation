@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import {AppSetup} from "~/utils/app";
+const {t} = useLang()
+const locale=  useState<string>('locale.setting')
+AppSetup()
+</script>
 <template>
 
   <Body>
@@ -12,6 +18,3 @@
 <style>
 @import './assets/css/style.css';
 </style>
-<script setup lang="ts">
-const { t } = useLang()
-</script>
