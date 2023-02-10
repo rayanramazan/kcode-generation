@@ -9,9 +9,25 @@ AppSetup()
   <Body
       :class="locale === 'EN_US' ? 'english' : 'kurdish'"
   >
+  <div class="area" >
+    <ul class="circles">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </div >
   <NuxtLayout name="header">
     {{ $t('title') }}
     <NuxtPage />
+
+
   </NuxtLayout>
   </Body>
 
