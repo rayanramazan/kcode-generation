@@ -2,6 +2,7 @@
 
   <Body>
   <NuxtLayout name="header">
+    {{ $t('title') }}
     <NuxtPage />
   </NuxtLayout>
   </Body>
@@ -12,5 +13,5 @@
 @import './assets/css/style.css';
 </style>
 <script setup lang="ts">
-
+const { t } = useLang()
 </script>

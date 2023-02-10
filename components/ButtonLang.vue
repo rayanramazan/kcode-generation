@@ -22,6 +22,7 @@
           <div class="px-1 py-1">
             <MenuItem v-slot="{ active }">
               <button
+                  @click="locale = 'EN_US'"
                   :class="[
                   active ? 'bg-primary text-white' : 'text-white',
                   'group flex w-full items-center rounded-md px-2 py-2 text-sm',
@@ -32,6 +33,7 @@
             </MenuItem>
             <MenuItem v-slot="{ active }">
               <button
+                  @click="locale = 'KUSA_KU'"
                   :class="[
                   active ? 'bg-primary text-white' : 'text-white',
                   'group flex w-full items-center rounded-md px-2 py-2 text-sm',
@@ -42,6 +44,7 @@
             </MenuItem>
             <MenuItem v-slot="{ active }">
               <button
+                  @click="locale = 'KUKA_KU'"
                   :class="[
                   active ? 'bg-primary text-white' : 'text-white',
                   'group flex w-full items-center rounded-md px-2 py-2 text-sm',
@@ -52,6 +55,7 @@
             </MenuItem>
             <MenuItem v-slot="{ active }">
               <button
+                  @click="locale = 'AR_IQ'"
                   :class="[
                   active ? 'bg-primary text-white' : 'text-white',
                   'group flex w-full items-center rounded-md px-2 py-2 text-sm',
@@ -69,4 +73,6 @@
 
 <script setup lang="ts">
 import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
+const {locale} = useI18n()
+const { t } = useLang()
 </script>
