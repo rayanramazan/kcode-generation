@@ -18,7 +18,8 @@
           leave-to-class="transform scale-95 opacity-0"
       >
         <MenuItems
-            class="absolute right-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-[#111] backdrop-blur-md	 shadow-lg">
+            :class="localeLanguage === 'EN_US' ? 'right-0' : 'left-0'"
+            class="absolute mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-[#111] backdrop-blur-md	 shadow-lg">
           <div class="px-1 py-1">
             <MenuItem v-slot="{ active }">
               <button

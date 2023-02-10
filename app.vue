@@ -7,6 +7,7 @@ AppSetup()
 <template>
 
   <Body
+      :dir="locale === 'EN_US' ? 'ltr' : 'rtl'"
       :class="locale === 'EN_US' ? 'english' : 'kurdish'"
   >
   <div class="area" >
@@ -24,10 +25,7 @@ AppSetup()
     </ul>
   </div >
   <NuxtLayout name="header">
-    {{ $t('title') }}
     <NuxtPage />
-
-
   </NuxtLayout>
   </Body>
 
