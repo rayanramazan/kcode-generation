@@ -4,28 +4,28 @@
         class="text-primary border-l-primary border-l-2 pl-2 font-bold">
       <NuxtLink
           to="">
-        Home
+        {{ $t('home') }}
       </NuxtLink>
     </li>
     <li
-        class="pl-2 font-bold">
+        class="pl-2 font-bold hover:text-primary duration-300 cursor-pointer">
       <NuxtLink
           to="">
-        Components
+        {{ $t('components') }}
       </NuxtLink>
     </li>
     <li
-        class="pl-2 font-bold">
+        class="pl-2 font-bold hover:text-primary duration-300 cursor-pointer">
       <NuxtLink
           to="">
-        Resources
+        {{ $t('resources') }}
       </NuxtLink>
     </li>
     <li
-        class="pl-2 font-bold">
+        class="pl-2 font-bold hover:text-primary duration-300 cursor-pointer">
       <NuxtLink
           to="">
-        Contact Us
+        {{ $t('contact') }}
       </NuxtLink>
     </li>
     <hr class="my-4 border-white/10">
@@ -35,7 +35,7 @@
       </span>
       <ul class="flex flex-col mt-3 gap-2">
         <li v-for="child in page.children">
-          <NuxtLink class="ml-2 text-base">
+          <NuxtLink class="ml-2 text-base hover:text-primary duration-300 cursor-pointer">
             {{ child.titlePage[localeLanguage] }}
           </NuxtLink>
         </li>
@@ -48,4 +48,5 @@
 <script setup lang="ts">
 const localeLanguage =  useState<string>('locale.setting')
 const pages = await usePage()
+const {t} = useLang()
 </script>

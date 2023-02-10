@@ -1,8 +1,37 @@
-body {
-    background-image: url('../img/bg-12.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    backdrop-filter: blur(40px);
-    /* background: linear-gradient(to right top, #65dfc9, #6cdbeb); */
+body{
+    background: #222;
+}
+
+@font-face {
+    font-family: 'Klavika';
+    src: url('../fonts/Klavika-Light.otf') format('truetype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Klavika';
+    src: url('../fonts/Klavika-Medium.otf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Klavika';
+    src: url('../fonts/Klavika-Regular.otf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Rabar';
+    src: url('../fonts/kurd/Rabar_015.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Rabar';
+    src: url('../fonts/kurd/Rabar_021.ttf') format('truetype');
+    font-weight: bold;
+}
+
+.english{
+    font-family: "Klavika";
+}
+
+.kurdish {
+    font-family: "Rabar";
 }

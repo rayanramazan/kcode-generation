@@ -1,3 +1,6 @@
 {
-  "title": "Welcome to Nuxt 3!"
+  "home": "Home",
+  "components": "Components",
+  "resources": "Resources",
+  "contact": "Contact"
 }

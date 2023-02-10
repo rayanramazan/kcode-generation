@@ -6,7 +6,9 @@ AppSetup()
 </script>
 <template>
 
-  <Body>
+  <Body
+      :class="locale === 'EN_US' ? 'english' : 'kurdish'"
+  >
   <NuxtLayout name="header">
     {{ $t('title') }}
     <NuxtPage />
@@ -18,3 +20,4 @@ AppSetup()
 <style>
 @import './assets/css/style.css';
 </style>
+
