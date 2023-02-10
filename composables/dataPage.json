@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "title": {
+      "EN_US": "Tools",
+      "AR_IQ": "أدوات",
+      "KUKA_KU": "ئامراز",
+      "KUSA_KU": "ئامرازەکان"
+    },
+    "titlePage": {
+    },
+    "children": [
+      {
+        "id": 1,
+        "titlePage": {
+          "EN_US": "Border",
+          "AR_IQ": "حدود",
+          "KUKA_KU": "سنوور",
+          "KUSA_KU": "سنوور"
+        },
+        "slug": "border"
+      },
+      {
+        "id": 2,
+        "titlePage": {
+          "EN_US": "Border Radius",
+          "AR_IQ": "نصف قطر الحد",
+          "KUKA_KU": "ڕادیوسێ سنوورى",
+          "KUSA_KU": "تیژڕەوی سنوور"
+        },
+        "slug": "border-radius"
+      },
+      {
+        "id": 3,
+        "titlePage": {
+          "EN_US": "Cursor",
+          "AR_IQ": "المؤشر",
+          "KUKA_KU": "نیشاندەر",
+          "KUSA_KU": "نیشاندەر"
+        },
+        "slug": "cursor"
+      },
+      {
+        "id": 4,
+        "titlePage": {
+          "EN_US": "Gradient",
+          "AR_IQ": "الانحدار",
+          "KUKA_KU": "گرادێنت",
+          "KUSA_KU": "گرادێنت"
+        },
+        "slug": "gradient"
+      },
+      {
+        "id": 5,
+        "titlePage": {
+          "EN_US": "Text Shadow",
+          "AR_IQ": "ظل النص",
+          "KUKA_KU": "سیبەرا دەقى",
+          "KUSA_KU": "سێبەری دەق"
+        },
+        "slug": "text-shadow"
+      },
+      {
+        "id": 6,
+        "titlePage": {
+          "EN_US": "Box Shadow",
+          "AR_IQ": "ظل الصندوق",
+          "KUKA_KU": "سیبەرا سندوقى",
+          "KUSA_KU": "سێبەری سندوق"
+        },
+        "slug": "box-shadow"
+      },
+      {
+        "id": 7,
+        "titlePage": {
+          "EN_US": "Multiple Column",
+          "AR_IQ": "عدة أعمدة",
+          "KUKA_KU": "چەندین ستوون",
+          "KUSA_KU": "چەندین ستوونی"
+        },
+        "slug": "multiple-column"
+      },
+      {
+        "id": 8,
+        "titlePage": {
+          "EN_US": "Filter",
+          "AR_IQ": "منقي",
+          "KUKA_KU": "فلتەر",
+          "KUSA_KU": "فلتەر"
+        },
+        "slug": "filter"
+      },
+      {
+        "id": 9,
+        "titlePage": {
+          "EN_US": "RGB Color",
+          "AR_IQ": "لون RGB",
+          "KUKA_KU": "ڕەنگێ rgb",
+          "KUSA_KU": "ڕەنگی rgb"
+        },
+        "slug": "rgb-color"
+      },
+      {
+        "id": 10,
+        "titlePage": {
+          "EN_US": "Transform",
+          "AR_IQ": "تحول",
+          "KUKA_KU": "گوهڕین",
+          "KUSA_KU": "گۆڕان"
+        },
+        "slug": "transform"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": {
+      "EN_US": "Others",
+      "AR_IQ": "عناصر",
+      "KUKA_KU": "پێکهات",
+      "KUSA_KU": "پێکهاتەکان"
+    },
+    "children": [
+      {
+        "id": 1,
+        "titlePage": {
+          "EN_US": "Transitions",
+          "AR_IQ": "الانتقالات",
+          "KUKA_KU": "ڤەگوهاستن",
+          "KUSA_KU": "گواستنەوەکان"
+        },
+        "slug": "transitions"
+      },
+      {
+        "id": 2,
+        "titlePage": {
+          "EN_US": "Display",
+          "AR_IQ": "عرض",
+          "KUKA_KU": "پیشاندان",
+          "KUSA_KU": "پیشاندان"
+        },
+        "slug": "display"
+      },
+      {
+        "id": 3,
+        "titlePage": {
+          "EN_US": "Colors",
+          "AR_IQ": "الألوان",
+          "KUKA_KU": "ڕەنگەکان",
+          "KUSA_KU": "ڕەنگەکان"
+        },
+        "slug": "colors"
+      },
+      {
+        "id": 4,
+        "titlePage": {
+          "EN_US": "Gradients",
+          "AR_IQ": "التدرجات",
+          "KUKA_KU": "گرادێنت",
+          "KUSA_KU": "گرادێنتەکان"
+        },
+        "slug": "gradients"
+      }
+    ]
+  }
+]
