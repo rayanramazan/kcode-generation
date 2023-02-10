@@ -5,7 +5,7 @@
         <MenuButton
             class="w-full text-white"
         >
-          <Icon name="carbon:ibm-watson-language-translator" class="w-6 h-6" />
+          <Icon name="carbon:ibm-watson-language-translator" class="w-5 h-5 md:w-6 md:h-6" />
         </MenuButton>
       </div>
 

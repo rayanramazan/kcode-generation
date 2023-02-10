@@ -1,5 +1,5 @@
 <template>
-  <ul class=" flex flex-col gap-2 text-white">
+  <ul class="flex flex-col gap-2 text-white">
     <li class="text-primary font-bold">
       <NuxtLink href="">
         Home

@@ -3,13 +3,26 @@
 
     <div class="w-full flex flex-col">
       <div class="py-4 flex justify-between lg:justify-end items-center px-4 bg-white/5 rounded-md border-1 border-white/10">
-        <button class="hidden">
-          <Icon name="gg:menu-left" class="w-7 h-7 text-white"/>
-        </button>
 
-        <ButtonLang />
-        <hr class="mx-5 w-[0.5px] bg-white/10 h-8">
-        <div class="flex items-center gap-3 text-white">
+        <div class="flex items-center gap-4">
+          <button class="block lg:hidden" @click="isOpen = !isOpen">
+            <Icon name="gg:menu-left" class="w-6 h-6 text-white"/>
+          </button>
+          <div class="flex lg:hidden justify-center items-center gap-1 text-2xl lg:text-3xl font-bold">
+        <span class="text-primary">
+          K
+        </span>
+            <span class="text-white">
+          TOOLS
+        </span>
+          </div>
+        </div>
+
+
+        <ButtonLang class="block sm:hidden" />
+        <div class="hidden sm:flex items-center gap-3 text-white">
+          <ButtonLang />
+          <hr class="mx-5 w-[0.5px] bg-white/10 h-8">
           <NuxtLink to="">
             <Icon
                 class="w-6 h-6 transform hover:-translate-y-1 cursor-pointer duration-300"
@@ -41,8 +54,10 @@
       <slot />
     </div>
 
-    <div class="w-[20%] p-4 bg-white/5 rounded-md border-1 border-white/10">
-      <div class="flex justify-center items-center gap-1 text-3xl font-bold">
+    <div
+        :class="isOpen ? 'active' : ''"
+        class="w-70 left-4 top-22 invisible sm:w-96 h-0 absolute duration-300 lg:static lg:h-screen overflow-hidden p-4 bg-[#222] lg:bg-white/5 rounded-md border-1 border-white/10">
+      <div class="hidden lg:flex justify-center items-center gap-1 text-3xl font-bold">
         <span class="text-primary">
           K
         </span>
@@ -50,8 +65,8 @@
           TOOLS
         </span>
       </div>
-      <hr class="my-4 border-white/20">
-      <sidebar />
+      <hr class="hidden lg:block my-4 border-white/20">
+      <sidebar class="mt-4 lg:mt-0"/>
     </div>
 
   </div>
@@ -61,4 +76,10 @@
 </template>
 <script setup lang="ts">
 import Sidebar from "~/layouts/sidebar.vue";
+const isOpen = ref(false)
 </script>
+<style>
+.active{
+  @apply h-screen visible
+}
+</style>
