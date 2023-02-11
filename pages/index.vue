@@ -25,15 +25,30 @@
 
       </div>
       <div>
-        <div class="w-96 h-96 bg-primary">
-
+        <div
+            :style="`
+              border-top-left-radius: ${ranges[0].value}%;
+              border-top-right-radius: ${ranges[1].value}%;
+              border-bottom-right-radius: ${ranges[2].value}%;
+              border-bottom-left-radius: ${ranges[3].value}%;
+              `"
+            class="w-96 h-96 bg-primary">
+          {{ ranges[0].value }}
         </div>
       </div>
     </div>
+    <Output :data="[
+        ranges[0].value,
+        ranges[1].value,
+        ranges[2].value,
+        ranges[3].value
+    ]"/>
   </section>
 </template>
 
 <script setup>
+import Output from "~/components/Output.vue";
+
 const ranges = ref([
   {
     id: 1,
