@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Menu as="div" class="relative inline-block">
+    <Menu dir="ltr" as="div" class="relative inline-block">
       <div>
         <MenuButton
             class="w-full text-white"
