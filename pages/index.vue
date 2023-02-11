@@ -33,7 +33,6 @@
               border-bottom-left-radius: ${ranges[3].value}%;
               `"
             class="w-96 h-96 bg-primary">
-          {{ ranges[0].value }}
         </div>
       </div>
     </div>
@@ -42,7 +41,9 @@
         ranges[1].value,
         ranges[2].value,
         ranges[3].value
-    ]"/>
+    ]"
+    stylesheet="border-radius:"
+    />
   </section>
 </template>
 
