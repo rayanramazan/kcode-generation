@@ -20,7 +20,7 @@
               min="0"
               max="100"
               v-model="range.value"
-               />
+          />
         </div>
 
         <div>
@@ -97,7 +97,7 @@
         ranges[2].value,
         ranges[3].value
     ]"
-    stylesheet="border-radius:"
+            stylesheet="border-radius:"
     />
   </section>
 </template>
