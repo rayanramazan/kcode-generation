@@ -5,7 +5,6 @@ const locale=  useState<string>('locale.setting')
 AppSetup()
 </script>
 <template>
-
   <Body
       :dir="locale === 'EN_US' ? 'ltr' : 'rtl'"
       :class="locale === 'EN_US' ? 'english' : 'kurdish'"
