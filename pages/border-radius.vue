@@ -43,13 +43,6 @@
 
 <script setup>
 import Output from "~/components/Output.vue";
-import {
-  Listbox,
-  ListboxLabel,
-  ListboxButton,
-  ListboxOptions,
-  ListboxOption,
-} from '@headlessui/vue'
 const ranges = ref([
   {
     id: 1,

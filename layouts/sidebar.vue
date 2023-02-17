@@ -3,7 +3,7 @@
     <li
         class="text-primary border-l-primary border-l-2 px-2 font-bold">
       <NuxtLink
-          to="">
+          to="/">
         {{ $t('home') }}
       </NuxtLink>
     </li>
@@ -35,7 +35,9 @@
       </span>
       <ul class="flex flex-col mt-3 gap-2">
         <li v-for="child in page.children">
-          <NuxtLink class="mx-2 text-base hover:text-primary duration-300 cursor-pointer">
+          <NuxtLink
+              :to="child.slug"
+              class="mx-2 text-base hover:text-primary duration-300 cursor-pointer">
             {{ child.titlePage[localeLanguage] }}
           </NuxtLink>
         </li>
