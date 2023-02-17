@@ -22,62 +22,6 @@
               v-model="range.value"
           />
         </div>
-
-        <div>
-          <Listbox v-model="selectedStyle">
-            <div class="relative mt-1">
-              <ListboxButton
-                  class="relative w-full cursor-default rounded bg-dark-100/20 text-white border border-primary py-2 pl-3 pr-10 text-left shadow-md focus:outline-none sm:text-sm"
-              >
-                <span class="block truncate">{{ selectedStyle }}</span>
-                <span
-                    class="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2"
-                >
-                  <Icon name="ic:round-keyboard-arrow-up" class="w-5 h-5" />
-                </span>
-              </ListboxButton>
-
-              <transition
-                  leave-active-class="transition duration-100 ease-in"
-                  leave-from-class="opacity-100"
-                  leave-to-class="opacity-0"
-              >
-                <ListboxOptions
-                    class="absolute mt-1 max-h-60 w-full overflow-auto rounded bg-[#111] text-white py-1 text-base shadow-lg sm:text-sm"
-                >
-                  <ListboxOption
-                      v-slot="{ active, selected }"
-                      v-for="style in styleBorder"
-                      :key="style.name"
-                      :value="style.name"
-                      as="template"
-                  >
-                    <li
-                        :class="[
-                  active ? 'bg-primary/10 text-primary' : 'text-dark',
-                  'relative cursor-default select-none py-2 pl-10 pr-4',
-                ]"
-                    >
-                <span
-                    :class="[
-                    selected ? 'font-bold' : 'font-normal',
-                    'block truncate',
-                  ]"
-                >{{ style.name }}</span
-                >
-                      <span
-                          v-if="selected"
-                          class="absolute inset-y-0 left-0 flex items-center pl-3 text-primary"
-                      >
-                </span>
-                    </li>
-                  </ListboxOption>
-                </ListboxOptions>
-              </transition>
-            </div>
-          </Listbox>
-        </div>
-
       </div>
       <div>
         <div
@@ -91,12 +35,7 @@
         </div>
       </div>
     </div>
-    <Output :data="[
-        ranges[0].value,
-        ranges[1].value,
-        ranges[2].value,
-        ranges[3].value
-    ]"
+    <Output :data="`${ranges[0].value}% ${ranges[1].value}% ${ranges[2].value}% ${ranges[3].value}%`"
             stylesheet="border-radius:"
     />
   </section>
@@ -111,21 +50,6 @@ import {
   ListboxOptions,
   ListboxOption,
 } from '@headlessui/vue'
-
-const styleBorder = [
-  { name: 'solid' },
-  { name: 'dotted' },
-  { name: 'dashed' },
-  { name: 'double' },
-  { name: 'groove' },
-  { name: 'ridge' },
-  { name: 'inset' },
-  { name: 'outset' },
-  { name: 'none' },
-  { name: 'hidden' },
-
-]
-const selectedStyle = ref(styleBorder[0])
 const ranges = ref([
   {
     id: 1,
