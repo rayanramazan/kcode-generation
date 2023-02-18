@@ -11,7 +11,7 @@
         <div
             class="w-80 flex flex-col gap-2">
           <span class="text-white">
-            {{ ranges.value }}
+            {{ ranges.title }}
           </span>
           <input
               class="rounded-lg overflow-hidden appearance-none bg-dark-100 h-3 w-full"
@@ -142,7 +142,7 @@ const selectedStyle = ref(styleBorder[0].name)
 const ranges = ref(
     {
       id: 1,
-      title: 'Top Left Radius',
+      title: 'Border Width (all borders)',
       value: 10
     },
 )

@@ -46,7 +46,7 @@ import Output from "~/components/Output.vue";
 const ranges = ref([
   {
     id: 1,
-    title: 'Top Left Radius',
+    title: 'Horizontal Shadow Length',
     value: 4,
     min: -200,
     max: 200,
@@ -54,7 +54,7 @@ const ranges = ref([
   },
   {
     id: 2,
-    title: 'Top Right Radius',
+    title: 'Vertical Shadow Length',
     value: 4,
     min: -200,
     max: 200,
@@ -62,7 +62,7 @@ const ranges = ref([
   },
   {
     id: 3,
-    title: 'Bottom Right Radius',
+    title: 'Blur Radius',
     value: 2,
     min: 0,
     max: 400,
@@ -70,7 +70,7 @@ const ranges = ref([
   },
   {
     id: 4,
-    title: 'Bottom Left Radius',
+    title: 'Shadow Color Opacity',
     value: 0.6,
     min: 0,
     max: 1,
