@@ -1,8 +1,9 @@
 <template>
   <ul class="flex flex-col gap-2 text-white">
-    <li
-        class="text-primary border-l-primary border-l-2 px-2 font-bold">
+    <li class="px-2 font-bold hover:text-primary duration-300 cursor-pointer">
       <NuxtLink
+          class="duration-300"
+          exact-active-class="active" active-class="active"
           to="/">
         {{ $t('home') }}
       </NuxtLink>
@@ -10,6 +11,7 @@
     <li
         class="px-2 font-bold hover:text-primary duration-300 cursor-pointer">
       <NuxtLink
+          exact-active-class="active" active-class="active"
           to="">
         {{ $t('components') }}
       </NuxtLink>
@@ -17,6 +19,7 @@
     <li
         class="px-2 font-bold hover:text-primary duration-300 cursor-pointer">
       <NuxtLink
+          exact-active-class="active" active-class="active"
           to="">
         {{ $t('resources') }}
       </NuxtLink>
@@ -24,6 +27,7 @@
     <li
         class="px-2 font-bold hover:text-primary duration-300 cursor-pointer">
       <NuxtLink
+          exact-active-class="active" active-class="active"
           to="">
         {{ $t('contact') }}
       </NuxtLink>
@@ -37,6 +41,7 @@
         <li v-for="child in page.children">
           <NuxtLink
               :to="child.slug"
+              exact-active-class="active" active-class="active"
               class="mx-2 text-base hover:text-primary duration-300 cursor-pointer">
             {{ child.titlePage[localeLanguage] }}
           </NuxtLink>
