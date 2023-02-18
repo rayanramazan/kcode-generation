@@ -144,12 +144,12 @@
       {
         "id": 4,
         "titlePage": {
-          "EN_US": "Gradients",
+          "EN_US": "Gradients Colors",
           "AR_IQ": "التدرجات",
           "KUKA_KU": "گرادێنت",
           "KUSA_KU": "گرادێنتەکان"
         },
-        "slug": "gradients"
+        "slug": "gradients-color"
       }
     ]
   }
