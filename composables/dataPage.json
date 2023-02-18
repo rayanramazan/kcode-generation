@@ -33,16 +33,6 @@
       {
         "id": 3,
         "titlePage": {
-          "EN_US": "Cursor",
-          "AR_IQ": "المؤشر",
-          "KUKA_KU": "نیشاندەر",
-          "KUSA_KU": "نیشاندەر"
-        },
-        "slug": "cursor"
-      },
-      {
-        "id": 4,
-        "titlePage": {
           "EN_US": "Gradient",
           "AR_IQ": "الانحدار",
           "KUKA_KU": "گرادێنت",
@@ -51,7 +41,7 @@
         "slug": "gradient"
       },
       {
-        "id": 5,
+        "id": 4,
         "titlePage": {
           "EN_US": "Text Shadow",
           "AR_IQ": "ظل النص",
@@ -61,7 +51,7 @@
         "slug": "text-shadow"
       },
       {
-        "id": 6,
+        "id": 5,
         "titlePage": {
           "EN_US": "Box Shadow",
           "AR_IQ": "ظل الصندوق",
@@ -71,7 +61,7 @@
         "slug": "box-shadow"
       },
       {
-        "id": 7,
+        "id": 6,
         "titlePage": {
           "EN_US": "Multiple Column",
           "AR_IQ": "عدة أعمدة",
@@ -81,7 +71,7 @@
         "slug": "multiple-column"
       },
       {
-        "id": 8,
+        "id": 7,
         "titlePage": {
           "EN_US": "Filter",
           "AR_IQ": "منقي",
@@ -91,7 +81,7 @@
         "slug": "filter"
       },
       {
-        "id": 9,
+        "id": 8,
         "titlePage": {
           "EN_US": "RGB Color",
           "AR_IQ": "لون RGB",
@@ -101,7 +91,7 @@
         "slug": "rgb-color"
       },
       {
-        "id": 10,
+        "id": 9,
         "titlePage": {
           "EN_US": "Transform",
           "AR_IQ": "تحول",
