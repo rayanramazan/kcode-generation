@@ -1,6 +1,6 @@
 <template>
   <section class="w-full">
-    <div class="flex justify-between p-6">
+    <div class="flex flex-col md:flex-row justify-between px-0 py-2 md:p-6 gap-4">
       <div class="flex flex-col gap-6">
         <h1
             class="bg-white/5 rounded-md border-1 border-white/10 text-lg text-white p-2"
@@ -9,7 +9,7 @@
         </h1>
 
         <div
-            class="w-80 flex flex-col gap-2">
+            class="w-full md:w-80 flex flex-col gap-2">
           <span class="text-white">
             {{ ranges.title }}
           </span>
@@ -59,7 +59,7 @@
             :style="`
               background: linear-gradient(${ranges.value}deg,${startColor} 0%,${endColor} 100%)
               `"
-            class="w-96 h-96 bg-primary">
+            class="w-full md:w-96 h-96 bg-primary">
         </div>
       </div>
     </div>

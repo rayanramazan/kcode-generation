@@ -1,6 +1,6 @@
 <template>
   <section class="w-full">
-    <div class="flex justify-between p-6">
+    <div class="flex flex-col md:flex-row justify-between px-0 py-2 md:p-6 gap-4">
       <div class="flex flex-col gap-6">
         <h1
             class="bg-white/5 rounded-md border-1 border-white/10 text-lg text-white p-2"
@@ -9,7 +9,7 @@
         <div
             v-for="range in ranges"
             :key="range"
-            class="w-80 flex flex-col gap-2">
+            class="w-full md:w-80 flex flex-col gap-2">
           <span class="text-white">
             {{ range.title }}
           </span>
@@ -29,7 +29,7 @@
             :style="`
               text-shadow: ${ranges[0].value}px ${ranges[1].value}px ${ranges[2].value}px rgba(0, 0, 0, ${ranges[3].value});
               `"
-            class="w-96 flex justify-center items-center text-3xl font-bold h-96 bg-primary">
+            class="w-full md:w-96 flex justify-center items-center text-3xl font-bold h-96 bg-primary">
           KTOLS
         </div>
       </div>

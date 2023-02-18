@@ -1,6 +1,6 @@
 <template>
   <section class="w-full">
-    <div class="flex justify-between p-6">
+    <div class="flex flex-col md:flex-row justify-between px-0 py-2 md:p-6 gap-4">
       <div class="flex flex-col gap-6">
         <h1
             class="bg-white/5 rounded-md border-1 border-white/10 text-lg text-white p-2"
@@ -9,12 +9,12 @@
         </h1>
 
         <div
-            class="w-80 flex flex-col gap-2">
+            class="w-full md:w-80 flex flex-col gap-2">
           <span class="text-white">
             {{ ranges.title }}
           </span>
           <input
-              class="rounded-lg overflow-hidden appearance-none bg-dark-100 h-3 w-full"
+              class="rounded-lg w-full overflow-hidden appearance-none bg-dark-100 h-3 w-full"
               type="range"
               min="0"
               max="100"
@@ -98,7 +98,7 @@
             :style="`
               border: ${ranges.value}px ${selectedStyle} ${color};
               `"
-            class="w-96 h-96 bg-primary">
+            class="w-full md:w-96 h-96 bg-primary">
         </div>
       </div>
     </div>
