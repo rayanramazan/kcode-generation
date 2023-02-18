@@ -43,8 +43,16 @@
 
       </div>
     </div>
-    <Output :data="`${ranges[0].value}px ${ranges[1].value}px ${ranges[2].value}px rgba(255, 255, 255, ${ranges[3].value})`"
-            stylesheet="text-shadow:"
+    <Output :data="`grayscale(${ranges[0].value}%)
+              blur(${ranges[2].value}px)
+              sepia(${ranges[1].value}%)
+              brightness(${ranges[3].value}%)
+              hue-rotate(${ranges[4].value}deg)
+              saturate(${ranges[5].value}%)
+              opacity(${ranges[6].value}%)
+              contrast(${ranges[7].value}%)
+              invert(${ranges[8].value}%);`"
+            stylesheet="filter:"
     />
   </section>
 </template>
