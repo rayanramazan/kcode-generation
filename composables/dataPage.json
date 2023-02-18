@@ -63,16 +63,6 @@
       {
         "id": 6,
         "titlePage": {
-          "EN_US": "Multiple Column",
-          "AR_IQ": "عدة أعمدة",
-          "KUKA_KU": "چەندین ستوون",
-          "KUSA_KU": "چەندین ستوونی"
-        },
-        "slug": "multiple-column"
-      },
-      {
-        "id": 7,
-        "titlePage": {
           "EN_US": "Filter",
           "AR_IQ": "منقي",
           "KUKA_KU": "فلتەر",
@@ -81,7 +71,7 @@
         "slug": "filter"
       },
       {
-        "id": 8,
+        "id": 7,
         "titlePage": {
           "EN_US": "RGB Color",
           "AR_IQ": "لون RGB",
@@ -91,7 +81,7 @@
         "slug": "rgb-color"
       },
       {
-        "id": 9,
+        "id": 8,
         "titlePage": {
           "EN_US": "Transform",
           "AR_IQ": "تحول",
