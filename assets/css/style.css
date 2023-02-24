@@ -38,7 +38,7 @@ body{
 
 .area{
     width: 100%;
-    height: fit-content;
+    /*height: fit-content;*/
 }
 
 .circles{
@@ -47,7 +47,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    /*overflow: hidden;*/
     z-index: -1;
 }
 
