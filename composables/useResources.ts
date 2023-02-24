@@ -1,9 +1,9 @@
-import dataPage from './dataResources.json'
-type Page ={
+import Resources from './dataResources.json'
+type Resources ={
     slug: String;
     id: number;
     img: String,
 }
 
 export default async () =>
-    dataPage
+    Resources
