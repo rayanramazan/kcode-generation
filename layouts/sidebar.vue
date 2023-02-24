@@ -40,7 +40,7 @@
       <ul class="flex flex-col mt-3 gap-2">
         <li v-for="child in page.children">
           <NuxtLink
-              :to="child.slug"
+              :to="`../${child.slug}`"
               exact-active-class="active" active-class="active"
               class="mx-2 text-base hover:text-primary duration-300 cursor-pointer">
             {{ child.titlePage[localeLanguage] }}

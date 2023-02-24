@@ -26,6 +26,7 @@ AppSetup()
   <NuxtLayout name="header">
     <NuxtPage />
   </NuxtLayout>
+
   </Body>
 
 </template>
