@@ -22,7 +22,7 @@
         <ButtonLang class="block sm:hidden" />
         <div class="hidden sm:flex items-center gap-3 text-white">
           <ButtonLang />
-          <hr class="mx-5 w-[0.5px] bg-white/10 h-8">
+          <hr class="mx-5 w-[0.5px] border-0 bg-white/10 h-8">
           <NuxtLink to="">
             <Icon
                 class="w-6 h-6 transform hover:-translate-y-1 cursor-pointer duration-300"
