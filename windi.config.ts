@@ -29,7 +29,8 @@ const MyTheme = {
     },
     // a65b3b
     dark:{
-      DEFAULT: '#202020'
+      DEFAULT: '#202020',
+      '50': '#202020'
     },
     blue: {
       DEFAULT: '#0096FF',
