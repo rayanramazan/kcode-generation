@@ -1,7 +1,7 @@
 <template>
   <div class="m-8 text-center">
-    <h1 class="text-2xl font-bold text-white">KTOOLS</h1>
-    <span class="text-white/70 ">
+    <h1 class="text-xl sm:text-2xl md:text-3xl font-bold text-white">KTOOLS</h1>
+    <span class="text-white/70 text-sm sm:text-base">
     We’ve made a few other resources to help you with your design and development workflow.
   </span>
   </div>

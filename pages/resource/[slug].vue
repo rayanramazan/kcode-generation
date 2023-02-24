@@ -1,10 +1,10 @@
 <template>
   <template v-if="data">
     <div class="m-8 text-center">
-      <h1 class="text-2xl font-bold text-white capitalize">
+      <h1 class="text-xl sm:text-2xl capitalize md:text-3xl font-bold text-white">
         {{ data.slug }}
       </h1>
-      <span class="text-white/70 ">
+      <span class="text-white/70 text-sm sm:text-base">
     We’ve made a few other resources to help you with your design and development workflow.
   </span>
     </div>
