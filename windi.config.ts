@@ -86,6 +86,13 @@ export default defineConfig({
         70: '70%',
         100: '100%',
       },
+      backdropBlur: {
+        xs: '2px',
+        lg: '4px'
+      },
+      blur: {
+        xs: '2px',
+      },
       colors: {
         primary: MyTheme.colors.green,
         // if want to change primary color to blue
