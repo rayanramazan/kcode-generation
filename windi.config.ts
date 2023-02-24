@@ -79,6 +79,11 @@ export default defineConfig({
       backgroundImage: {
         'hero-pattern': "url('/assets/img/n.jfif')",
       },
+      grayscale: {
+        0: '0%',
+        70: '70%',
+        100: '100%',
+      },
       colors: {
         primary: MyTheme.colors.green,
         // if want to change primary color to blue
