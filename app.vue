@@ -3,6 +3,13 @@ import {AppSetup} from "~/utils/app";
 const {t} = useLang()
 const locale=  useState<string>('locale.setting')
 AppSetup()
+useHead({
+  title: 'Page Title',
+      meta: [
+  { hid: 'description', name: 'description', content: 'Page description.' }
+]
+
+})
 </script>
 <template>
   <Body
