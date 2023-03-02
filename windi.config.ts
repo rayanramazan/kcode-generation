@@ -116,5 +116,6 @@ export default defineConfig({
     FiltersPlugin as Plugin,
     TypographyPlugin as Plugin,
     AspectRatioPlugin as Plugin,
+    require('@windicss/plugin-scrollbar'),
   ] as Plugin[],
 })

@@ -15,19 +15,11 @@ useHead({
   <Body
       :dir="locale === 'EN_US' ? 'ltr' : 'rtl'"
       :class="locale === 'EN_US' ? 'english' : 'kurdish'"
+      class="selection:bg-primary selection:text-light overflow-x-hidden bg-light scrollbar scrollbar-thumb-primary scrollbar-track-[#202020]"
   >
   <div class="area" >
     <ul class="circles">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li v-for="i in 9"></li>
     </ul>
   </div >
   <NuxtLayout name="header">
