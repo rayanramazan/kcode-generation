@@ -35,6 +35,8 @@ export const availableLocales: ILocales = {
 
 // {
 export function LanguageManager() {
+    const prevRoutePath = ref<string>("")
+    const route = useRoute()
     const {locale} = useI18n()
     const localeUserSetting = useCookie('locale')
     const getSystemLocale = (): string => {
@@ -61,15 +63,26 @@ export function LanguageManager() {
         // navigateTo('/')
     })
 
+    onBeforeRouteUpdate(() => {
+        if (prevRoutePath.value !== route.path) {
+            init();
+            prevRoutePath.value = route.path;
+        }
+    });
     // init locale
     const init = () => {
-        localeSetting.value = getUserLocale()
+        // @ts-ignore
+        localeSetting.value = route.params.lang || getUserLocale();
+        prevRoutePath.value = route.path;
     }
     locale.value = localeSetting.value
     onBeforeMount(() => init())
+
 
     return {
         localeSetting,
         init,
     }
+
+
 }

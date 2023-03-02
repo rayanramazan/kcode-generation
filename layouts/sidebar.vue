@@ -4,7 +4,7 @@
       <NuxtLink
           class="duration-300"
           exact-active-class="active" active-class="active"
-          to="/">
+          :to="localePath('/')">
         {{ $t('home') }}
       </NuxtLink>
     </li>
@@ -20,7 +20,7 @@
         class="px-2 font-bold hover:text-primary duration-300 cursor-pointer">
       <NuxtLink
           exact-active-class="active" active-class="active"
-          to="/resources">
+          :to="localePath('/resources')">
         {{ $t('resources') }}
       </NuxtLink>
     </li>
@@ -40,7 +40,7 @@
       <ul class="flex flex-col mt-3 gap-2">
         <li v-for="child in page.children">
           <NuxtLink
-              :to="`../${child.slug}`"
+              :to="localePath(child.slug)"
               exact-active-class="active" active-class="active"
               class="mx-2 text-base hover:text-primary duration-300 cursor-pointer">
             {{ child.titlePage[localeLanguage] }}

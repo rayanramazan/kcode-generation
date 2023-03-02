@@ -79,11 +79,11 @@ export default defineNuxtConfig({
                 files: ['kr_so.JSON']
             },
         ],
+
         defaultLocale: 'EN_US',
         langDir: "locale/",
         lazy: false,
         vueI18n: {
-            fallbackLocale: 'EN_US',
             messages: {
                 'EN_US': EN_US,
                 'AR_IQ': AR_IQ,
