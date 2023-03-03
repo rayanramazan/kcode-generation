@@ -17,13 +17,8 @@ useHead({
       :class="locale === 'EN_US' ? 'english' : 'kurdish'"
       class="selection:bg-primary selection:text-light overflow-x-hidden bg-light scrollbar scrollbar-thumb-primary scrollbar-track-[#202020]"
   >
-  <div class="area" >
-    <ul class="circles">
-      <li v-for="i in 9"></li>
-    </ul>
-  </div >
   <NuxtLayout name="header">
-    <NuxtPage />
+      <NuxtPage />
   </NuxtLayout>
 
   </Body>
@@ -32,5 +27,14 @@ useHead({
 
 <style>
 @import './assets/css/style.css';
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.4s;
+}
+.page-enter-from,
+.page-leave-to {
+  opacity: 0;
+  filter: blur(1rem);
+}
 </style>
 

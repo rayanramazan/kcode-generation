@@ -1,5 +1,5 @@
 body{
-    background: #222;
+    background: linear-gradient(180deg,#222 10%, #111 100%);;
 }
 
 @font-face {
@@ -186,3 +186,4 @@ input[type="range"]::-webkit-slider-thumb {
     padding: 0px 10px;
     font-weight: bold;
 }
+
