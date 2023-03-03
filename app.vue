@@ -8,7 +8,6 @@ useHead({
       meta: [
   { hid: 'description', name: 'description', content: 'Page description.' }
 ]
-
 })
 </script>
 <template>
@@ -17,7 +16,9 @@ useHead({
       :class="locale === 'EN_US' ? 'english' : 'kurdish'"
       class="selection:bg-primary selection:text-light overflow-x-hidden bg-light scrollbar scrollbar-thumb-primary scrollbar-track-[#202020]"
   >
+
   <NuxtLayout name="header">
+
       <NuxtPage />
   </NuxtLayout>
 

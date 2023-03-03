@@ -1,4 +1,46 @@
 <template>
+  <div>
+    <div ref="target" :style="targetStyle">
+      <div :style="containerStyle">
+        <div :style="cardStyle">
+          <div :style="cardWindowStyle">
+            <img
+                :style="layer0"
+                src="https://jaromvogel.com/images/design/jumping_rabbit/page2layer0.png"
+                alt=""
+            >
+            <img
+                :style="layer1"
+                src="https://jaromvogel.com/images/design/jumping_rabbit/page2layer1.png"
+                alt=""
+            >
+            <img
+                :style="layer2"
+                src="../assets/img/home.jpg"
+                alt=""
+            >
+            <img
+                :style="layer3"
+                src="../assets/img/home.jpg"
+                alt=""
+            >
+            <img
+                :style="layer4"
+                src="../assets/img/home.jpg"
+                alt=""
+            >
+          </div>
+        </div>
+      </div>
+      <div class="note opacity-1">
+        Credit of images to
+        <a
+            href="https://codepen.io/jaromvogel"
+            target="__blank"
+        >Jarom Vogel</a>
+      </div>
+    </div>
+  </div>
   <main class="py-6 px-4 sm:p-6 md:py-10 md:px-8 animate-jackInTheBox">
     <div class="max-w-4xl mx-auto grid grid-cols-1 lg:max-w-5xl lg:gap-x-20 lg:grid-cols-2">
       <div class="relative p-3 col-start-1 row-start-1 flex flex-col-reverse rounded-lg bg-gradient-to-t from-black/75 via-black/0 sm:bg-none sm:row-start-2 sm:p-0 lg:row-start-1">
@@ -40,6 +82,82 @@
   </main>
 </template>
 
-<script setup>
-
+<script setup lang="ts">
+import { computed, reactive, ref } from 'vue'
+import type { CSSProperties } from 'vue'
+import { useMediaQuery, useParallax } from '@vueuse/core'
+const target = ref(null)
+const isMobile = useMediaQuery('(max-width: 700px)')
+const parallax = reactive(useParallax(target))
+const targetStyle: CSSProperties = {
+  display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'center',
+  minHeight: '500px',
+  transition: '.3s ease-out all',
+}
+const cardWindowStyle: CSSProperties = {
+  overflow: 'hidden',
+  fontSize: '6rem',
+  position: 'absolute',
+  top: 'calc(50% - 1em)',
+  left: 'calc(50% - 1em)',
+  height: '2em',
+  width: '2em',
+  margin: 'auto',
+}
+const layerBase: CSSProperties = {
+  position: 'absolute',
+  height: '100%',
+  width: '100%',
+  transition: '.3s ease-out all',
+}
+const containerStyle: CSSProperties = {
+  margin: '3em auto',
+  perspective: '300px',
+}
+const infoStyle = computed(() => ({
+  opacity: 0.4,
+  top: '20px',
+  left: '40px',
+  position: isMobile.value ? 'inherit' : 'absolute',
+}))
+const layer0 = computed(() => ({
+  ...layerBase,
+  transform: `translateX(${parallax.tilt * 10}px) translateY(${
+      parallax.roll * 10
+  }px) scale(1.33)`,
+}))
+const layer1 = computed(() => ({
+  ...layerBase,
+  transform: `translateX(${parallax.tilt * 20}px) translateY(${
+      parallax.roll * 20
+  }px) scale(1.33)`,
+}))
+const layer2 = computed(() => ({
+  ...layerBase,
+  transform: `translateX(${parallax.tilt * 30}px) translateY(${
+      parallax.roll * 30
+  }px) scale(1.33)`,
+}))
+const layer3 = computed(() => ({
+  ...layerBase,
+  transform: `translateX(${parallax.tilt * 40}px) translateY(${
+      parallax.roll * 40
+  }px) scale(1.33)`,
+}))
+const layer4 = layerBase
+const cardStyle = computed(() => ({
+  background: '#fff',
+  height: '20rem',
+  width: '15rem',
+  borderRadius: '5px',
+  border: '1px solid #cdcdcd',
+  overflow: 'hidden',
+  transition: '.3s ease-out all',
+  boxShadow: '0 0 20px 0 rgba(255, 255, 255, 0.25)',
+  transform: `rotateX(${parallax.roll * 20}deg) rotateY(${
+      parallax.tilt * 20
+  }deg)`,
+}))
 </script>
