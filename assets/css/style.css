@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(180deg,#222 10%, #111 100%);;
+    background-color: #252954;
 }
 
 @font-face {
@@ -186,4 +186,40 @@ input[type="range"]::-webkit-slider-thumb {
     padding: 0px 10px;
     font-weight: bold;
 }
+
+
+.hidden {
+    display: none;
+}
+
+.landing-page {
+    margin: 0 auto;
+    padding: 0 80px;
+    position: relative;
+    max-width: 100%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: linear-gradient(180deg,#222 10%, #111 100%);;
+}
+.landing-page::before {
+     content: "";
+     position: absolute;
+     width: 123px;
+     height: 123px;
+     left: 60%;
+     top: 138px;
+     filter: blur(90px);
+     background-color: #3BA676;
+ }
+.landing-page::after {
+     content: "";
+     position: absolute;
+     width: 123px;
+     height: 123px;
+     left: 80%;
+     top: 550px;
+     background-color: #3BA676;
+     filter: blur(80px);
+ }
 

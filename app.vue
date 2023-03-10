@@ -17,10 +17,11 @@ useHead({
       class="selection:bg-primary selection:text-light overflow-x-hidden bg-light scrollbar scrollbar-thumb-primary scrollbar-track-[#202020]"
   >
 
+  <div class="landing-page">
   <NuxtLayout name="header">
-
       <NuxtPage />
   </NuxtLayout>
+  </div>
 
   </Body>
 
