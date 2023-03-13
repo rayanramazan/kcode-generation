@@ -11,12 +11,11 @@
     :key="resource"
     :to="`resource/${resource.slug}`"
     >
-      <img
-          class="w-full sm:w-full h-full object-cover rounded-lg sm:h-52 filter hover:grayscale-50 transform hover:-translate-y-1 duration-300"
-          :alt="resource.id"
-          loading="lazy"
-          :srcset="`http://drive.google.com/uc?export=view&id=${resource.img}`"
-          :src="`http://drive.google.com/uc?export=view&id=${resource.img}`" />
+      <div
+          class="w-96 h-50 bg-primary rounded-lg flex justify-center items-center filter hover:grayscale-50 transform hover:-translate-y-1 duration-300"
+      >
+        <h1 class="capitalize text-3xl text-white font-bold">{{ resource.slug.replace(/-/g, " ") }}</h1>
+      </div>
     </NuxtLink>
 
   </div>
