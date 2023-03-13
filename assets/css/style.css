@@ -200,7 +200,7 @@ input[type="range"]::-webkit-slider-thumb {
     width: 100%;
     overflow-y: auto;
     overflow-x: hidden;
-    background: linear-gradient(180deg,#222 10%, #111 100%);;
+    background: linear-gradient(180deg,#222 10%, #111 100%);
 }
 .landing-page::before {
      content: "";
