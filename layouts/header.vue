@@ -1,6 +1,5 @@
 <template>
   <div class="w-full gap-4 px-4 pt-4 items-start flex flex-row-reverse">
-
     <div class="w-full flex flex-col">
       <div class="py-4 flex justify-between lg:justify-end items-center px-4 bg-white/5 rounded-md border-1 border-white/10">
 
@@ -19,8 +18,8 @@
         </div>
 
 
-        <ButtonLang class="block sm:hidden" />
-        <div class="hidden sm:flex items-center gap-3 text-white">
+        <!-- <ButtonLang class="block" /> -->
+        <div class="sm:flex items-center gap-3 text-white">
           <ButtonLang />
           <hr class="mx-5 w-[0.5px] border-0 bg-white/10 h-8">
           <NuxtLink to="">
