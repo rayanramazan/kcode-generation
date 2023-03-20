@@ -110,16 +110,6 @@
         "slug": "transitions"
       },
       {
-        "id": 2,
-        "titlePage": {
-          "EN_US": "Display",
-          "AR_IQ": "عرض",
-          "KUKA_KU": "پیشاندان",
-          "KUSA_KU": "پیشاندان"
-        },
-        "slug": "display"
-      },
-      {
         "id": 3,
         "titlePage": {
           "EN_US": "Colors",

@@ -1,3 +1,0 @@
-<template>
-  box-shadow
-</template>
