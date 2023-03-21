@@ -97,3 +97,48 @@ input[type="range"]::-webkit-slider-thumb {
         background: linear-gradient(180deg,#222 10%, #111 100%);
     }
 }
+
+.square {
+    width: 150px;
+    max-height: 100px;
+    border-radius: 8px;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 4px;
+    color: #fff;
+  
+    transition-property: width;
+    transition-duration: 1s;
+  }
+  
+  .square.ttf-linear {
+    transition-timing-function: linear;
+  }
+  
+  .square.ttf-ease {
+    transition-timing-function: ease;
+  }
+  
+  .square.ttf-ease-in {
+    transition-timing-function: ease-in;
+  }
+  
+  .square.ttf-ease-out {
+    transition-timing-function: ease-out;
+  }
+  
+  .square.ttf-ease-in-out {
+    transition-timing-function: ease-in-out;
+  }
+  
+  .square.ttf-steps {
+    transition-timing-function: steps(3);
+  }
+  
+  .square.ttf-cubic {
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55);
+  }
+  
+  .square:is(:hover, :focus) {
+    width: 50%;
+  }

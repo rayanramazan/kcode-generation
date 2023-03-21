@@ -12,8 +12,8 @@
       :style="`background: ${color.primary}`"
       class="w-[50%] h-full"></div>
     <div 
-      :style="`background: ${color.secondary}`"
-      class="w-[50%] h-full"></div>
+      :style="`background-color: ${color.secondary}`"
+      :class="`w-[50%] h-full`"></div>
     <div class="flex absolute justify-between w-full bottom-0">
       <span class="bg-[#222] px-3 py-2 rounded-tr-2xl text-white">
         {{ color.primary }}
@@ -26,13 +26,6 @@
 
 </div>
 
-<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-2 gap-y-3 mt-3">
-  <button 
-    :style="`background: ${color.primary};`"
-    v-bind:class="`hover:bg-${color.secondary}`"
-    class="p-2 rounded text-white"
-    v-for="color in colors" :key="color.id">Button</button>
-</div>
 
 </template>
 
