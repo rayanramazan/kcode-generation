@@ -142,3 +142,39 @@ input[type="range"]::-webkit-slider-thumb {
   .square:is(:hover, :focus) {
     width: 50%;
   }
+
+  .rectangle {
+    width: 150px;
+    max-height: 100px;
+    background-color: gold;
+    border: 5px solid gold;
+    border-radius: 8px;
+    text-align: right;
+    padding: 8px;
+    margin-bottom: 4px;
+  }
+  
+  .rectangle:nth-child(1) {
+    transition-delay: 0s;
+  }
+  
+  .rectangle:nth-child(2) {
+    transition-delay: 100ms;
+  }
+  
+  .rectangle:nth-child(3) {
+    transition-delay: 200ms;
+  }
+  
+  .rectangle:nth-child(4) {
+    transition-delay: 500ms;
+  }
+  
+  .rectangle:nth-child(5) {
+    transition-delay: 1000ms;
+  }
+  
+  .rectangle:is(:hover, :focus) {
+    background-color: transparent;
+  }
+    
