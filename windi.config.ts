@@ -32,7 +32,7 @@ const MyTheme = {
       DEFAULT: '#202020',
       '50': '#202020'
     },
-    blue: {
+    secondary: {
       DEFAULT: '#0096FF',
       '50': '#B8E2FF',
       '100': '#A3D9FF',
@@ -98,7 +98,7 @@ export default defineConfig({
         // if want to change primary color to blue
         // primary: MyTheme.colors.blue,
         green: MyTheme.colors.green,
-        blue: MyTheme.colors.blue,
+        secondary: MyTheme.colors.secondary,
         red: MyTheme.colors.red,
         slate: colors.slate,
       },

@@ -52,9 +52,9 @@ export default defineNuxtConfig({
           '@vueuse/nuxt',
           '@nuxtjs/i18n',
       ],
-    app: {
-        pageTransition: { name: 'page', mode: 'out-in' }
-    },
+    // app: {
+    //     pageTransition: { name: 'page', mode: 'out-in' }
+    // },
     i18n: {
         locales: [
             {
