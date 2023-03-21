@@ -1,4 +1,9 @@
 <template>
+
+<span class="mt-8 mb-4 text-2xl text-white font-bold">
+    Transitions
+</span>
+
     <div class="w-full px-2 sm:px-0">
       <TabGroup>
         <TabList class="flex space-x-1 rounded-xl bg-primary/20 p-1">
@@ -8,10 +13,10 @@
           >
             <button
               :class="[
-                'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-primary',
+                'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-white',
                 'focus:outline-none',
                 selected
-                  ? 'bg-white shadow'
+                  ? 'bg-primary shadow'
                   : 'text-[#fff] hover:bg-white/[0.12] hover:text-white',
               ]"
             >
@@ -24,10 +29,10 @@
           >
             <button
               :class="[
-                'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-primary',
+                'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-white',
                 'focus:outline-none',
                 selected
-                  ? 'bg-white shadow'
+                  ? 'bg-primary shadow'
                   : 'text-[#fff] hover:bg-white/[0.12] hover:text-white',
               ]"
             >
@@ -40,10 +45,10 @@
           >
             <button
               :class="[
-                'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-primary',
+                'w-full rounded-lg py-2.5 text-sm font-medium leading-5 text-white',
                 'focus:outline-none',
                 selected
-                  ? 'bg-white shadow'
+                  ? 'bg-primary shadow'
                   : 'text-[#fff] hover:bg-white/[0.12] hover:text-white',
               ]"
             >
@@ -55,7 +60,7 @@
         <TabPanels class="mt-2">
           <TabPanel
             :class="[
-              'rounded-xl bg-white p-3',
+              'rounded-xl bg-primary/20 p-3 border-primary border',
               'focus:outline-none',
             ]"
           >
@@ -67,7 +72,7 @@
 
           <TabPanel
             :class="[
-              'rounded-xl bg-white p-3',
+              'rounded-xl bg-primary/20 p-3 border-primary border',
               'focus:outline-none',
             ]"
           >
@@ -75,15 +80,15 @@
                 v-model:value="categories.html_code"
                 @init="editorInit"
                 lang="html"
+                class="bg-primary/0 text-white"
                 theme="cobalt"
                 style="height: 300px" 
             />
           </TabPanel>
 
-
           <TabPanel
             :class="[
-              'rounded-xl bg-white p-3',
+              'rounded-xl bg-primary/20 p-3 border-primary border',
               'focus:outline-none',
             ]"
           >
@@ -91,8 +96,8 @@
                 v-model:value="categories.css_code"
                 @init="editorInit"
                 lang="css"
+                class="bg-primary/0 text-white h-[300px]"
                 theme="cobalt"
-                class="h-[600px]"
             />
           </TabPanel>
         </TabPanels>
