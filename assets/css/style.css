@@ -146,12 +146,11 @@ input[type="range"]::-webkit-slider-thumb {
   .rectangle {
     width: 150px;
     max-height: 100px;
-    background-color: gold;
-    border: 5px solid gold;
     border-radius: 8px;
-    text-align: right;
+    text-align: center;
     padding: 8px;
     margin-bottom: 4px;
+    color: #fff;
   }
   
   .rectangle:nth-child(1) {
@@ -176,5 +175,53 @@ input[type="range"]::-webkit-slider-thumb {
   
   .rectangle:is(:hover, :focus) {
     background-color: transparent;
+  }
+
+  .squares {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition-property: transform;
+    transition-timing-function: ease;
+    padding: 8px;
+  }
+  
+  .squares.td-instant {
+    transition-duration: 0s;
+  }
+  
+  .squares.td-speedy {
+    transition-duration: 200ms;
+  }
+  
+  .squares.td-middling {
+    transition-duration: 800ms;
+  }
+  
+  .squares.td-glacial {
+    transition-duration: 5s;
+  }
+  
+  .squares:is(:hover, :focus) {
+    transform: scale(0.8);
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 32px;
+  }
+  
+  .wrapper .squares:nth-child(odd) {
+    justify-self: end;
+  }
+  
+  .wrapper .squares:nth-child(even) {
+    justify-self: start;
   }
     
