@@ -128,6 +128,16 @@
           "KUSA_KU": "گرادێنتەکان"
         },
         "slug": "gradients-color"
+      },
+      {
+        "id": 5,
+        "titlePage": {
+          "EN_US": "Text",
+          "AR_IQ": "نص",
+          "KUKA_KU": "دەق",
+          "KUSA_KU": "دەق"
+        },
+        "slug": "text"
       }
     ]
   }
