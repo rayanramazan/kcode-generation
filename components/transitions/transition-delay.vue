@@ -8,6 +8,7 @@
           <Tab
             as="template"
             v-slot="{ selected }"
+            style="z-index: 999;"
           >
             <button
               :class="[
@@ -24,6 +25,7 @@
           <Tab
             as="template"
             v-slot="{ selected }"
+            style="z-index: 999;"
           >
             <button
               :class="[
@@ -65,7 +67,7 @@
           >
             <span 
             class="flex flex-col justify-center items-center"
-            v-html="transition_timing_function.html_code">
+            v-html="transition_delay.html_code">
             </span>
           </TabPanel>
 
@@ -76,7 +78,7 @@
             ]"
           >
             <v-ace-editor
-                v-model:value="transition_timing_function.html_code"
+                v-model:value="transition_delay.html_code"
                 @init="editorInit"
                 lang="html"
                 class="bg-primary/0 text-white"
@@ -92,7 +94,7 @@
             ]"
           >
             <v-ace-editor
-                v-model:value="transition_timing_function.css_code"
+                v-model:value="transition_delay.css_code"
                 @init="editorInit"
                 lang="css"
                 class="bg-primary/0 text-white h-[300px]"
@@ -109,7 +111,7 @@
 import { VAceEditor } from 'vue3-ace-editor';
   import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
 
-  const transition_timing_function = ref({
+  const transition_delay = ref({
         html_code: '<div class="rectangle bg-primary" tabindex="0">no delay</div>\n'+
                     '<div class="rectangle bg-primary" tabindex="0">100ms delay</div>\n'+
                     '<div class="rectangle bg-primary" tabindex="0">200ms delay</div>\n'+

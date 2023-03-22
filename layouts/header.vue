@@ -54,6 +54,7 @@
     </div>
 
     <div
+      style="z-index: 9999;"
         :class="isOpen ? 'active' : ''"
         class="w-70 left-4 top-22 invisible lg:visible sm:w-96 h-0 absolute duration-300 lg:static lg:h-screen overflow-hidden p-4 bg-[#222] lg:bg-white/5 rounded-md border-1 border-white/10">
       <div

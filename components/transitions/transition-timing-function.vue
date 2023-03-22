@@ -8,6 +8,7 @@
           <Tab
             as="template"
             v-slot="{ selected }"
+            style="z-index: 999;"
           >
             <button
               :class="[
@@ -24,6 +25,7 @@
           <Tab
             as="template"
             v-slot="{ selected }"
+            style="z-index: 999;"
           >
             <button
               :class="[
@@ -40,6 +42,7 @@
           <Tab
             as="template"
             v-slot="{ selected }"
+            style="z-index: 999;"
           >
             <button
               :class="[
