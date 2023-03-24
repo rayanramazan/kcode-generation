@@ -16,8 +16,8 @@
     },
     {
         "id": 4,
-        "first_color": "#00DBDE",
-        "second_color": "#FC00FF"
+        "first_color": "#0BA360",
+        "second_color": "#3CBA92"
     },
     {
         "id": 5,
@@ -31,8 +31,8 @@
     },
     {
         "id": 7,
-        "first_color": "#FBDA61",
-        "second_color": "#FF5ACD"
+        "first_color": "#434343",
+        "second_color": "#000000"
     },
     {
         "id": 8,
@@ -48,5 +48,55 @@
         "id": 10,
         "first_color": "#74EBD5",
         "second_color": "#9FACE6"
+    },
+    {
+        "id": 11,
+        "first_color": "#FBFBFB",
+        "second_color": "#EBEDEE"
+    },
+    {
+        "id": 12,
+        "first_color": "#43E97B",
+        "second_color": "#38F9D7"
+    },
+    {
+        "id": 13,
+        "first_color": "#4FACFE",
+        "second_color": "#00F2FE"
+    },
+    {
+        "id": 14,
+        "first_color": "#30CDF0",
+        "second_color": "#330867"
+    },
+    {
+        "id": 15,
+        "first_color": "#667EEA",
+        "second_color": "#764BA2"
+    },
+    {
+        "id": 16,
+        "first_color": "#CD9CF2",
+        "second_color": "#F6F3FF"
+    },
+    {
+        "id": 17,
+        "first_color": "#6A11CB",
+        "second_color": "#2575FC"
+    },
+    {
+        "id": 18,
+        "first_color": "#37ECBA",
+        "second_color": "#72AFD3"
+    },
+    {
+        "id": 19,
+        "first_color": "#C471F5",
+        "second_color": "#FA71CD"
+    },
+    {
+        "id": 20,
+        "first_color": "#48C6EF",
+        "second_color": "#6F86D6"
     }
 ]
