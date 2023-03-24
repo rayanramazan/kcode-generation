@@ -7,19 +7,20 @@
           <button class="block lg:hidden" @click="isOpen = !isOpen">
             <Icon name="gg:menu-left" class="w-6 h-6 text-white"/>
           </button>
-          <div class="flex lg:hidden justify-center items-center gap-1 text-2xl lg:text-3xl font-bold">
-        <span class="text-primary">
-          K
-        </span>
-            <span class="text-white">
-          TOOLS
-        </span>
+        <div class="flex lg:hidden justify-center items-center gap-1 text-2xl lg:text-3xl font-bold">
+          <span class="text-primary">
+            K
+          </span>
+          <span class="text-white">
+            TOOLS
+          </span>
           </div>
         </div>
 
 
-        <!-- <ButtonLang class="block" /> -->
-        <div class="sm:flex items-center gap-3 text-white">
+        <ButtonLang class="btn_lang" />
+
+        <div class="flex head_social items-center gap-3 text-white">
           <ButtonLang />
           <hr class="mx-5 w-[0.5px] border-0 bg-white/10 h-8">
           <NuxtLink to="">
@@ -83,5 +84,11 @@ const isOpen = ref(false)
 <style>
 .active{
   @apply h-screen visible
+}
+.head_social{
+  @apply sm:flex hidden
+}
+.btn_lang{
+  @apply sm:hidden block
 }
 </style>
