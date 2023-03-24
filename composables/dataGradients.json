@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "first_color": "#FBAB7E",
+        "second_color": "#F7CE68"
+    },
+    {
+        "id": 2,
+        "first_color": "#85FFBD",
+        "second_color": "#FFFB7D"
+    },
+    {
+        "id": 3,
+        "first_color": "#8BC6EC",
+        "second_color": "#9599E2"
+    },
+    {
+        "id": 4,
+        "first_color": "#00DBDE",
+        "second_color": "#FC00FF"
+    },
+    {
+        "id": 5,
+        "first_color": "#97D9E1",
+        "second_color": "#D9AFD9"
+    },
+    {
+        "id": 6,
+        "first_color": "#0093E9",
+        "second_color": "#80D0C7"
+    },
+    {
+        "id": 7,
+        "first_color": "#FBDA61",
+        "second_color": "#FF5ACD"
+    },
+    {
+        "id": 8,
+        "first_color": "#FFE53B",
+        "second_color": "#FF2525"
+    },
+    {
+        "id": 9,
+        "first_color": "#FF9A8B",
+        "second_color": "#FF6A88"
+    },
+    {
+        "id": 10,
+        "first_color": "#74EBD5",
+        "second_color": "#9FACE6"
+    }
+]
