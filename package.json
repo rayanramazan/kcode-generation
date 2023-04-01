@@ -27,9 +27,14 @@
   },
   "dependencies": {
     "@babel/core": "^7.21.0",
+    "@codemirror/lang-css": "^6.1.1",
+    "@codemirror/lang-html": "^6.4.3",
+    "@codemirror/state": "6.x",
+    "@codemirror/theme-one-dark": "^6.1.1",
     "@headlessui/vue": "^1.7.12",
     "@heroicons/vue": "^2.0.16",
     "@jridgewell/sourcemap-codec": "^1.4.14",
+    "codemirror": "^6.0.1",
     "i": "^0.3.7",
     "js-yaml": "^4.1.0",
     "nuxt-windicss": "^2.6.0",
@@ -38,6 +43,7 @@
     "vite": "^2.9.15",
     "vue": "^3.2.47",
     "vue-ace": "^0.0.1",
+    "vue-codemirror": "^6.1.1",
     "vue-i18n": "9.3.0-beta.16",
     "vue3-ace-editor": "^2.2.2"
   }

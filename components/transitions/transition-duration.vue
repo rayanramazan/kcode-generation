@@ -66,8 +66,8 @@
             ]"
           >
             <span 
-            class="flex flex-col justify-center items-center"
-            v-html="transition_duration.html_code">
+              class="flex flex-col justify-center items-center"
+              v-html="transition_duration.html_code">
             </span>
           </TabPanel>
 
@@ -77,15 +77,10 @@
               'focus:outline-none',
             ]"
           >
-            <v-ace-editor
-                v-model:value="transition_duration.html_code"
-                @init="editorInit"
-                lang="html"
-                class="bg-primary/0 text-white"
-                theme="cobalt"
-                style="height: 300px" 
-            />
-          </TabPanel>
+          
+          <CodeEditor :code="transition_duration.html_code" lang="html" />
+          
+        </TabPanel>
 
           <TabPanel
             :class="[
@@ -93,13 +88,7 @@
               'focus:outline-none',
             ]"
           >
-            <v-ace-editor
-                v-model:value="transition_duration.css_code"
-                @init="editorInit"
-                lang="css"
-                class="bg-primary/0 text-white h-[300px]"
-                theme="cobalt"
-            />
+            <CodeEditor :code="transition_duration.css_code" lang="css" />
           </TabPanel>
         </TabPanels>
       </TabGroup>
@@ -108,7 +97,6 @@
 
 
 <script setup lang="ts">
-import { VAceEditor } from 'vue3-ace-editor';
   import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
 
   const transition_duration = ref({
