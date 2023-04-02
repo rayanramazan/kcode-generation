@@ -1,7 +1,8 @@
 <template>
     <codemirror
+        class="custom-scrollbar"
         v-model="props.code"
-        :style="{ height: '600px', fontSize: '20px' }"
+        :style="{ height: '600px', fontSize: '20px', scrollbarWidth: 'thin', scrollbarColor: '#000000 #000000' }"
         :autofocus="true"
         :indent-with-tab="true"
         :tab-size="2"
@@ -24,7 +25,7 @@ const props = defineProps({
     lang: String
 })
 
-// Codemirror EditorView instance ref
+
 const view = shallowRef()
 const handleReady = (payload: { view: any }) => {
     view.value = payload.view
@@ -36,7 +37,22 @@ const getCodemirrorStates = () => {
     const cursor = ranges[0].anchor
     const length = state.doc.length
     const lines = state.doc.lines
-    // more state info ...
-    // return ...
 }
 </script>
+
+<style>
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px !important;
+  height: 8px !important;
+  background-color: tomato !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #d4d4d4;
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #f7f7f7;
+}
+</style>
