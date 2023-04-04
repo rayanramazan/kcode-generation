@@ -2,6 +2,10 @@
     "transition_duration": {
         "html_code": "<div class='wrapper'>\n  <div class='square td-instant bg-primary' tabindex='0'>\n    instant\n    <p class=duration>\n      0ms\n    </p>  \n</div>  \n<div class=square td-speedy bg-primary tabindex=0>\n    speedy\n   <p class=duration>\n      200ms\n    </p>\n  </div>\n  <div class=square td-middling bg-primary tabindex=0>\n    middling\n    <p class=duration>\n      800ms\n    </p>\n  </div>\n  <div class=square td-glacial bg-primary tabindex=0>\n    glacial\n    <p class=duration>\n      5000ms\n    </p>\n  </div>\n</div>",
         "css_code": ".square {  width: 100px;  height: 100px;  border-radius: 8px;  background-color: springgreen;  transition-property: transform;  transition-timing-function: ease;  padding: 8px;}.square.td-instant {  transition-duration: 0s;}.square.td-speedy {  transition-duration: 200ms;}.square.td-middling {  transition-duration: 800ms;}.square.td-glacial {  transition-duration: 5s;}.square:is(:hover, :focus) {  transform: scale(0.8);}.wrapper {  display: grid;  grid-template-columns: 1fr 1fr;  grid-gap: 32px;}.wrapper .square:nth-child(odd) {  justify-self: end;}.wrapper .square:nth-child(even) {  justify-self: start;}"
+    },
+    "transition_timing_function":{
+        "html_code": "<div class='square ttf-linear bg-primary' tabindex='0'>linear</div>\n <div class='square ttf-ease bg-primary' tabindex='0'>ease</div>\n <div class='square ttf-ease-in bg-primary' tabindex='0'>ease-in</div>\n <div class='square ttf-ease-out bg-primary' tabindex='0'>ease-out</div>\n <div class='square ttf-ease-in-out bg-primary' tabindex='0'>ease-in-out</div>\n <div class='square ttf-steps bg-primary' tabindex='0'>steps</div>\n <div class='square ttf-cubic bg-primary' tabindex='0'>cubic</div>\n"
+        
     }
 }
   
