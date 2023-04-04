@@ -8,7 +8,6 @@
 
 <transitionDuration />
 
-{{ transition }}
   </template>
 
   
@@ -18,6 +17,6 @@ import transitionTimingFunction from '../components/transitions/transition-timin
 import transitionDelay from '~~/components/transitions/transition-delay.vue';
 import transitionDuration from '~~/components/transitions/transition-duration.vue';
 
-const transition = await useTransition();
+
   </script>
   

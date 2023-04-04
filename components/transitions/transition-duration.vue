@@ -67,7 +67,7 @@
           >
             <span 
               class="flex flex-col justify-center items-center"
-              v-html="transition_duration.html_code">
+              v-html="transition.transition_duration.html_code">
             </span>
           </TabPanel>
 
@@ -78,7 +78,7 @@
             ]"
           >
           
-          <CodeEditor :code="transition_duration.html_code" lang="html" />
+          <CodeEditor :code="transition.transition_duration.html_code" lang="html" />
           
         </TabPanel>
 
@@ -88,7 +88,7 @@
               'focus:outline-none',
             ]"
           >
-            <CodeEditor :code="transition_duration.css_code" lang="css" />
+            <CodeEditor :code="transition.transition_duration.css_code" lang="css" />
           </TabPanel>
         </TabPanels>
       </TabGroup>
@@ -99,76 +99,6 @@
 <script setup lang="ts">
   import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
 
-  const transition_duration = ref({
-        html_code: '<div class="wrapper">\n'+
-                    '   <div class="squares td-instant bg-primary" tabindex="0">\n'+
-                    '       instant\n'+
-                    '   <p class="duration">\n'+
-                    '       0ms\n'+
-                    '   </p>\n'+
-                    '</div>\n\n'+
-                    '<div class="squares td-speedy bg-primary" tabindex="0">\n'+
-                    '    speedy\n'+
-                    '    <p class="duration">\n'+
-                    '        200ms\n'+
-                    '    </p>\n'+
-                    '</div>\n\n'+
-                    '<div class="squares td-middling bg-primary" tabindex="0">\n'+
-                    '    middling\n'+
-                    '    <p class="duration">\n'+
-                    '        800ms\n'+
-                    '    </p>\n'+
-                    '</div>\n\n'+
-                    '<div class="squares td-glacial bg-primary" tabindex="0">\n'+
-                    '    glacial\n'+
-                    '    <p class="duration">\n'+
-                    '        5000ms\n'+
-                    '    </p>\n'+
-                    '</div>\n\n'+
-                '</div>\n',
-        css_code: '.square {\n'+
-                    '   width: 100px;\n'+
-                    '   height: 100px;\n'+
-                    '   border-radius: 8px;\n'+
-                    '   background-color: springgreen;\n'+
-                    '   transition-property: transform;\n'+
-                    '   transition-timing-function: ease;\n'+
-                    '   padding: 8px;\n'+
-                    '}\n\n'+
-
-                    '.square.td-instant {\n'+
-                    '   transition-duration: 0s;\n'+
-                    '}\n\n'+
-
-                    '.square.td-speedy {\n'+
-                    '   transition-duration: 200ms;\n'+
-                    '}\n\n'+
-
-                    '.square.td-middling {\n'+
-                    '   transition-duration: 800ms;\n'+
-                    '}\n\n'+
-
-                    '.square.td-glacial {\n'+
-                    '   transition-duration: 5s;\n'+
-                    '}\n\n'+
-
-                    '.square:is(:hover, :focus) {\n'+
-                    '   transform: scale(0.8);\n'+
-                    '}\n\n'+
-
-                    '.wrapper {\n'+
-                    '   display: grid;\n'+
-                    '   grid-template-columns: 1fr 1fr;\n'+
-                    '   grid-gap: 32px;\n'+
-                    '}\n\n'+
-
-                    '.wrapper .square:nth-child(odd) {\n'+
-                    '   justify-self: end;\n'+
-                    '}\n\n'+
-
-                    '.wrapper .square:nth-child(even) {\n'+
-                    '   justify-self: start;\n'+
-                    '}\n'
-  })
+  const transition = await useTransition();
 </script>
 
