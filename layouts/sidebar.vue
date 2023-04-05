@@ -1,6 +1,14 @@
 <template>
   <ul class="flex flex-col gap-2 text-white">
-    <li class="px-2 font-bold hover:text-primary duration-300 cursor-pointer">
+      <li  class="flex justify-start items-center gap-1 text-xl lg:text-2xl font-bold">
+        <span class="text-primary">
+          K
+        </span>
+        <span class="text-white">
+          TOOLS
+        </span>
+      </li>
+      <li class="px-2 font-bold hover:text-primary duration-300 cursor-pointer">
       <NuxtLink
           class="duration-300"
           exact-active-class="active" active-class="active"
