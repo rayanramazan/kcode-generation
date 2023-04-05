@@ -8,7 +8,7 @@
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-3 gap-4 relative z-30">
 
-        <div class="bg-[#222] flex flex-col justify-between p-4 w-full h-90 border border-primary rounded">
+        <div class="bg-[#222] flex flex-col justify-between p-4 w-full h-90 border border-primary/40 rounded-lg">
             <div>
                 <img 
                     class="w-20 h-20"
@@ -20,100 +20,16 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque natus optio, cumque numquam perferendis alias.
                 </p>
             </div>
-            <div>
+            <div class="flex justify-between items-center">
                 <button class="flex items-center gap-1 text-white">
-                    <span>12</span> <Icon name="ic:baseline-star-border" class="w-6 h-6"/>
+                    <span>12</span> 
+                    <Icon name="ic:baseline-star-border" class="w-6 h-6"/>
                 </button>
-            </div>
-        </div>
-        <div class="bg-[#222] flex flex-col justify-between p-4 w-full h-90 border border-primary rounded">
-            <div>
-                <img 
-                    class="w-20 h-20"
-                    src="https://logodownload.org/wp-content/uploads/2017/10/Starbucks-logo.png" alt="" srcset="">
-                <h1 class="text-xl text-white mt-6">
-                    Color Hunt
-                </h1>
-                <p class="text-white/70">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque natus optio, cumque numquam perferendis alias.
-                </p>
-            </div>
-            <div>
-                <button class="flex items-center gap-1 text-white">
-                    <span>12</span> <Icon name="ic:baseline-star-border" class="w-6 h-6"/>
-                </button>
-            </div>
-        </div>
-        <div class="bg-[#222] flex flex-col justify-between p-4 w-full h-90 border border-primary rounded">
-            <div>
-                <img 
-                    class="w-20 h-20"
-                    src="https://www.yiiframework.com/image/design/logo/yii3_sign.png" alt="" srcset="">
-                <h1 class="text-xl text-white mt-6">
-                    Color Hunt
-                </h1>
-                <p class="text-white/70">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque natus optio, cumque numquam perferendis alias.
-                </p>
-            </div>
-            <div>
-                <button class="flex items-center gap-1 text-white">
-                    <span>12</span> <Icon name="ic:baseline-star-border" class="w-6 h-6"/>
-                </button>
-            </div>
-        </div>
-        <div class="bg-[#222] flex flex-col justify-between p-4 w-full h-90 border border-primary rounded">
-            <div>
-                <img 
-                    class="w-20 h-20"
-                    src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Android_O_Preview_Logo.png" alt="" srcset="">
-                <h1 class="text-xl text-white mt-6">
-                    Color Hunt
-                </h1>
-                <p class="text-white/70">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque natus optio, cumque numquam perferendis alias.
-                </p>
-            </div>
-            <div>
-                <button class="flex items-center gap-1 text-white">
-                    <span>12</span> <Icon name="ic:baseline-star-border" class="w-6 h-6"/>
-                </button>
-            </div>
-        </div>
-        <div class="bg-[#222] flex flex-col justify-between p-4 w-full h-90 border border-primary rounded">
-            <div>
-                <img 
-                    class="w-20 h-20"
-                    src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Android_O_Preview_Logo.png" alt="" srcset="">
-                <h1 class="text-xl text-white mt-6">
-                    Color Hunt
-                </h1>
-                <p class="text-white/70">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque natus optio, cumque numquam perferendis alias.
-                </p>
-            </div>
-            <div>
-                <button class="flex items-center gap-1 text-white">
-                    <span>12</span> <Icon name="ic:baseline-star-border" class="w-6 h-6"/>
-                </button>
-            </div>
-        </div>
-        <div class="bg-[#222] flex flex-col justify-between p-4 w-full h-90 border border-primary rounded">
-            <div>
-                <img 
-                    class="w-20 h-20"
-                    src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Android_O_Preview_Logo.png" alt="" srcset="">
-                <h1 class="text-xl text-white mt-6">
-                    Color Hunt
-                </h1>
-                <p class="text-white/70">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur doloremque natus optio, cumque numquam perferendis alias.
-                </p>
-            </div>
-            <div>
-                <button class="flex items-center gap-1 text-white">
-                    <span>12</span> <Icon name="ic:baseline-star-border" class="w-6 h-6"/>
-                </button>
+
+                <a href="" class="flex gap-1 items-center group">
+                    <span class="text-white transform group-hover:mr-2 duration-300 group-hover:text-primary">Website</span>
+                    <Icon name="ic:baseline-keyboard-arrow-right" class="w-6 h-6 text-primary"/>
+                </a>
             </div>
         </div>
 
