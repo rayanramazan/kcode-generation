@@ -67,7 +67,7 @@
           >
             <span 
             class="flex flex-col justify-center items-center"
-            v-html="transition_delay.html_code">
+            v-html="transition.transition_delay.html_code">
             </span>
           </TabPanel>
 
@@ -77,7 +77,7 @@
               'focus:outline-none',
             ]"
           >
-            <CodeEditor :code="transition_delay.html_code" lang="html" />
+            <CodeEditor :code="transition.transition_delay.html_code" lang="html" />
             
           </TabPanel>
 
@@ -88,7 +88,7 @@
             ]"
           >
 
-          <CodeEditor :code="transition_delay.css_code" lang="html" />
+          <CodeEditor :code="transition.transition_delay.css_code" lang="html" />
 
           </TabPanel>
         </TabPanels>
@@ -100,38 +100,7 @@
 <script setup lang="ts">
   import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
 
-  const transition_delay = ref({
-        html_code: '<div class="rectangle bg-primary" tabindex="0">no delay</div>\n'+
-                    '<div class="rectangle bg-primary" tabindex="0">100ms delay</div>\n'+
-                    '<div class="rectangle bg-primary" tabindex="0">200ms delay</div>\n'+
-                    '<div class="rectangle bg-primary" tabindex="0">500ms delay</div>\n'+
-                    '<div class="rectangle bg-primary" tabindex="0">1000ms delay</div>\n',
-        css_code: '.rectangle {\n' +
-                    '   width: 150px;\n' +
-                    '   max-height: 100px;\n' +
-                    '   border-radius: 8px;\n' +
-                    '   text-align: right;\n' +
-                    '   padding: 8px;\n' +
-                    '   margin-bottom: 4px;\n' +
-                    '}\n\n'+
-                    '.rectangle:nth-child(1) {\n' +
-                    '   transition-delay: 0s;\n' +
-                    '}\n\n' +
-                    '.rectangle:nth-child(2) {\n' +
-                    '   transition-delay: 100ms;\n' +
-                    '}\n\n' +
-                    '.rectangle:nth-child(3) {\n' +
-                    '   transition-delay: 200ms;\n' +
-                    '}\n\n' +
-                    '.rectangle:nth-child(4) {\n' +
-                    '   transition-delay: 500ms;\n' +
-                    '}\n\n' +
-                    '.rectangle:nth-child(5) {\n' +
-                    '   transition-delay: 1000ms;\n' +
-                    '}\n\n' +
-                    '.rectangle:is(:hover, :focus) {\n' +
-                    '   background-color: transparent;\n' +
-                    '}\n'
-  })
+  const transition = await useTransition()
+
 </script>
 

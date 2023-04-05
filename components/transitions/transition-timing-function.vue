@@ -67,7 +67,7 @@
           >
             <span 
             class="flex flex-col justify-center items-center"
-            v-html="transition_timing_function.html_code">
+            v-html="transition.transition_timing_function.html_code">
             </span>
           </TabPanel>
 
@@ -77,7 +77,7 @@
               'focus:outline-none',
             ]"
           >
-            <CodeEditor :code="transition_timing_function.html_code" lang="html" />
+            <CodeEditor :code="transition.transition_timing_function.html_code" lang="html" />
           </TabPanel>
 
           <TabPanel
@@ -86,7 +86,7 @@
               'focus:outline-none',
             ]"
           >
-            <CodeEditor :code="transition_timing_function.css_code" lang="css" />
+            <CodeEditor :code="transition.transition_timing_function.css_code" lang="css" />
           </TabPanel>
         </TabPanels>
       </TabGroup>
@@ -96,6 +96,8 @@
 
 <script setup lang="ts">
   import { TabGroup, TabList, Tab, TabPanels, TabPanel } from '@headlessui/vue'
+
+  const transition = await useTransition();
 
   const transition_timing_function = ref({
         html_code: '<div class="square ttf-linear bg-primary" tabindex="0">linear</div>\n'+
