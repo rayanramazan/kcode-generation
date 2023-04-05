@@ -28,7 +28,7 @@
         class="px-2 font-bold hover:text-primary duration-300 cursor-pointer">
       <NuxtLink
           exact-active-class="active" active-class="active"
-          to="">
+          to="contact">
         {{ $t('contact') }}
       </NuxtLink>
     </li>
