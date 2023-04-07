@@ -1,32 +1,16 @@
 <template>
-    <button class="css-button-3d--rose">fff</button>
+        <div class="flex flex-col" >
+            <!-- <span class="mt-8 text-2xl text-white font-bold">
+                {{ data.component.title }}
+            </span> -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-3 gap-4 relative z-30">
+                <button v-for="data in buttons" :key="data.id" :class="data.component.className">Click Me</button>
+            </div>
 
+        </div>
 
 </template>
-    <style>
-    .css-button-3d--rose {
-        min-width: 130px;
-        height: 40px;
-        color: #fff;
-        padding: 5px 10px;
-        font-weight: bold;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        position: relative;
-        display: inline-block;
-        outline: none;
-        border-radius: 5px;
-        border: none;
-        background: #ff6392;
-        box-shadow: 0 5px #ff0a78;
-      }
-      .css-button-3d--rose:hover {
-        box-shadow: 0 3px #ff0a78;
-        top: 1px;
-      }
-      .css-button-3d--rose:active {
-        box-shadow: 0 0 #ff0a78;
-        top: 5px;
-      }
-      
-      </style>
+    
+<script setup lang="ts">
+const buttons = await useButtons()
+</script>
