@@ -1,8 +1,8 @@
 <template>
     <codemirror
-        class="custom-scrollbar"
+        class="custom-scrollbar bg-transparent"
         v-model="props.code"
-        :style="{ height: '600px', fontSize: '20px', scrollbarWidth: 'thin', scrollbarColor: '#000000 #000000' }"
+        :style="{ height: '600px', fontSize: '16px', scrollbarWidth: 'thin', scrollbarColor: '#000000 #000000' }"
         :autofocus="true"
         :indent-with-tab="true"
         :tab-size="2"
