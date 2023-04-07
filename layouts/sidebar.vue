@@ -20,8 +20,16 @@
         class="px-2 font-bold hover:text-primary duration-300 cursor-pointer">
       <NuxtLink
           exact-active-class="active" active-class="active"
-          to="">
+          to="components">
         {{ $t('components') }}
+      </NuxtLink>
+    </li>
+    <li
+        class="px-2 font-bold hover:text-primary duration-300 cursor-pointer">
+      <NuxtLink
+          exact-active-class="active" active-class="active"
+          to="resource">
+        Resources 
       </NuxtLink>
     </li>
     <li
