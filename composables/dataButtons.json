@@ -1,0 +1,23 @@
+[
+    {
+        "3D": 
+        {
+            "id": 1,
+            "className": "css-button-3d--rose",
+            "code": ".css-button-3d--rose{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;border:none;background:#ff6392;box-shadow:0 5px #ff0a78}.css-button-3d--rose:hover{box-shadow:0 3px #ff0a78;top:1px}.css-button-3d--rose:active{box-shadow:0 0 #ff0a78;top:5px}"
+        },
+        "With shadow border": 
+        {
+            "id": 2,
+            "className": "css-button-shadow-border--blue",
+            "code": ".css-button-shadow-border--blue{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;border:none;box-shadow:inset 2px 2px 2px 0 rgba(255,255,255,.5),7px 7px 20px 0 rgba(0,0,0,.1),4px 4px 5px 0 rgba(0,0,0,.1);background:#2c0b8e}.css-button-shadow-border--blue:hover{background-color:#3d348b}.css-button-shadow-border--blue:active{top:2px}"
+        },
+        "Retro": 
+        {
+            "id": 2,
+            "className": "css-button-retro--blue",
+            "code": ".css-button-retro--blue{min-width:130px;height:40px;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border:1px solid #000;color:#000;background:0 0;z-index:0}.css-button-retro--blue:hover:after{top:0;left:0}.css-button-retro--blue:after{content:'';width:100%;z-index:-1;position:absolute;height:100%;top:5px;left:5px;transition:.2s;background-color:#3d348b}"
+        }
+    }
+]
+  

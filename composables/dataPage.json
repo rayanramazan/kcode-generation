@@ -138,6 +138,16 @@
           "KUSA_KU": "دەق"
         },
         "slug": "text"
+      },
+      {
+        "id": 6,
+        "titlePage": {
+          "EN_US": "Buttons",
+          "AR_IQ": "نص",
+          "KUKA_KU": "دەق",
+          "KUSA_KU": "دەق"
+        },
+        "slug": "buttons"
       }
     ]
   }
