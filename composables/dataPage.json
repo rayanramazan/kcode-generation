@@ -148,6 +148,16 @@
           "KUSA_KU": "دەق"
         },
         "slug": "buttons"
+      },
+      {
+        "id": 7,
+        "titlePage": {
+          "EN_US": "Minifier",
+          "AR_IQ": "نص",
+          "KUKA_KU": "دەق",
+          "KUSA_KU": "دەق"
+        },
+        "slug": "minifier"
       }
     ]
   }
