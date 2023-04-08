@@ -4,7 +4,8 @@
         "component": 
         {
             "className": "css-button-3d--rose",
-            "code": ".css-button-3d--rose{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;border:none;background:#ff6392;box-shadow:0 5px #ff0a78}.css-button-3d--rose:hover{box-shadow:0 3px #ff0a78;top:1px}.css-button-3d--rose:active{box-shadow:0 0 #ff0a78;top:5px}"
+            "code": ".css-button-3d--rose {\n    min-width:130px;\n    height:40px;\n    color:#fff;\n    padding:5px 10px;\n    font-weight:700;\n    cursor:pointer;\n    transition:.3s;\n    position:relative;\n    display:inline-block;\n    outline:0;\n    border-radius:5px;\n    border:none;\n    background:#ff6392;\n    box-shadow:0 5px #ff0a78\n}\n.css-button-3d--rose:hover {\n    box-shadow:0 3px #ff0a78;\n    top:1px;\n}\n.css-button-3d--rose:active {\n    box-shadow:0 0 #ff0a78;\n    top:5px;\n}"
+        
         }
     },
     {
@@ -12,7 +13,7 @@
         "component": 
         {
             "className": "css-button-shadow-border--green",
-            "code": ".css-button-shadow-border--blue{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;border:none;box-shadow:inset 2px 2px 2px 0 rgba(255,255,255,.5),7px 7px 20px 0 rgba(0,0,0,.1),4px 4px 5px 0 rgba(0,0,0,.1);background:#2c0b8e}.css-button-shadow-border--blue:hover{background-color:#3d348b}.css-button-shadow-border--blue:active{top:2px}"
+            "code": ".css-button-shadow-border--blue{\n     min-width:130px;\n  height:40px;\n  color:#fff;\n   padding:5px 10px;\n font-weight:700;\n  cursor:pointer;\n   transition:.3s;\n   position:relative;\n    display:inline-block;\n     outline:0;\n    border-radius:5px;\n    border:none;\n  box-shadow:inset 2px 2px 2px 0 rgba(255,255,255,.5),\n  7px 7px 20px 0 rgba(0,0,0,.1),\n    4px 4px 5px 0 rgba(0,0,0,.1);\n     background:#2c0b8e\n}\n.css-button-shadow-border--blue:hover{\n     background-color:#3d348b\n}\n.css-button-shadow-border--blue:active{\n      top:2px\n}"
         }
     },
     {
@@ -20,7 +21,7 @@
         "component": 
         {
             "className": "css-button-retro--green",
-            "code": ".css-button-retro--blue{min-width:130px;height:40px;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border:1px solid #000;color:#000;background:0 0;z-index:0}.css-button-retro--blue:hover:after{top:0;left:0}.css-button-retro--blue:after{content:'';width:100%;z-index:-1;position:absolute;height:100%;top:5px;left:5px;transition:.2s;background-color:#3d348b}"
+            "code": ".css-button-retro--blue{\n     min-width:130px;\n      height:40px;\n  padding:5px 10px;\n     font-weight:700;\n  cursor:pointer;\n   transition:.3s;\n   position:relative;\n    display:inline-block;\n     outline:0;\n    border:1px solid #000;\n    color:#000;\n   background:0 0;\n  z-index:0\n}\n.css-button-retro--blue:hover:after{\n     top:0;\n    left:0\n}\n.css-button-retro--blue:after{\n     content:'';\n   width:100%;\n  z-index:-1;\n position:absolute;\n height:100%;\n   top:5px;\n left:5px;\n  transition:.2s;\n background-color:#3d348b\n}"
         }
     },
     {
@@ -28,7 +29,7 @@
         "component": 
         {
             "className": "css-button-shadow-border-sliding--green",
-            "code": "  .css-button-shadow-border-sliding--green,\n.css-button-shadow-border-sliding--green:after{\n     box-shadow:inset 2px 2px 2px 0 rgba(255,255,255,.5),7px 7px 20px 0 rgba(0,0,0,.1),4px 4px 5px 0 rgba(0,0,0,.1);\n   transition:.3s\n}\n.css-button-shadow-border-sliding--green{\n  min-width:130px;\n  height:40px;\n  color:#fff;\n   padding:5px 10px;\n     font-weight:700;\n  cursor:pointer;\n   position:relative;\n    display:inline-block;\n     outline:0;\n    border-radius:5px;\n    border:none;\n  background:#3BA676;\n   z-index:1\n}\n.css-button-shadow-border-sliding--green:hover:after{\n   width:100%;\n   left:0\n}\n.css-button-shadow-border-sliding--green:after{\n    border-radius:5px;\n    position:absolute;\n    content:'';\n   width:0;\n  height:100%;\n  top:0;\n    z-index:-1;\n   background-color:#2C7D59;\n     right:0\n}\n.css-button-shadow-border-sliding--green:active{\n  top:2px\n}"
+            "code": ".css-button-shadow-border-sliding--green,\n.css-button-shadow-border-sliding--green:after{\n     box-shadow:inset 2px 2px 2px 0 rgba(255,255,255,.5),7px 7px 20px 0 rgba(0,0,0,.1),4px 4px 5px 0 rgba(0,0,0,.1);\n   transition:.3s\n}\n.css-button-shadow-border-sliding--green{\n  min-width:130px;\n  height:40px;\n  color:#fff;\n   padding:5px 10px;\n     font-weight:700;\n  cursor:pointer;\n   position:relative;\n    display:inline-block;\n     outline:0;\n    border-radius:5px;\n    border:none;\n  background:#3BA676;\n   z-index:1\n}\n.css-button-shadow-border-sliding--green:hover:after{\n   width:100%;\n   left:0\n}\n.css-button-shadow-border-sliding--green:after{\n    border-radius:5px;\n    position:absolute;\n    content:'';\n   width:0;\n  height:100%;\n  top:0;\n    z-index:-1;\n   background-color:#2C7D59;\n     right:0\n}\n.css-button-shadow-border-sliding--green:active{\n  top:2px\n}"
         }
     },
     {
@@ -36,7 +37,7 @@
         "component": 
         {
             "className": "css-button-sharp--green",
-            "code": ".css-button-sharp--green{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border:2px solid #3BA676;background:#3BA676}.css-button-sharp--green:hover{background:transparent;color:#3BA676}"
+            "code": ".css-button-sharp--green{\n     min-width:130px;\n     height:40px;\n     color:#fff;\n     padding:5px 10px;\n     font-weight:700;\n     cursor:pointer;\n     transition:.3s;\n     position:relative;\n     display:inline-block;\n     outline:0;\n     border:2px solid #3BA676;\n     background:#3BA676\n}\n.css-button-sharp--green:hover{\n     background:transparent;\n     color:#3BA676\n}"
         }
     },
     {
@@ -44,7 +45,7 @@
         "component": 
         {
             "className": "css-button-rounded--green",
-            "code": ".css-button-rounded--green{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;border:2px solid #3BA676;background:#3BA676}.css-button-rounded--green:hover{background:transparent;color:#3BA676}"
+            "code": ".css-button-rounded--green\n{\n     min-width:130px;\n     height:40px;\n     color:#fff;\n     padding:5px 10px;\n     font-weight:700;\n     cursor:pointer;\n     transition:.3s;\n     position:relative;\n     display:inline-block;\n     outline:0;\n     border-radius:5px;\n     border:2px solid #3BA676;\n     background:#3BA676\n}\n.css-button-rounded--green:hover{\n     background:transparent;\n     color:#3BA676\n}"
         }
     },
     {
@@ -52,7 +53,7 @@
         "component": 
         {
             "className": "css-button-fully-rounded--green",
-            "code": ".css-button-fully-rounded--green{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:20px;border:2px solid #3BA676;background:#3BA676}.css-button-fully-rounded--green:hover{background:transparent;color:#3BA676}"
+            "code": ".css-button-fully-rounded--green{\n     min-width:130px;\n     height:40px;\n     color:#fff;\n     padding:5px 10px;\n     font-weight:700;\n     cursor:pointer;\n     transition:.3s;\n     position:relative;\n     display:inline-block;\n     outline:0;\n     border-radius:20px;\n     border:2px solid #3BA676;\n     background:#3BA676\n}\n.css-button-fully-rounded--green:hover{\n     background:transparent;\n     color:#3BA676\n}"
         }
     },
     {
@@ -60,7 +61,7 @@
         "component": 
         {
             "className": "css-button-sliding-to-left--green",
-            "code": ".css-button-sliding-to-left--green{min-width:130px;height:40px;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;z-index:0;background:transparent;overflow:hidden;border:2px solid #3BA676;color:#3BA676}.css-button-sliding-to-left--green:hover{color:#fff}.css-button-sliding-to-left--green:hover:after{width:100%}.css-button-sliding-to-left--green:after{content:'';position:absolute;z-index:-1;transition:.3s;left:0;top:0;width:0;height:100%;background:#3BA676}"
+            "code": ".css-button-sliding-to-left--green{\n     min-width:130px;\n     height:40px;\n     padding:5px 10px;\n     font-weight:700;\n     cursor:pointer;\n     transition:.3s;\n     position:relative;\n     display:inline-block;\n     outline:0;\n     border-radius:5px;\n     z-index:0;\n     background:transparent;\n     overflow:hidden;\n     border:2px solid #3BA676;\n     color:#3BA676\n}\n.css-button-sliding-to-left--green:hover{\n     color:#fff\n}\n.css-button-sliding-to-left--green:hover:after{\n     width:100%\n}\n.css-button-sliding-to-left--green:after{\n     content:'';\n     position:absolute;\n     z-index:-1;\n     transition:.3s;\n     left:0;\n     top:0;\n     width:0;\n     height:100%;\n     background:#3BA676\n}"
         }
     },
     {
@@ -68,7 +69,7 @@
         "component": 
         {
             "className": "css-button-sliding-to-right--green",
-            "code": ".css-button-sliding-to-right--green{min-width:130px;height:40px;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;z-index:0;background:transparent;overflow:hidden;border:2px solid #3BA676;color:#3BA676}.css-button-sliding-to-right--green:hover{color:#fff}.css-button-sliding-to-right--green:hover:after{width:100%}.css-button-sliding-to-right--green:after{content:'';position:absolute;z-index:-1;transition:.3s;right:0;top:0;width:0;height:100%;background:#3BA676}"
+            "code": ".css-button-sliding-to-right--green{\n     min-width:130px;\n     height:40px;\n     padding:5px 10px;\n     font-weight:700;\n     cursor:pointer;\n     transition:.3s;\n     position:relative;\n     display:inline-block;\n     outline:0;\n     border-radius:5px;\n     z-index:0;\n     background:transparent;\n     overflow:hidden;\n     border:2px solid #3BA676;\n     color:#3BA676\n}\n.css-button-sliding-to-right--green:hover{\n     color:#fff\n}\n.css-button-sliding-to-right--green:hover:after{\n     width:100%\n}\n.css-button-sliding-to-right--green:after{\n     content:'';\n     position:absolute;\n     z-index:-1;\n     transition:.3s;\n     right:0;\n     top:0;\n     width:0;\n     height:100%;\n     background:#3BA676\n}"
         }
     },
     {
@@ -76,7 +77,7 @@
         "component": 
         {
             "className": "css-button-sliding-to-bottom--green",
-            "code": ".css-button-sliding-to-bottom--green{min-width:130px;height:40px;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;z-index:0;background:transparent;overflow:hidden;border:2px solid #3BA676;color:#3BA676}.css-button-sliding-to-bottom--green:hover{color:#fff}.css-button-sliding-to-bottom--green:hover:after{height:100%}.css-button-sliding-to-bottom--green:after{content:'';position:absolute;z-index:-1;transition:.3s;right:0;top:0;width:0;width:100%;background:#3BA676}"
+            "code": ".css-button-sliding-to-bottom--green{\n     min-width:130px;\n     height:40px;\n     padding:5px 10px;\n     font-weight:700;\n     cursor:pointer;\n     transition:.3s;\n     position:relative;\n     display:inline-block;\n     outline:0;\n     border-radius:5px;\n     z-index:0;\n     background:transparent;\n     overflow:hidden;\n     border:2px solid #3BA676;\n     color:#3BA676\n}\n.css-button-sliding-to-bottom--green:hover{\n     color:#fff\n}\n.css-button-sliding-to-bottom--green:hover:after{\n     height:100%\n}\n.css-button-sliding-to-bottom--green:after{\n     content:'';\n     position:absolute;\n     z-index:-1;\n     transition:.3s;\n     right:0;\n     top:0;\n     height:0;\n     width:100%;\n     background:#3BA676\n}"
         }
     },
     {
@@ -84,7 +85,7 @@
         "component": 
         {
             "className": "css-button-sliding-to-top--green",
-            "code": ".css-button-sliding-to-top--green{min-width:130px;height:40px;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;z-index:0;background:transparent;overflow:hidden;border:2px solid #3BA676;color:#3BA676}.css-button-sliding-to-top--green:hover{color:#fff}.css-button-sliding-to-top--green:hover:after{height:100%}.css-button-sliding-to-top--green:after{content:'';position:absolute;z-index:-1;transition:.3s;right:0;bottom:0;height:0;width:100%;background:#3BA676}"
+            "code": ".css-button-sliding-to-top--green{\n     min-width:130px;\n     height:40px;\n     padding:5px 10px;\n     font-weight:700;\n     cursor:pointer;\n     transition:.3s;\n     position:relative;\n     display:inline-block;\n     outline:0;\n     border-radius:5px;\n     z-index:0;\n     background:transparent;\n     overflow:hidden;\n     border:2px solid #3BA676;\n     color:#3BA676\n}\n.css-button-sliding-to-top--green:hover{\n     color:#fff\n}\n.css-button-sliding-to-top--green:hover:after{\n     height:100%\n}\n.css-button-sliding-to-top--green:after{\n     content:'';\n     position:absolute;\n     z-index:-1;\n     transition:.3s;\n     right:0;\n     bottom:0;\n     height:0;\n     width:100%;\n     background:#3BA676\n}"
         }
     },
     {
@@ -92,7 +93,7 @@
         "component": 
         {
             "className": "css-button-arrow--red",
-            "code": ".css-button-arrow--red{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;overflow:hidden;border-radius:5px;border:none;background-color:#3BA676}.css-button-arrow--red:hover{border-radius:5px;padding-right:24px;padding-left:8px}.css-button-arrow--red:hover:after{opacity:1;right:10px}.css-button-arrow--red:after{content:'00BB';position:absolute;opacity:0;font-size:20px;line-height:40px;top:0;right:-20px;transition:.4s}"
+            "code": ".css-button-arrow--red{\n     min-width:130px;\n     height:40px;\n     color:#fff;\n     padding:5px 10px;\n     font-weight:700;\n     cursor:pointer;\n     transition:.3s;\n     position:relative;\n     display:inline-block;\n     outline:0;\n     overflow:hidden;\n     border-radius:5px;\n     border:none;\n     background-color:#3BA676\n}\n.css-button-arrow--red:hover{\n     border-radius:5px;\n     padding-right:24px;\n     padding-left:8px\n}\n.css-button-arrow--red:hover:after{\n     opacity:1;\n     right:10px\n}\n.css-button-arrow--red:after{content:'00BB';\n     position:absolute;\n     opacity:0;\n     font-size:20px;\n     line-height:40px;\n     top:0;\n     right:-20px;\n     transition:.4s\n}"
         }
     }
 ]
