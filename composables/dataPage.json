@@ -158,6 +158,16 @@
           "KUSA_KU": "دەق"
         },
         "slug": "minifier"
+      },
+      {
+        "id": 8,
+        "titlePage": {
+          "EN_US": "Meta Tag",
+          "AR_IQ": "نص",
+          "KUKA_KU": "دەق",
+          "KUSA_KU": "دەق"
+        },
+        "slug": "meta"
       }
     ]
   }
