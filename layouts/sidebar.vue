@@ -41,12 +41,12 @@
       </NuxtLink>
     </li>
     <hr class="my-4 border-white/10">
-    <li v-for="page in pages" class="pl-2">
+    <li v-for="page in pages" class="pl-2" :key="page.id">
       <span class="mb-2 font-bold">
         {{ page.title[localeLanguage] }}
       </span>
       <ul class="flex flex-col mt-3 gap-2">
-        <li v-for="child in page.children">
+        <li v-for="child in page.children" :key="child.id">
           <NuxtLink
               :to="localePath(child.slug)"
               exact-active-class="active" active-class="active"
