@@ -4,7 +4,7 @@
         "component": 
         {
             "className": "css-button-3d--rose",
-            "code": ".css-button-3d--rose {\n    min-width:130px;\n    height:40px;\n    color:#fff;\n    padding:5px 10px;\n    font-weight:700;\n    cursor:pointer;\n    transition:.3s;\n    position:relative;\n    display:inline-block;\n    outline:0;\n    border-radius:5px;\n    border:none;\n    background:#ff6392;\n    box-shadow:0 5px #ff0a78\n}\n.css-button-3d--rose:hover {\n    box-shadow:0 3px #ff0a78;\n    top:1px;\n}\n.css-button-3d--rose:active {\n    box-shadow:0 0 #ff0a78;\n    top:5px;\n}"
+            "code": ".css-button-3d--rose {\n     min-width:130px;\n     height:40px;\n     color:#fff;\n     padding:5px 10px;\n     font-weight:700;\n     cursor:pointer;\n     transition:.3s;\n     position:relative;\n     display:inline-block;\n     outline:0;\n     border-radius:5px;\n     border:none;\n     background:#ff6392;\n     box-shadow:0 5px #ff0a78\n}\n.css-button-3d--rose:hover {\n     box-shadow:0 3px #ff0a78;\n     top:1px;\n}\n.css-button-3d--rose:active {\n     box-shadow:0 0 #ff0a78;\n     top:5px;\n}"
         
         }
     },
@@ -13,7 +13,7 @@
         "component": 
         {
             "className": "css-button-shadow-border--green",
-            "code": ".css-button-shadow-border--blue{\n     min-width:130px;\n  height:40px;\n  color:#fff;\n   padding:5px 10px;\n font-weight:700;\n  cursor:pointer;\n   transition:.3s;\n   position:relative;\n    display:inline-block;\n     outline:0;\n    border-radius:5px;\n    border:none;\n  box-shadow:inset 2px 2px 2px 0 rgba(255,255,255,.5),\n  7px 7px 20px 0 rgba(0,0,0,.1),\n    4px 4px 5px 0 rgba(0,0,0,.1);\n     background:#2c0b8e\n}\n.css-button-shadow-border--blue:hover{\n     background-color:#3d348b\n}\n.css-button-shadow-border--blue:active{\n      top:2px\n}"
+            "code": ".css-button-shadow-border--blue{\n     min-width:130px;\n     height:40px;\n     color:#fff;\n     padding:5px 10px;\n     font-weight:700;\n     cursor:pointer;\n     transition:.3s;\n     position:relative;\n     display:inline-block;\n     outline:0;\n     border-radius:5px;\n     border:none;\n     box-shadow:inset 2px 2px 2px 0 rgba(255,255,255,.5),\n     7px 7px 20px 0 rgba(0,0,0,.1),\n     4px 4px 5px 0 rgba(0,0,0,.1);\n     background:#2c0b8e\n}\n.css-button-shadow-border--blue:hover{\n     background-color:#3d348b\n}\n.css-button-shadow-border--blue:active{\n     top:2px\n}"
         }
     },
     {
@@ -21,7 +21,7 @@
         "component": 
         {
             "className": "css-button-retro--green",
-            "code": ".css-button-retro--blue{\n     min-width:130px;\n      height:40px;\n  padding:5px 10px;\n     font-weight:700;\n  cursor:pointer;\n   transition:.3s;\n   position:relative;\n    display:inline-block;\n     outline:0;\n    border:1px solid #000;\n    color:#000;\n   background:0 0;\n  z-index:0\n}\n.css-button-retro--blue:hover:after{\n     top:0;\n    left:0\n}\n.css-button-retro--blue:after{\n     content:'';\n   width:100%;\n  z-index:-1;\n position:absolute;\n height:100%;\n   top:5px;\n left:5px;\n  transition:.2s;\n background-color:#3d348b\n}"
+            "code": ".css-button-retro--blue{\n     min-width:130px;\n     height:40px;\n     padding:5px 10px;\n     font-weight:700;\n     cursor:pointer;\n     transition:.3s;\n     position:relative;\n     display:inline-block;\n     outline:0;\n     border:1px solid #000;\n     color:#000;\n     background:0 0;\n     z-index:0\n}\n.css-button-retro--blue:hover:after{\n     top:0;\n     left:0\n}\n.css-button-retro--blue:after{\n     content:'';\n     width:100%;\n     z-index:-1;\n     position:absolute;\n     height:100%;\n     top:5px;\n     left:5px;\n     transition:.2s;\n     background-color:#3d348b\n}"
         }
     },
     {
@@ -29,7 +29,7 @@
         "component": 
         {
             "className": "css-button-shadow-border-sliding--green",
-            "code": ".css-button-shadow-border-sliding--green,\n.css-button-shadow-border-sliding--green:after{\n     box-shadow:inset 2px 2px 2px 0 rgba(255,255,255,.5),7px 7px 20px 0 rgba(0,0,0,.1),4px 4px 5px 0 rgba(0,0,0,.1);\n   transition:.3s\n}\n.css-button-shadow-border-sliding--green{\n  min-width:130px;\n  height:40px;\n  color:#fff;\n   padding:5px 10px;\n     font-weight:700;\n  cursor:pointer;\n   position:relative;\n    display:inline-block;\n     outline:0;\n    border-radius:5px;\n    border:none;\n  background:#3BA676;\n   z-index:1\n}\n.css-button-shadow-border-sliding--green:hover:after{\n   width:100%;\n   left:0\n}\n.css-button-shadow-border-sliding--green:after{\n    border-radius:5px;\n    position:absolute;\n    content:'';\n   width:0;\n  height:100%;\n  top:0;\n    z-index:-1;\n   background-color:#2C7D59;\n     right:0\n}\n.css-button-shadow-border-sliding--green:active{\n  top:2px\n}"
+            "code": ".css-button-shadow-border-sliding--green,\n.css-button-shadow-border-sliding--green:after{\n     box-shadow:inset 2px 2px 2px 0 rgba(255,255,255,.5),\n     7px 7px 20px 0 rgba(0,0,0,.1),\n     4px 4px 5px 0 rgba(0,0,0,.1);\n     transition:.3s\n}\n.css-button-shadow-border-sliding--green{\n     min-width:130px;\n     height:40px;\n     color:#fff;\n     padding:5px 10px;\n     font-weight:700;\n     cursor:pointer;\n     position:relative;\n     display:inline-block;\n     outline:0;\n     border-radius:5px;\n     border:none;\n     background:#3BA676;\n     z-index:1\n}\n.css-button-shadow-border-sliding--green:hover:after{\n     width:100%;\n     left:0\n}\n.css-button-shadow-border-sliding--green:after{\n     border-radius:5px;\n     position:absolute;\n     content:'';\n     width:0;\n     height:100%;\n     top:0;\n     z-index:-1;\n     background-color:#2C7D59;\n     right:0\n}\n.css-button-shadow-border-sliding--green:active{\n     top:2px\n}"
         }
     },
     {
