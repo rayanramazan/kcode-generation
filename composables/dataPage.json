@@ -168,6 +168,16 @@
           "KUSA_KU": "دەق"
         },
         "slug": "meta"
+      },
+      {
+        "id": 9,
+        "titlePage": {
+          "EN_US": "QR code generator",
+          "AR_IQ": "نص",
+          "KUKA_KU": "دەق",
+          "KUSA_KU": "دەق"
+        },
+        "slug": "qr-code-generator"
       }
     ]
   }
