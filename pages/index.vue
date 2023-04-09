@@ -1,41 +1,69 @@
 <template>
     <div class="flex flex-col justify-center items-center mt-10">
-      <div>
-        <h1 class="text-5xl text-white font-bold relative">
-          <span class=" relative z-10">KTOOLs</span>
-        <div class="w-full h-3 bg-white/10 absolute bottom-4"></div>
-      </h1>
-        
+      <div class="w-full">
+        <img src="../assets/img/home.jpg" class="w-full h-96 object-cover bg-top	rounded" alt="" srcset="">
       </div>
-      <span class="text-white/80">
-        Use CSS but write fewer class name
-      </span>
 
-      
-      <ul class="text-white">
-        <li class="flex items-center gap-4">
-          <Icon name="iconoir:check-circle" class="w-5"/>
-          <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, temporibus?</span>
-        </li>
-        <li class="flex items-center gap-4">
-          <Icon name="iconoir:check-circle" class="w-5"/>
-          <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, temporibus?</span>
-        </li>
-        <li class="flex items-center gap-4">
-          <Icon name="iconoir:check-circle" class="w-5"/>
-          <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, temporibus?</span>
-        </li>
-        <li class="flex items-center gap-4">
-          <Icon name="iconoir:check-circle" class="w-5"/>
-          <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, temporibus?</span>
-        </li>
+      <span class="mt-20 mb-1 text-2xl text-white font-bold">
+        Transitions Delay
+    </span>
+    <p class="text-white/80">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat eum optio ipsam error cumque dolorem ex molestias aspernatur facere laudantium.
+    </p>
 
-      </ul>
-      <NuxtLink to="">
-        Components
-      </NuxtLink>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-6 gap-4 relative z-30">
+
+        <div 
+        v-for="data in resources.slice(0, 3)" :key="data.id"
+        class="bg-[#222] flex flex-col justify-between p-4 w-full border border-primary/40 rounded-lg">
+            <div>
+                <h1 class="text-2xl text-white">
+                    {{ data.title }}
+                </h1>
+                <p class="text-white/70">
+                    {{ data.description }}
+                </p>
+            </div>
+            <hr class="my-4 border-0 bg-white/20 h-[1px] w-full">
+            <div class="flex justify-between items-center">
+                <button class="flex items-center gap-1 text-white">
+                    <span>0</span> 
+                    <Icon name="ic:baseline-star-border" class="w-6 h-6"/>
+                </button>
+
+                <NuxtLink :to="data.link" class="flex gap-1 items-center group">
+                    <span class="text-white transform group-hover:mr-2 duration-300 group-hover:text-primary">Website</span>
+                    <Icon name="ic:baseline-keyboard-arrow-right" class="w-6 h-6 text-primary"/>
+                </NuxtLink>
+            </div>
+        </div>
+
+    </div>
+
+
+    <hr class="border-0 h-[1px] bg-white/20 w-full mt-20 mb-4">
+
+    <span class="mt-4 mb-4 text-2xl text-white font-bold">
+        Transitions Delay
+    </span>
+    <p class="text-white/80">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat eum optio ipsam error cumque dolorem ex molestias aspernatur facere laudantium.
+    </p>
+    <div class="flex flex-col mt-4 mb-10 w-full">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-3 gap-4 relative z-30">
+            <NuxtLink
+            :to="localePath('buttons')"
+            class="text-center" 
+            v-for="data in buttons.slice(0, 6)" :key="data.id" :class="data.component.className">Click Me</NuxtLink>
+        </div>
+    </div>
+
+
     </div>
 </template>
 
 <script setup lang="ts">
+const resources = await useResources()
+const buttons = await useButtons()
+
 </script>
