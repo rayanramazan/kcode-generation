@@ -14,6 +14,36 @@
             </h1>
             <Icon name="ic:outline-keyboard-arrow-right" class="w-6 h-6 text-white" />
         </NuxtLink>
+        <NuxtLink class="bg-[#222] flex justify-between p-4 w-full border border-white/20 hover:border-primary/40 duration-300 rounded-lg">
+            <h1 class="text-xl text-white">
+                Card
+            </h1>
+            <Icon name="ic:outline-keyboard-arrow-right" class="w-6 h-6 text-white" />
+        </NuxtLink>
+        <NuxtLink class="bg-[#222] flex justify-between p-4 w-full border border-white/20 hover:border-primary/40 duration-300 rounded-lg">
+            <h1 class="text-xl text-white">
+                Card
+            </h1>
+            <Icon name="ic:outline-keyboard-arrow-right" class="w-6 h-6 text-white" />
+        </NuxtLink>
+        <NuxtLink class="bg-[#222] flex justify-between p-4 w-full border border-white/20 hover:border-primary/40 duration-300 rounded-lg">
+            <h1 class="text-xl text-white">
+                Card
+            </h1>
+            <Icon name="ic:outline-keyboard-arrow-right" class="w-6 h-6 text-white" />
+        </NuxtLink>
+        <NuxtLink class="bg-[#222] flex justify-between p-4 w-full border border-white/20 hover:border-primary/40 duration-300 rounded-lg">
+            <h1 class="text-xl text-white">
+                Card
+            </h1>
+            <Icon name="ic:outline-keyboard-arrow-right" class="w-6 h-6 text-white" />
+        </NuxtLink>
+        <NuxtLink class="bg-[#222] flex justify-between p-4 w-full border border-white/20 hover:border-primary/40 duration-300 rounded-lg">
+            <h1 class="text-xl text-white">
+                Card
+            </h1>
+            <Icon name="ic:outline-keyboard-arrow-right" class="w-6 h-6 text-white" />
+        </NuxtLink>
 
     </div>
 </template>
