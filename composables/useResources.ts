@@ -1,9 +1,10 @@
 import Resources from './dataResources.json'
 import {Language} from "~/types/Language";
 type Resources ={
-    slug: String;
+    title: String;
     id: number;
-    img: String,
+    description: String,
+    link: String,
 }
 
 export default async () =>

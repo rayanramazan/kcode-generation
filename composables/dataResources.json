@@ -1,52 +1,69 @@
 [
   {
     "id": 1,
-    "slug": "background",
-    "img": "1lRtPsICjs_h0Qc9P2M9kaw5_L4r9IlHV"
+    "title": "Pixels",
+    "description": "Free stock photos &amp; videos you can use everywhere. Browse millions of high-quality royalty free stock images &amp; copyright free pictures. No attribution required.",
+    "link": "https://www.pexels.com/"
   },
   {
     "id": 2,
-    "slug": "fonts",
-    "img": "1gMeN1j8x_gswfPHxYN_WZ7lSGzKQxYoU"
+    "title": "Remix Icon",
+    "description": "Remix Icon is a set of open source neutral style system symbols elaborately crafted for designers and developers. All of the icons are free to use for both personal and commercial.",
+    "link": "https://remixicon.com/"
   },
   {
     "id": 3,
-    "slug": "colors",
-    "img": "1-OWfuhfrWG-tLZfqOO3sTRNF63Oo148e"
+    "title": "Color Hunt",
+    "description": "Discover the newest hand-picked color palettes of Color Hunt. Get color inspiration for your design and art projects.",
+    "link": "https://colorhunt.co/"
   },
   {
     "id": 4,
-    "slug": "chrome-extension",
-    "img": "1Mh5FGkqe_e0b7wvTDmxkETxBc-zfBjqS"
+    "title": "Google Fonts",
+    "description": "Making the web more beautiful, fast, and open through great typography",
+    "link": "https://fonts.google.com/"
   },
   {
     "id": 5,
-    "slug": "challenges",
-    "img": "1IcGEzXvmyfad_8oCkZ2Sc78QUqMKA8ZO"
+    "title": "Flat Icons",
+    "description": "Download Free Icons and Stickers for your projects. Images made by and for designers in PNG, SVG, EPS, PSD and CSS formats",
+    "link": "https://www.flaticon.com/"
   },
   {
     "id": 6,
-    "slug": "icons",
-    "img": "1yo9_2tcywbI8JkqMlTOb7MKvNhVBqavj"
+    "title": "Resume",
+    "description": "Create your job winning resume for free, choose between thousands of resume templates and cover letters. Write your professional resume in 5 minutes",
+    "link": "https://resume.io/"
   },
   {
     "id": 7,
-    "slug": "networking",
-    "img": "1YXRMoB-k8EjZlohBVPSFnwG23nMd7Zp-"
+    "title": "Temp Mail",
+    "description": "Keep spam out of your mail and stay safe - just use a disposable temporary email address! Protect your personal email address from spam with Temp-mail",
+    "link": "https://temp-mail.org"
   },
   {
     "id": 8,
-    "slug": "tutorials",
-    "img": "14G3ZPFsDKkyqNt_jtkGvvOAdtwu4gGh2"
+    "title": "Hatchful",
+    "description": "Free logo maker tool to generate custom design logos in seconds. This logo creator is built for entrepreneurs on the go with hundreds of templates, free vectors, fonts and icons to design your own logo. The easiest way to create business logos online.",
+    "link": "https://www.shopify.com/tools/logo-maker"
   },
   {
     "id": 9,
-    "slug": "website-test",
-    "img": "1jexOr5qxTAToy1mEL1ldmrp64m1qgpnv"
+    "title": "soft98",
+    "description": "Free software download, software crack and serial, antivirus, Windows 7, Windows 8.1, Windows 10, Windows 11, Android software, Android software, engineering software, programming, Windows",
+    "link": "https://soft98.ir/"
   },
   {
     "id": 10,
-    "slug": "illustrator-vector",
-    "img": "1ML0YgJy6MY2CjMg_3L-qhjK4Pdd1_EuH"
+    "title": "",
+    "description": "",
+    "link": ""
+  },
+  {
+    "id": 11,
+    "title": "",
+    "description": "",
+    "link": ""
   }
+  
 ]
