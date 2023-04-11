@@ -43,6 +43,30 @@
 
     <hr class="border-0 h-[1px] bg-white/20 w-full mt-20 mb-4">
 
+    <div class="flex w-full justify-center">
+        <div class=" relative w-full flex justify-end">
+            <img src="../assets/img/Coder_Front.png" class="relative z-10 h-96" alt="" srcset="">
+            <div class="h-80 bg-primary absolute bottom-0 w-full"></div>
+            <h1 class=" absolute bottom-10 left-10">
+                <div class="flex flex-col">
+                    <span class="text-white text-xl">
+                        You are
+                    </span>
+                    <span class="text-2xl text-white font-bold">
+                         Web Designer !
+                    </span>
+                    <hr class="my-2">
+                    <span class="text-white">
+                        Everything is made easy for berry here
+                    </span>
+                </div>
+            </h1>
+        </div>
+    </div>
+
+    <hr class="border-0 h-[1px] bg-white/20 w-full mt-20 mb-4">
+
+
     <span class="mt-4 mb-4 text-2xl text-white font-bold">
         Transitions Delay
     </span>
