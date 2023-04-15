@@ -34,6 +34,7 @@ useHead( {
 
 <style>
 @import './assets/css/style.css';
+@import './assets/css/loader-generator.css';
 /* .page-enter-active,
 .page-leave-active {
   transition: all 0.4s;
