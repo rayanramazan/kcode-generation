@@ -225,6 +225,70 @@ input[type="range"]::-webkit-slider-thumb {
     justify-self: start;
   }
     
+  .cube {
+    margin: auto;
+    margin-top: 6rem;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transform: scaleX(1) scaleY(1) scaleZ(1) rotateX(45deg) rotateY(0deg) rotateZ(0deg) translateX(0px) translateY(0px) translateZ(0px) skewX(0deg) skewY(0deg);
+}
+
+.cube div {
+    position: absolute;
+    box-sizing: border-box;
+    /* padding: 10px; */
+    line-height: 200px;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    opacity: 0.9;
+    border: 1px solid #000;
+    color: #000;
+    font-weight: bold;
+}
+
+.front {
+    -webkit-transform: translateZ(100px);
+    transform: translateZ(100px);
+    background-color: #3BA676;
+}
+
+.back {
+    -webkit-transform: translateZ(-100px) rotateY(180deg);
+    transform: translateZ(-100px) rotateY(180deg);
+    background-color: #4BBF8B;
+}
+
+.top {
+    -webkit-transform: rotateX(-270deg) translateY(-100px);
+    transform: rotateX(-270deg) translateY(-100px);
+    transform-origin: top center;
+    background-color: #69CA9E;
+}
+
+.bottom {
+    -webkit-transform: rotateX(270deg) translateY(100px);
+    transform: rotateX(270deg) translateY(100px);
+    transform-origin: bottom center;
+    background-color: #87D4B2;
+}
+
+.left {
+    -webkit-transform: rotateY(270deg) translateX(-100px);
+    transform: rotateY(270deg) translateX(-100px);
+    transform-origin: center left;
+    background-color: #A5DFC5;
+}
+
+.right {
+    -webkit-transform: rotateY(-270deg) translateX(100px);
+    transform: rotateY(-270deg) translateX(100px);
+    transform-origin: top right;
+    background-color: #B4E4CF;
+}
 
   .css-button-arrow--red{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;overflow:hidden;border-radius:5px;border:none;background-color:#3BA676}.css-button-arrow--red:hover{border-radius:5px;padding-right:24px;padding-left:8px}.css-button-arrow--red:hover:after{opacity:1;right:10px}.css-button-arrow--red:after{content:'\00BB';position:absolute;opacity:0;font-size:20px;line-height:40px;top:0;right:-20px;transition:.4s}
   .css-button-sliding-to-top--green{min-width:130px;height:40px;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;z-index:0;background:transparent;overflow:hidden;border:2px solid #3BA676;color:#3BA676}.css-button-sliding-to-top--green:hover{color:#fff}.css-button-sliding-to-top--green:hover:after{height:100%}.css-button-sliding-to-top--green:after{content:'';position:absolute;z-index:-1;transition:.3s;right:0;bottom:0;height:0;width:100%;background:#3BA676}
