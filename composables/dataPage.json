@@ -87,6 +87,16 @@
           "KUSA_KU": "گۆڕان"
         },
         "slug": "transform"
+      },
+      {
+        "id": 8,
+        "titlePage": {
+          "EN_US": "3D Transform",
+          "AR_IQ": "تحول",
+          "KUKA_KU": "گوهڕین",
+          "KUSA_KU": "گۆڕان"
+        },
+        "slug": "3d-transform"
       }
     ]
   },
