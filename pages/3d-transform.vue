@@ -42,7 +42,7 @@
     <CodeEditor :code="`<div class='box'>\n   <div class='cube-wrap'>\n     <div class='cube'>\n          <div class='front'>\n              Front\n          </div>\n          <div class='back'>\n              Back\n          </div>\n          <div class='top'>\n              Top\n          </div>\n          <div class='bottom'>\n              Bottom\n          </div>\n          <div class='left'>\n              Left\n          </div>\n          <div class='right'>\n              Right\n          </div>\n      </div>\n   </div>\n</div>`" />
         <br>
     <CodeEditor
-        :code="`.cube {   transform: scaleX(${ranges[0].value}) scaleY(${ranges[1].value}) scaleZ(${ranges[2].value}) rotateX(${ranges[3].value}deg) rotateY(${ranges[4].value}deg) rotateZ(${ranges[5].value}deg) translateX(${ranges[6].value}px) translateY(${ranges[7].value}px) translateZ(${ranges[8].value}px) skewX(${ranges[9].value}deg) skewY(${ranges[10].value}deg);}`" />
+        :code="`.cube {\n   transform: scaleX(${ranges[0].value})\n   scaleY(${ranges[1].value})\n   scaleZ(${ranges[2].value})\n   rotateX(${ranges[3].value}deg)\n   rotateY(${ranges[4].value}deg)\n   rotateZ(${ranges[5].value}deg)\n   translateX(${ranges[6].value}px)\n   translateY(${ranges[7].value}px)\n   translateZ(${ranges[8].value}px)\n   skewX(${ranges[9].value}deg)\n   skewY(${ranges[10].value}deg);\n}`" />
 </template>
 
 <style>
@@ -56,11 +56,6 @@
     transform-style: preserve-3d;
     transform: scaleX(1) scaleY(1) scaleZ(1) rotateX(45deg) rotateY(0deg) rotateZ(0deg) translateX(0px) translateY(0px) translateZ(0px) skewX(0deg) skewY(0deg);
 }
-
-/* .cube-wrap {
-    perspective: 1000px;
-    perspective-origin: 50% 50%;
-} */
 
 .cube div {
     position: absolute;
