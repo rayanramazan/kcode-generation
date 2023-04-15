@@ -160,6 +160,16 @@
         "slug": "buttons"
       },
       {
+        "id": 6,
+        "titlePage": {
+          "EN_US": "Loader",
+          "AR_IQ": "أزرار",
+          "KUKA_KU": "دوگمە",
+          "KUSA_KU": "دوگمە"
+        },
+        "slug": "loader-generator"
+      },
+      {
         "id": 7,
         "titlePage": {
           "EN_US": "Minifier",
