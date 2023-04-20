@@ -2,5 +2,8 @@
   "home": "الصفحة الرئيسية",
   "components": "عناصر",
   "resources": "موارد",
-  "contact": "اتصل بنا"
+  "contact": "اتصل بنا",
+  "border-radius": "نصف قطر الحد",
+  "border": "حدود",
+  "box-shadow": "ظل الصندوق"
 }

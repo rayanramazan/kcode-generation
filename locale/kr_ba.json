@@ -2,5 +2,8 @@
   "home": "دەستپێک",
   "components": "پێکهاتەکان",
   "resources": "سەرچاوە",
-  "contact": "پەیوەندى"
+  "contact": "پەیوەندى",
+  "border-radius": "چەوماندنا سنوورى",
+  "border": "سنوور",
+  "box-shadow": "سیبەرا سندوقى"
 }

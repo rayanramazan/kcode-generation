@@ -2,5 +2,8 @@
   "home": "Home",
   "components": "Components",
   "resources": "Resources",
-  "contact": "Contact"
+  "contact": "Contact",
+  "border-radius": "Border Radius",
+  "border": "Border",
+  "box-shadow": "Box Shadow"
 }
