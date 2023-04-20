@@ -74,7 +74,7 @@ const ranges = ref([
     {
         id: 4,
         title: 'rotateX',
-        value: 0,
+        value: 44,
         min: -365,
         max: 365,
         steps: 1
@@ -82,7 +82,7 @@ const ranges = ref([
     {
         id: 5,
         title: 'rotateY',
-        value: 0,
+        value: -40,
         min: -365,
         max: 365,
         steps: 1
