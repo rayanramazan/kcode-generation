@@ -99,8 +99,70 @@
                         </span>
                         <ChevronUpIcon :class="open ? 'rotate-180 transform' : ''" class="h-5 w-5 text-primary duration-300" />
                     </DisclosureButton>
+                    
                     <DisclosurePanel class="p-3">
-                        No.
+
+                        <div class="flex flex-col gap-1">
+                            <span class="text-sm text-white">Background Color:</span>
+                            <div class="w-full flex rounded h-10">
+                                <label
+                                    class="rounded"
+                                    for="color-border">
+                                    <input
+                                        class="form-input w-24 h-full rounded bg-transparent"
+                                        type="color"
+                                    >
+
+                                </label>
+                                <span class="text-white self-center px-2"> #000000 </span>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col gap-1">
+                            <span class="text-sm text-white">Hover Color:</span>
+                            <div class="w-full flex rounded h-10">
+                                <label
+                                    class="rounded"
+                                    for="color-border">
+                                    <input
+                                        class="form-input w-24 h-full rounded bg-transparent"
+                                        type="color"
+                                    >
+
+                                </label>
+                                <span class="text-white self-center px-2"> #000000 </span>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col gap-1">
+                            <span class="text-sm text-white">Active Color:</span>
+                            <div class="w-full flex rounded h-10">
+                                <label
+                                    class="rounded"
+                                    for="color-border">
+                                    <input
+                                        class="form-input w-24 h-full rounded bg-transparent"
+                                        type="color"
+                                    >
+
+                                </label>
+                                <span class="text-white self-center px-2"> #000000 </span>
+                            </div>
+                        </div>
+
+                        <div
+                            class="w-full flex flex-col gap-2">
+                        <span class="text-white">
+                            Track Width
+                        </span>
+                        <input
+                            class="rounded-lg overflow-hidden appearance-none bg-dark-100 h-3 w-full"
+                            type="range"
+                            min="0"
+                            max="360"
+                        />
+                        </div>
+
                     </DisclosurePanel>
                 </Disclosure>
 

@@ -76,7 +76,6 @@ const colorInputStart = ref(null)
 const endColor = ref('#1E533B')
 const colorInputEnd = ref(null)
 
-// Watch for changes to the color value and update the input value
 watch(startColor, endColor, (newValueStart,newValueEnd) => {
   if (colorInputStart.value) {
     colorInputStart.value.value = newValueStart
