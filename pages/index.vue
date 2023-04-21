@@ -43,12 +43,10 @@
 
     <hr class="border-0 h-[1px] bg-white/20 w-full mt-20 mb-4">
 
-    <div class="flex w-full justify-center">
-        <div class=" relative w-full flex justify-end">
-            <img src="../assets/img/Coder_Front.png" class="relative z-10 h-96" alt="" srcset="">
-            <div class="h-80 bg-primary absolute bottom-0 w-full"></div>
-            <h1 class=" absolute bottom-10 left-10">
-                <div class="flex flex-col">
+    <div class="flex w-full justify-center mt-20">
+        <div class="md:h-80 p-4 md:p-0 bg-primary w-full flex justify-center md:justify-between items-center md:items-end flex-col md:flex-row-reverse">
+            <img src="../assets/img/Coder_Front.png" class="md:w-[60%]" alt="" srcset="">
+                <div class="flex flex-col md:p-10">
                     <span class="text-white text-xl">
                         You are
                     </span>
@@ -60,7 +58,6 @@
                         Everything is made easy for berry here
                     </span>
                 </div>
-            </h1>
         </div>
     </div>
 
