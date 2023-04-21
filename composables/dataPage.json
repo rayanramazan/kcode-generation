@@ -89,16 +89,6 @@
         "slug": "transform"
       },
       {
-        "id": 9,
-        "titlePage": {
-          "EN_US": "Scrollbar",
-          "AR_IQ": "تحول",
-          "KUKA_KU": "گوهڕین",
-          "KUSA_KU": "گۆڕان"
-        },
-        "slug": "scrollbar"
-      },
-      {
         "id": 10,
         "titlePage": {
           "EN_US": "3D Transform",
