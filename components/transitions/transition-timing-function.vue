@@ -1,6 +1,6 @@
 <template>
     <span class="mt-8 mb-4 text-2xl text-white font-bold">
-        Transitions
+        Transitions Timing Function
     </span>
         <div class="w-full px-2 sm:px-0">
       <TabGroup>

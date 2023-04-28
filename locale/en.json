@@ -5,5 +5,67 @@
   "contact": "Contact",
   "border-radius": "Border Radius",
   "border": "Border",
-  "box-shadow": "Box Shadow"
+  "box-shadow": "Box Shadow",
+
+
+  "3d-transform": "3d transform",
+  "front": "Front",
+  "back": "Back",
+  "top": "Top",
+  "bottom": "Bottom",
+  "left": "Left",
+  "right": "Right",
+
+
+  "border-radius-options": "Border Radius Options",
+  "border-options": "Border Options",
+  "box-shadow-options": "Box Shadow Options",
+  "filter-options": "Filter Options",
+  "gradient-options": "Gradient Options",
+  "rgb-options": "RGB Options",
+  "text-shadow-options": "Text Shadow Options",
+  "transform-options": "Transform Options",
+
+
+  "buttons-generator": "Buttons Generator",
+  "d-button-generation": "Did you found a button you like? Just click on it and paste the code to your project.",
+
+  "color-swatches": "Color Swatches",
+
+  "meta-tags-generator": "Meta Tags Generator",
+  "d-meta-tags": " Generate your web page’s most helpful meta tags to improve SEO and search engine experience.",
+  "charset": "Charset",
+  "title-meta": "Title",
+  "description-meta": "Description",
+  "author-meta": "Author",
+  "copyright-meta": "Copyright",
+  "code-meta": "Code",
+  "code-copy": "Copy this to the section of your page.",
+  "options-meta": "Options",
+  
+  "CSS-minifier": "CSS Minifier",
+  "d-css-minifier": "Online CSS Minifier Tool and Compressor",
+  "copy-to-clipboard-minifier": "Copy to Clipboard",
+  "clear-minifier": "Clear",
+
+  "QR-code-generator": "QR code generator",
+  "d-QR-code-generator": "QR code generator",
+  "URL": "URL",
+  "Size": "Size",
+  "foreground-color-qr": "Foreground Color",
+  "background-color-qr": "Background Color",
+
+
+  "charachter": "Charachter",
+  "paragraph": "Paragraph",
+
+
+
+  "transitions-delay": "Transitions Delay",
+  "transitions-duration": "Transitions Duration",
+  "transitions-timing-function": "Transitions Timing Function",
+
+
+  "result": "Result"
+
 }
