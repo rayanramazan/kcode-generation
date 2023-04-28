@@ -11,7 +11,7 @@
             :key="range"
             class="w-full md:w-80 flex flex-col gap-2">
           <span class="text-white">
-            {{ range.title }}
+            {{ range.title[locale] }}
           </span>
           <input
               class="rounded-lg overflow-hidden appearance-none bg-dark-100 h-3 w-full"
@@ -50,7 +50,12 @@ import Output from "~/components/Output.vue";
 const ranges = ref([
   {
     id: 1,
-    title: 'Rotate',
+    title: {
+      'EN_US': 'Rotate',
+      'AR_IQ': 'استدارة',
+      'KUKA_KU': 'سوڕانەوە',
+      'KUSA_KU': 'سوڕانەوە'
+    },
     value: 0,
     min: 0,
     max: 360,
@@ -58,7 +63,12 @@ const ranges = ref([
   },
   {
     id: 2,
-    title: 'Scale',
+    title: {
+      'EN_US': 'Scale',
+      'AR_IQ': 'حجم',
+      'KUKA_KU': 'سکەیڵ',
+      'KUSA_KU': 'سکەیڵ'
+    },
     value: 0.8,
     min: 0,
     max: 1.7,
@@ -66,7 +76,12 @@ const ranges = ref([
   },
   {
     id: 3,
-    title: 'Skew',
+    title: {
+      'EN_US': 'Skew',
+      'AR_IQ': 'انحراف',
+      'KUKA_KU': 'سکێو',
+      'KUSA_KU': 'سکێو'
+    },
     value: 0,
     min: 0,
     max: 180,
@@ -74,7 +89,12 @@ const ranges = ref([
   },
   {
     id: 4,
-    title: 'Translate X',
+    title: {
+      'EN_US': 'Translate X',
+      'AR_IQ': 'ترجمة X',
+      'KUKA_KU': 'وەرگێڕانی X',
+      'KUSA_KU': 'وەرگێڕانی X'
+    },
     value: 0,
     min: -200,
     max: 200,
@@ -82,11 +102,18 @@ const ranges = ref([
   },
   {
     id: 5,
-    title: 'Translate Y',
+    title: {
+      'EN_US': 'Translate Y',
+      'AR_IQ': 'ترجمة Y',
+      'KUKA_KU': 'وەرگێڕانی Y',
+      'KUSA_KU': 'وەرگێڕانی Y'
+    },
     value: 0,
     min: -200,
     max: 200,
     step: 1,
   },
 ])
+
+const locale =  useState('locale.setting')
 </script>
