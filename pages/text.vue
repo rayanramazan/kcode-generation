@@ -2,7 +2,7 @@
     <div class="flex justify-center items-center gap-8 sm:gap-20 flex-wrap mt-8 mb-4 w-full" style="z-index: 999;">
         <div class="flex flex-col gap-2 items-center">
             <span class="text-white">
-                Charachter
+                {{ $t('charachter') }}
                 <hr class="w-[150px] border-0 h-[1px] bg-white/10 mt-2">
             </span>
 
@@ -25,7 +25,7 @@
         </div>
         <div class="flex flex-col gap-2 items-center">
             <span class="text-white">
-                Paragraph
+                {{ $t('paragraph') }}
                 <hr class="w-[150px] border-0 h-[1px] bg-white/10 mt-2">
             </span>
             <div class="flex items-center gap-10">

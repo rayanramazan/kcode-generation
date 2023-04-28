@@ -4,7 +4,9 @@
       <div class="flex flex-col gap-6">
         <h1
             class="bg-white/5 rounded-md border-1 border-white/10 text-lg text-white p-2"
-        >ڕێکخستنا رەنگان</h1>
+        >
+          {{ $t('box-shadow-options') }}
+        </h1>
 
         <div
             v-for="range in ranges"

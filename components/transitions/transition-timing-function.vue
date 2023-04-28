@@ -1,6 +1,6 @@
 <template>
     <span class="mt-8 mb-4 text-2xl text-white font-bold">
-        Transitions Timing Function
+      {{ $t('transitions-timing-function') }}
     </span>
         <div class="w-full px-2 sm:px-0">
       <TabGroup>
@@ -19,7 +19,7 @@
                   : 'text-[#fff] hover:bg-white/[0.12] hover:text-white',
               ]"
             >
-              Result
+              {{ $t('result') }}
             </button>
           </Tab>
           <Tab

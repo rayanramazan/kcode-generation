@@ -1,14 +1,16 @@
 <template>
     <span class="mt-8 mb-1 text-2xl text-white font-bold">
-        QR code generator
+        {{ $t('QR-code-generator') }}
    </span>
    <p class="text-white/80">
-       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat eum optio ipsam error cumque dolorem ex molestias aspernatur facere laudantium.
-   </p>
+        {{ $t('d-QR-code-generator') }}
+    </p>
 
    <div class="flex flex-col mt-10">
     <div class="flex flex-col">
-        <label for="url" class="text-white">URL</label>
+        <label for="url" class="text-white">
+            {{ $t('URL') }}
+        </label>
         <input 
             type="text"
             class="outline-none bg-transparent rounded-lg text-white border border-primary py-2 pl-3 pr-10"
@@ -19,7 +21,9 @@
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-2 gap-y-3 mt-3 items-center">
         <div class="flex flex-col">
-            <label for="size" class="text-white">Size</label>
+            <label for="size" class="text-white">
+                {{ $t('Size') }}
+            </label>
             <input 
                 type="number" 
                 class="outline-none bg-transparent rounded-lg text-white border border-primary py-2 pl-3 pr-10"
@@ -29,7 +33,9 @@
         </div>
 
         <div class="flex flex-col">
-            <label for="color" class="text-white">Foreground Color</label>
+            <label for="color" class="text-white">
+                {{ $t('foreground-color-qr') }}
+            </label>
             <div class="w-full flex justify-between bg-[#222] border-primary border rounded h-10">
                 <label
                     class="rounded"
@@ -46,7 +52,9 @@
         </div>
 
         <div class="flex flex-col">
-            <label for="background" class="text-white">Background Color</label>
+            <label for="background" class="text-white">
+                {{ $t('background-color-qr') }}
+            </label>
             <div class="w-full flex justify-between bg-[#222] border border-primary rounded h-10">
                 <label
                     class="rounded"

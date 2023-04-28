@@ -1,19 +1,19 @@
 <template>
     <span class="mt-8 text-2xl text-white font-bold">
-        Meta Tags Generator
+        {{ $t('meta-tags-generator') }}
     </span>
     <p class="text-white/80">
-        Generate your web page’s most helpful meta tags to improve SEO and search engine experience.
+        {{ $t('d-meta-tags') }}
     </p>
 
     <div class="grid lg:grid-cols-2 mt-3 gap-4 relative z-30">
         <div class="flex flex-col gap-3">
             <p class="font-bold text-white text-xl">
-                Options
+                {{ $t('options-meta') }}
             </p>
             <div class=" bg-[#222] flex flex-col p-4 gap-6 rounded">
                 <div class="flex flex-col gap-1">
-                    <label for="" class="text-white">Charset</label>
+                    <label for="" class="text-white">{{ $t('charset') }}</label>
                     <Listbox v-model="selectedCharset">
                         <div class="relative mt-1">
                             <ListboxButton
@@ -74,22 +74,30 @@
 
             
                 <div class="flex flex-col gap-1">
-                    <label for="" class="text-white">Title</label>
+                    <label for="" class="text-white">
+                        {{ $t('title-meta') }}
+                    </label>
                     <input type="text" v-model="title" class="outline-none bg-transparent rounded-lg text-white border border-primary py-2 pl-3 pr-10">
                 </div>
 
                 <div class="flex flex-col gap-1">
-                    <label for="" class="text-white">Description</label>
+                    <label for="" class="text-white">
+                        {{ $t('description-meta') }}
+                    </label>
                     <textarea rows="3" v-model="description" class="outline-none bg-transparent rounded-lg text-white border border-primary py-2 pl-3 pr-10"></textarea>
                 </div>
 
                 <div class="flex flex-col gap-1">
-                    <label for="" class="text-white">Author</label>
+                    <label for="" class="text-white">
+                        {{ $t('author-meta') }}
+                    </label>
                     <input type="text" v-model="author" class="outline-none bg-transparent rounded-lg text-white border border-primary py-2 pl-3 pr-10">
                 </div>
 
                 <div class="flex flex-col gap-1">
-                    <label for="" class="text-white">Copyright</label>
+                    <label for="" class="text-white">
+                        {{ $t('copyright-meta') }}
+                    </label>
                     <input type="text" v-model="copyright" class="outline-none bg-transparent rounded-lg text-white border border-primary py-2 pl-3 pr-10">
                 </div>
 
@@ -99,11 +107,11 @@
 
         <div class="flex flex-col gap-3">
             <p class="font-bold text-white text-xl">
-                Code
+                {{ $t('code-meta') }}
             </p>
             <div>
                 <p class="text-white mb-2">
-                    Copy this to the section of your page.
+                    {{ $t('code-copy') }}
                 </p>
                 <CodeEditor :code='
                 `<meta charset="${selectedCharset.name}">

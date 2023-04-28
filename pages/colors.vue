@@ -1,7 +1,7 @@
 <template>
 
 <span class="mt-8 text-2xl text-white font-bold">
-  Color Swatches
+  {{ $t('color-swatches') }}
 </span>
 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-2 gap-y-3 mt-3">
 

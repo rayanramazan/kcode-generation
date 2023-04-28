@@ -1,28 +1,28 @@
 <template>
     <span class="mt-8 text-2xl text-white font-bold">
-        Color Swatches
+       {{ $t('3d-transform') }}
     </span>
     <div class="box">
         <div class="cube-wrap">
             <div :style="`transform: scaleX(${ranges[0].value}) scaleY(${ranges[1].value}) scaleZ(${ranges[2].value}) rotateX(${ranges[3].value}deg) rotateY(${ranges[4].value}deg) rotateZ(${ranges[5].value}deg) translateX(${ranges[6].value}px) translateY(${ranges[7].value}px) translateZ(${ranges[8].value}px) skewX(${ranges[9].value}deg) skewY(${ranges[10].value}deg);`"
                 class="cube">
                 <div class="front">
-                    Front
+                    {{ $t('front') }}
                 </div>
                 <div class="back">
-                    Back
+                    {{ $t('back') }}
                 </div>
                 <div class="top">
-                    Top
+                    {{ $t('top') }}
                 </div>
                 <div class="bottom">
-                    Bottom
+                    {{ $t('bottom') }}
                 </div>
                 <div class="left">
-                    Left
+                    {{ $t('left') }}
                 </div>
                 <div class="right">
-                    Right
+                    {{ $t('right') }}
                 </div>
             </div>
         </div>

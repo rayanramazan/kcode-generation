@@ -5,7 +5,7 @@
         <h1
             class="bg-white/5 rounded-md border-1 border-white/10 text-lg text-white p-2"
         >
-          ڕێکخستنا رەنگان
+          {{ $t('gradient-options') }}
         </h1>
 
         <div
