@@ -11,7 +11,7 @@
         <div
             class="w-full md:w-80 flex flex-col gap-2">
           <span class="text-white">
-            {{ ranges.title }}
+            {{ ranges.title[locale] }}
           </span>
           <input
               class="rounded-lg w-full overflow-hidden appearance-none bg-dark-100 h-3 w-full"
@@ -119,7 +119,6 @@ import {
 const color = ref('#ffffff')
 const colorInput = ref(null)
 
-// Watch for changes to the color value and update the input value
 watch(color, (newValue) => {
   if (colorInput.value) {
     colorInput.value.value = newValue
@@ -142,8 +141,15 @@ const selectedStyle = ref(styleBorder[0].name)
 const ranges = ref(
     {
       id: 1,
-      title: 'Border Width (all borders)',
+      title: {
+        'EN_US': 'Border Width (all borders)',
+        'AR_IQ': 'عرض الحدود (كل الحدود)',
+        'KUKA_KU': 'پانی سنوور (هەموو سنوورەکان)',
+        'KUSA_KU': 'پانی سنوور (هەموو سنوورەکان)'
+    },
       value: 10
     },
 )
+
+const locale=  useState('locale.setting')
 </script>
