@@ -5,5 +5,62 @@
   "contact": "پەیوەندى",
   "border-radius": "چەوماندنا سنوورى",
   "border": "سنوور",
-  "box-shadow": "سیبەرا سندوقى"
+  "box-shadow": "سیبەرا سندوقى",
+
+
+  "3d-transform": "گۆڕینی سێ ڕەهەندی",
+  "front": "پێشەوە",
+  "back": "گەڕانەوە",
+  "top": "سەروو",
+  "bottom": "خوارەوە",
+  "left": "چەپ",
+  "right": "ڕاست",
+
+
+  "border-radius-options": "هەڵبژاردەکانی تیژڕەوی سنوور",
+  "border-options": "بژاردەی سنوور",
+  "box-shadow-options": "هەڵبژاردەکانی سێبەری بۆکس",
+  "filter-options": "هەڵبژاردەکانی فلتەر",
+  "gradient-options": "هەڵبژاردەکانی گرادێنت",
+  "rgb-options": "هەڵبژاردەکانی RGB",
+  "text-shadow-options": "هەڵبژاردەکانی سێبەری دەق",
+  "transform-options": "هەڵبژاردەکانی گۆڕانکاری",
+
+
+  "buttons-generator": "دوگمەکان",
+  "d-button-generation": "ئایا دوگمەیەکت دۆزیەوە کە حەزت لێیە؟ تەنها کلیکی لەسەر بکە و کۆدەکە لە پرۆژەکەتدا لێبدە.",
+
+  "color-swatches": "ڕەنگی سواتچ",
+
+  "meta-tags-generator": "مێتا تاگەکان",
+  "d-meta-tags": "یارمەتیدەرترین مێتا تاگەکانی وێب پەیجەکەت دروست بکە بۆ باشترکردنی SEO و ئەزموونی بزوێنەری گەڕان.",
+  "charset": "چارسێت",
+  "title-meta": "ناونیشان",
+  "description-meta": "شرح",
+  "author-meta": "نوسینەر",
+  "copyright-meta": "کاپی رایت",
+  "code-meta": "کۆد",
+  "code-copy": "ئەمە بنووسە بۆ بەشی پەڕەکەت.",
+  "options-meta": "هەڵبژاردەکان",
+
+  "CSS-minifier": "مینیفایری CSS",
+  "d-css-minifier": "ئامڕازی مینیفایری CSS و کۆمپرێسەر لەگەڵ ئینتەرنێت",
+  "copy-to-clipboard-minifier": "لە بوفەرەی تۆمار بکە",
+  "clear-minifier": "سەرکەوتوکردن",
+
+  "QR-code-generator": "دروستکەری کۆدی QR",
+  "d-QR-code-generator": "دروستکەری کۆدی QR",
+  "URL": "بەستەر",
+  "Size": "قەبارە",
+  "foreground-color-qr": "ڕەنگی پێشبینی",
+  "background-color-qr": "ڕەنگی پاشبینی",
+
+  "charachter": "پیت",
+  "paragraph": "پەراگراف",
+
+  "transitions-delay": "دوای چالاککردنی گۆڕانکاری",
+  "transitions-duration": "کاتی گۆڕانکاری",
+  "transitions-timing-function": "کارکردنی کاتی گۆڕانکاری",
+
+  "result": "ئەنجام"
 }

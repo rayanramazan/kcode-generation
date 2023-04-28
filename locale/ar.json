@@ -5,5 +5,61 @@
   "contact": "اتصل بنا",
   "border-radius": "نصف قطر الحد",
   "border": "حدود",
-  "box-shadow": "ظل الصندوق"
+  "box-shadow": "ظل الصندوق",
+
+  "3d-transform": "تحويل ثلاثي الأبعاد",
+  "front": "أمام",
+  "back": "خلف",
+  "top": "أعلى",
+  "bottom": "أسفل",
+  "left": "يسار",
+  "right": "يمين",
+
+
+  "border-radius-options": "خيارات نصف قطر الحدود",
+  "border-options": "خيارات الحدود",
+  "box-shadow-options": "خيارات ظل المربع",
+  "filter-options": "خيارات التصفية",
+  "gradient-options": "خيارات التدرج",
+  "rgb-options": "خيارات RGB",
+  "text-shadow-options": "خيارات ظل النص",
+  "transform-options": "خيارات التحويل",
+
+
+  "buttons-generator": "أزرار",
+  "d-button-generation": "هل وجدت زر يعجبك؟ فقط اضغط عليها والصق الكود في مشروعك.",
+
+  "color-swatches": "مغير الألوان",
+
+  "meta-tags-generator": "العلامات الفوقية",
+  "d-meta-tags": "قم بإنشاء العلامات الوصفية الأكثر إفادة لصفحتك على الويب لتحسين تجربة محركات البحث وتحسين محركات البحث.",
+  "charset": "محارف",
+  "title-meta": "عنوان",
+  "description-meta": "الوصف",
+  "author-meta": "المؤلف",
+  "copyright-meta": "حقوق النشر",
+  "code-meta": "الشفرة",
+  "code-copy": "انسخ هذا وضعه في صفحتك.",
+  "options-meta": "الخيارات",
+  
+  "CSS-minifier": "مصغر الـCSS",
+  "d-css-minifier": "أداة مصغر CSS وضاغط عبر الإنترنت",
+  "copy-to-clipboard-minifier": "انسخ إلى الحافظة",
+  "clear-minifier": "مسح",
+  
+  "QR-code-generator": "مولد رمز الاستجابة السريعة",
+  "d-QR-code-generator": "مولد رمز الاستجابة السريعة",
+  "URL": "الرابط",
+  "Size": "الحجم",
+  "foreground-color-qr": "لون المقدمة",
+  "background-color-qr": "لون الخلفية",
+  
+  "charachter": "حرف",
+  "paragraph": "فقرة",
+  
+  "transitions-delay": "تأخير الانتقالات",
+  "transitions-duration": "مدة الانتقالات",
+  "transitions-timing-function": "وظيفة توقيت الانتقالات",
+  
+  "result": "النتيجة"
 }
