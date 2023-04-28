@@ -11,7 +11,7 @@
             :key="range"
             class="w-full md:w-80 flex flex-col gap-2">
           <span class="text-white">
-            {{ range.title }}
+            {{ range.title[locale] }}
           </span>
           <input
               class="rounded-lg overflow-hidden appearance-none bg-dark-100 h-3 w-full"
@@ -64,6 +64,12 @@ const ranges = ref([
   {
     id: 1,
     title: 'Grayscale',
+    title: {
+      'EN_US': 'Grayscale',
+      'AR_IQ': 'تدرج الرمادي',
+      'KUKA_KU': 'خۆڵەمێشی',
+      'KUSA_KU': 'خۆڵەمێشی'
+    },
     value: 0,
     min: 0,
     max: 100,
@@ -71,7 +77,12 @@ const ranges = ref([
   },
   {
     id: 2,
-    title: 'Sepia',
+    title: {
+      'EN_US': 'Sepia',
+      'AR_IQ': 'بني داكن',
+      'KUKA_KU': 'سێپیا',
+      'KUSA_KU': 'سێپیا'
+    },
     value: 0,
     min: 0,
     max: 100,
@@ -79,7 +90,12 @@ const ranges = ref([
   },
   {
     id: 3,
-    title: 'Blur',
+    title: {
+      'EN_US': 'Blur',
+      'AR_IQ': 'طمس',
+      'KUKA_KU': 'کاڵبوونەوە',
+      'KUSA_KU': 'کاڵبوونەوە'
+    },
     value: 0,
     min: 0,
     max: 10,
@@ -87,7 +103,12 @@ const ranges = ref([
   },
   {
     id: 4,
-    title: 'Brightness',
+    title: {
+      'EN_US': 'Brightness',
+      'AR_IQ': 'سطوع',
+      'KUKA_KU': 'ڕووناکی',
+      'KUSA_KU': 'ڕووناکی'
+    },
     value: 100,
     min: 0,
     max: 200,
@@ -95,7 +116,12 @@ const ranges = ref([
   },
   {
     id: 5,
-    title: 'Hue Rotate',
+    title: {
+      'EN_US': 'Hue Rotate',
+      'AR_IQ': 'تدوير هوى',
+      'KUKA_KU': 'ڕەنگ سوڕانەوە',
+      'KUSA_KU': 'ڕەنگ سوڕانەوە'
+    },
     value: 0,
     min: 0,
     max: 360,
@@ -103,7 +129,12 @@ const ranges = ref([
   },
   {
     id: 6,
-    title: 'Saturate',
+    title: {
+      'EN_US': 'Saturate',
+      'AR_IQ': 'تشبع',
+      'KUKA_KU': 'تێر بکە',
+      'KUSA_KU': 'تێر بکە'
+    },
     value: 100,
     min: 0,
     max: 1000,
@@ -111,7 +142,12 @@ const ranges = ref([
   },
   {
     id: 7,
-    title: 'Opacity',
+    title: {
+      'EN_US': 'Opacity',
+      'AR_IQ': 'التعتيم',
+      'KUKA_KU': 'ناڕوونی',
+      'KUSA_KU': 'ناڕوونی'
+    },
     value: 100,
     min: 0,
     max: 100,
@@ -119,7 +155,12 @@ const ranges = ref([
   },
   {
     id: 8,
-    title: 'Contrast',
+    title: {
+      'EN_US': 'Contrast',
+      'AR_IQ': 'مقابلة',
+      'KUKA_KU': 'پێچەوانە',
+      'KUSA_KU': 'پێچەوانە'
+    },
     value: 100,
     min: 0,
     max: 1000,
@@ -127,11 +168,18 @@ const ranges = ref([
   },
   {
     id: 9,
-    title: 'Invert',
+    title: {
+      'EN_US': 'Invert',
+      'AR_IQ': 'عكس',
+      'KUKA_KU': 'پێچەوانەکردنەوە',
+      'KUSA_KU': 'پێچەوانەکردنەوە'
+    },
     value: 0,
     min: 0,
     max: 100,
     steps: 1
   },
 ])
+
+const locale=  useState('locale.setting')
 </script>
