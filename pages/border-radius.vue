@@ -11,8 +11,7 @@
             :key="range"
             class="w-full md:w-80 flex flex-col gap-2">
           <span class="text-white">
-            {{ range.title }}
-            {{ range.value }}
+            {{ range.title[locale] }}
           </span>
           <input
               class="rounded-lg overflow-hidden appearance-none bg-dark-100 h-3 w-full"
@@ -46,23 +45,45 @@ import Output from "~/components/Output.vue";
 const ranges = ref([
   {
     id: 1,
-    title: 'Top Left Radius',
+    title: {
+      'EN_US': 'Top Left Radius',
+      'AR_IQ': 'أعلى نصف القطر الأيسر',
+      'KUKA_KU': 'تیژڕەوی سەرەوەی چەپ',
+      'KUSA_KU': 'تیژڕەوی سەرەوەی چەپ'
+    },
     value: 0
   },
   {
     id: 2,
-    title: 'Top Right Radius',
+    title: {
+      'EN_US': 'Top Right Radius',
+      'AR_IQ': 'أعلى نصف القطر الأيمن',
+      'KUKA_KU': 'تیژڕەوی سەرەوەی ڕاست',
+      'KUSA_KU': 'تیژڕەوی سەرەوەی ڕاست'
+    },
     value: 0
   },
   {
     id: 3,
-    title: 'Bottom Right Radius',
+    title: {
+      'EN_US': 'Bottom Right Radius',
+      'AR_IQ': 'نصف القطر الأيمن السفلي',
+      'KUKA_KU': 'تیژڕەوی سەرەوەی ڕاست',
+      'KUSA_KU': 'تیژڕەوی خوارەوەی ڕاست'
+    },
     value: 0
   },
   {
     id: 4,
-    title: 'Bottom Left Radius',
+    title: {
+      'EN_US': 'Bottom Left Radius',
+      'AR_IQ': 'نصف القطر السفلي الأيسر',
+      'KUKA_KU': 'تیژڕەوی سەرەوەی ڕاست',
+      'KUSA_KU': 'خوارەوە چەپ تیژڕەوی',
+    },
     value: 0
   },
 ])
+
+const locale=  useState('locale.setting')
 </script>
