@@ -11,8 +11,7 @@
             :key="range"
             class="w-full md:w-80 flex flex-col gap-2">
           <span class="text-white">
-            {{ range.title }}
-            {{ range.value }}
+            {{ range.title[locale] }}
           </span>
           <input
               class="rounded-lg overflow-hidden appearance-none bg-dark-100 h-3 w-full"
@@ -43,18 +42,35 @@ import Output from "~/components/Output.vue";
 const ranges = ref([
   {
     id: 1,
-    title: 'Red',
+    title: {
+      'EN_US': 'Red',
+      'AR_IQ': 'أحمر',
+      'KUKA_KU': 'سوور',
+      'KUSA_KU': 'سوور'
+    },
     value: 59
   },
   {
     id: 2,
-    title: 'Green',
+    title: {
+      'EN_US': 'Green',
+      'AR_IQ': 'أخضر',
+      'KUKA_KU': 'سەوز',
+      'KUSA_KU': 'سەوز'
+    },
     value: 166
   },
   {
     id: 3,
-    title: 'Blue',
+    title: {
+      'EN_US': 'Blue',
+      'AR_IQ': 'أزرق',
+      'KUKA_KU': 'شین',
+      'KUSA_KU': 'شین'
+    },
     value: 118
   },
 ])
+
+const locale=  useState('locale.setting')
 </script>

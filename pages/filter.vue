@@ -180,5 +180,5 @@ const ranges = ref([
   },
 ])
 
-const locale=  useState('locale.setting')
+const locale =  useState('locale.setting')
 </script>

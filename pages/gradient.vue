@@ -11,7 +11,7 @@
         <div
             class="w-full md:w-80 flex flex-col gap-2">
           <span class="text-white">
-            {{ ranges.title }}
+            {{ ranges.title[locale] }}
           </span>
           <input
               class="rounded-lg overflow-hidden appearance-none bg-dark-100 h-3 w-full"
@@ -87,7 +87,6 @@ watch(startColor, endColor, (newValueStart,newValueEnd) => {
 const ranges = ref(
     {
       id: 1,
-      title: 'Degree',
       title: {
         'EN_US': 'Degree',
         'AR_IQ': 'درجة',
@@ -97,4 +96,6 @@ const ranges = ref(
       value: 90
     },
 )
+
+const locale=  useState('locale.setting')
 </script>
