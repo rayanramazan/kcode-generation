@@ -88,6 +88,12 @@ const ranges = ref(
     {
       id: 1,
       title: 'Degree',
+      title: {
+        'EN_US': 'Degree',
+        'AR_IQ': 'درجة',
+        'KUKA_KU': 'پلە',
+        'KUSA_KU': 'پلە'
+      },
       value: 90
     },
 )

@@ -63,7 +63,6 @@ import Output from "~/components/Output.vue";
 const ranges = ref([
   {
     id: 1,
-    title: 'Grayscale',
     title: {
       'EN_US': 'Grayscale',
       'AR_IQ': 'تدرج الرمادي',
