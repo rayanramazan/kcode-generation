@@ -11,7 +11,7 @@
             :key="range"
             class="w-full md:w-80 flex flex-col gap-2">
           <span class="text-white">
-            {{ range.title }}
+            {{ range.title[locale] }}
           </span>
           <input
               class="rounded-lg overflow-hidden appearance-none bg-dark-100 h-3 w-full"
@@ -45,7 +45,12 @@ import Output from "~/components/Output.vue";
 const ranges = ref([
   {
     id: 1,
-    title: 'Horizontal Shadow Length',
+    title: {
+      'EN_US': 'Horizontal Shadow Length',
+      'AR_IQ': 'طول الظل الأفقي',
+      'KUKA_KU': 'درێژی سێبەری ئاسۆیی',
+      'KUSA_KU': 'درێژی سێبەری ئاسۆیی'
+    },
     value: 4,
     min: -200,
     max: 200,
@@ -53,7 +58,12 @@ const ranges = ref([
   },
   {
     id: 2,
-    title: 'Vertical Shadow Length',
+    title: {
+      'EN_US': 'Vertical Shadow Length',
+      'AR_IQ': 'طول الظل العمودي',
+      'KUKA_KU': 'درێژی سێبەری ڕاست',
+      'KUSA_KU': 'درێژی سێبەری ڕاست'
+    },
     value: 4,
     min: -200,
     max: 200,
@@ -61,7 +71,12 @@ const ranges = ref([
   },
   {
     id: 3,
-    title: 'Blur Radius',
+    title: {
+      'EN_US': 'Blur Radius',
+      'AR_IQ': 'نصف القطر الضبابي',
+      'KUKA_KU': 'تیژڕەوی کاڵ',
+      'KUSA_KU': 'تیژڕەوی کاڵ'
+    },
     value: 2,
     min: 0,
     max: 400,
@@ -69,11 +84,18 @@ const ranges = ref([
   },
   {
     id: 4,
-    title: 'Shadow Color Opacity',
+    title: {
+      'EN_US': 'Shadow Color Opacity',
+      'AR_IQ': 'تعتيم لون الظل',
+      'KUKA_KU': 'ناڕوونی ڕەنگی سێبەر',
+      'KUSA_KU': 'ناڕوونی ڕەنگی سێبەر'
+    },
     value: 0.6,
     min: 0,
     max: 1,
     steps: 0.01
   },
 ])
+
+const locale=  useState('locale.setting')
 </script>
