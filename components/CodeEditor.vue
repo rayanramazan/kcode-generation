@@ -1,5 +1,6 @@
 <template>
     <codemirror
+        dir="ltr"
         v-model="props.code"
         :style="{ height: '600px', fontSize: '16px'}"
         :autofocus="true"
