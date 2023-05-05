@@ -16,19 +16,17 @@
                    {{ data.title }}
                </h1>
                <p class="text-white/70">
-                   {{ data.description }}
+                   {{ data.description[locale] }}
                </p>
            </div>
            <hr class="my-4 border-0 bg-white/20 h-[1px] w-full">
            <div class="flex justify-between items-center">
-               <button class="flex items-center gap-1 text-white">
-                   <span>12</span> 
-                   <Icon name="ic:baseline-star-border" class="w-6 h-6"/>
-               </button>
-
                <NuxtLink :to="data.link" class="flex gap-1 items-center group">
-                   <span class="text-white transform group-hover:mr-2 duration-300 group-hover:text-primary">Website</span>
-                   <Icon name="ic:baseline-keyboard-arrow-right" class="w-6 h-6 text-primary"/>
+                   <span class="text-white transform group-hover:mr-2 duration-300 group-hover:text-primary">
+                        {{ $t('website') }}
+                   </span>
+                   <Icon v-if="locale == 'EN_US'" name="ic:baseline-keyboard-arrow-right" class="w-6 h-6 text-primary"/>
+                   <Icon v-else name="ic:baseline-keyboard-arrow-left" class="w-6 h-6 text-primary"/>
                </NuxtLink>
            </div>
        </div>
@@ -39,4 +37,5 @@
 
 <script setup lang="ts">
 const resources = await useResources()
+const locale=  useState('locale.setting')
 </script>
