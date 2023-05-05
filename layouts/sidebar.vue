@@ -23,14 +23,6 @@
         class="px-2 font-bold hover:text-primary duration-300 cursor-pointer">
       <NuxtLink
           exact-active-class="active" active-class="active"
-          to="components">
-        {{ $t('components') }}
-      </NuxtLink>
-    </li>
-    <li
-        class="px-2 font-bold hover:text-primary duration-300 cursor-pointer">
-      <NuxtLink
-          exact-active-class="active" active-class="active"
           to="resource">
         {{ $t('resources') }} 
       </NuxtLink>
@@ -39,7 +31,7 @@
         class="px-2 font-bold hover:text-primary duration-300 cursor-pointer">
       <NuxtLink
           exact-active-class="active" active-class="active"
-          to="contact">
+          :to="localePath('contact')">
         {{ $t('contact') }}
       </NuxtLink>
     </li>
