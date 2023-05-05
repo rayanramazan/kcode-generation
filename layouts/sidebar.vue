@@ -1,6 +1,9 @@
 <template>
   <ul class="flex flex-col gap-2 text-white">
-      <li  class="flex justify-start items-center gap-1 text-xl lg:text-2xl font-bold">
+      <li  
+      dir="ltr"
+      :class="localeLanguage != 'EN_US' ? 'justify-end' : 'justify-start'"
+      class="flex items-center gap-1 text-xl lg:text-2xl font-bold">
         <span class="text-primary">
           K
         </span>
@@ -29,7 +32,7 @@
       <NuxtLink
           exact-active-class="active" active-class="active"
           to="resource">
-        Resources 
+        {{ $t('resources') }} 
       </NuxtLink>
     </li>
     <li

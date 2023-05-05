@@ -7,7 +7,9 @@
           <button class="block lg:hidden" @click="isOpen = !isOpen">
             <Icon name="gg:menu-left" class="w-6 h-6 text-white"/>
           </button>
-        <div class="flex lg:hidden justify-center items-center gap-1 text-2xl lg:text-3xl font-bold">
+        <div 
+        dir="ltr"
+        class="flex lg:hidden justify-center items-center gap-1 text-2xl lg:text-3xl font-bold">
           <span class="text-primary">
             K
           </span>
@@ -60,7 +62,8 @@
         class="w-70 left-4 top-22 invisible lg:visible sm:w-96 h-0 absolute duration-300 lg:static lg:h-auto overflow-hidden p-4 bg-[#222] lg:bg-white/5 rounded-md border-1 border-white/10">
       <div
           dir="ltr"
-          class="hidden lg:flex justify-center items-center gap-1 text-3xl font-bold">
+          :class="localeLanguage != 'EN_US' ? 'justify-end' : 'justify-start'"
+          class="hidden lg:flex items-center gap-1 text-3xl font-bold">
         <span class="text-primary">
           K
         </span>
@@ -80,6 +83,7 @@
 <script setup lang="ts">
 import Sidebar from "~/layouts/sidebar.vue";
 const isOpen = ref(false)
+const localeLanguage =  useState<string>('locale.setting')
 </script>
 <style>
 .active{
