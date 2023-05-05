@@ -15,7 +15,7 @@
 
         <div 
         v-for="data in resources.slice(0, 3)" :key="data.id"
-        class="bg-[#222] flex flex-col justify-between p-4 w-full border border-primary/40 rounded-lg">
+        class="bg-[#222] flex flex-col justify-between p-4 w-full border hover:border-primary/40 duration-300 border-transparent  rounded-lg">
             <div>
                 <h1 class="text-2xl text-white">
                     {{ data.title }}
