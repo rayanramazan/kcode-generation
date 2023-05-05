@@ -4,11 +4,11 @@
         <img src="../assets/img/home.jpg" class="w-full h-96 object-cover bg-top	rounded" alt="" srcset="">
       </div>
 
-      <span class="mt-20 mb-1 text-2xl text-white font-bold">
-        Transitions Delay
+    <span class="mt-20 mb-1 text-2xl text-white font-bold">
+        {{ $t('resource') }}
     </span>
     <p class="text-white/80">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat eum optio ipsam error cumque dolorem ex molestias aspernatur facere laudantium.
+        {{ $t('d-resource') }}
     </p>
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-6 gap-4 relative z-30">

@@ -1,10 +1,10 @@
 <template>
     <span class="mt-8 mb-1 text-2xl text-white font-bold">
-       Transitions Delay
+       {{ $t('resource') }}
    </span>
    <p class="text-white/80">
-       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat eum optio ipsam error cumque dolorem ex molestias aspernatur facere laudantium.
-   </p>
+        {{ $t('d-resource') }}
+    </p>
 
    <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-6 gap-4 relative z-30">
 
