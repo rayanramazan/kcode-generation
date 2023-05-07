@@ -1,7 +1,6 @@
 <template>
   <div 
     class="flex flex-col gap-x-2 gap-y-3 mt-3">
-
     <div 
       class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-2 gap-y-3">
       <div     

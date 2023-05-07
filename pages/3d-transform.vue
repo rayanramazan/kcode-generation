@@ -1,5 +1,5 @@
 <template>
-    <span class="mt-8 text-2xl text-white font-bold">
+    <span class="mt-8 text-xl md:text-2xl text-white font-bold">
        {{ $t('3d-transform') }}
     </span>
     <div class="box">

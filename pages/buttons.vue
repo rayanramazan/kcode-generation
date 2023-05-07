@@ -1,8 +1,8 @@
 <template>
-    <span class="mt-8 mb-4 text-2xl text-white font-bold">
+    <span class="mt-8 text-xl md:text-2xl text-white font-bold">
         {{ $t('buttons-generator') }}
     </span>
-    <p class="text-white/80">
+    <p class="text-white/80 text-sm md:text-base">
         {{ $t('d-button-generation') }}
     </p>
         <div class="flex flex-col mt-4 mb-10">

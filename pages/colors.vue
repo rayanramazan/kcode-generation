@@ -1,6 +1,6 @@
 <template>
 
-<span class="mt-8 text-2xl text-white font-bold">
+<span class="mt-8 text-xl md:text-2xl text-white font-bold">
   {{ $t('color-swatches') }}
 </span>
 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-x-2 gap-y-3 mt-3">

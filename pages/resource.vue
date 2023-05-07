@@ -1,8 +1,8 @@
 <template>
-    <span class="mt-8 mb-1 text-2xl text-white font-bold">
+    <span class="mt-8 text-xl md:text-2xl text-white font-bold">
        {{ $t('resource') }}
    </span>
-   <p class="text-white/80">
+   <p class="text-white/80 text-sm md:text-base">
         {{ $t('d-resource') }}
     </p>
 
