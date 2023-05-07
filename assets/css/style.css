@@ -1,5 +1,9 @@
 body{
-    background: linear-gradient(180deg,#222 10%, #111 100%);
+   background: url('../img/bg-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+    /* background: linear-gradient(180deg,#222 10%, #111 100%); */
 }
 
 @font-face {
@@ -36,6 +40,43 @@ body{
     font-family: "Rabar";
 }
 
+/* .landing-page {
+  margin: 0 auto;
+  padding: 0 80px;
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(180deg,#222 10%, #111 100%);
+}
+.landing-page::before {
+   content: "";
+   position: absolute;
+   width: 123px;
+   height: 123px;
+   left: 60%;
+   top: 138px;
+   filter: blur(90px);
+   background-color: #3BA676;
+}
+.landing-page::after {
+   content: "";
+   position: absolute;
+   width: 123px;
+   height: 123px;
+   left: 80%;
+   top: 550px;
+   background-color: #3BA676;
+   filter: blur(80px);
+}
+@media only screen and (max-width: 1024px){
+  .landing-page {
+      margin: 0 auto;
+      padding: 0 10px;
+      background: linear-gradient(180deg,#222 10%, #111 100%);
+  }
+} */
+
 
 input[type="range"]::-webkit-slider-thumb {
     width: 15px;
@@ -59,44 +100,7 @@ input[type="range"]::-webkit-slider-thumb {
     display: none;
 }
 
-.landing-page {
-    margin: 0 auto;
-    padding: 0 80px;
-    position: relative;
-    max-width: 100%;
-    width: 100%;
-    min-height: 100vh;
-    /*overflow-y: auto;*/
-    /*overflow-x: hidden;*/
-    background: linear-gradient(180deg,#222 10%, #111 100%);
-}
-.landing-page::before {
-     content: "";
-     position: absolute;
-     width: 123px;
-     height: 123px;
-     left: 60%;
-     top: 138px;
-     filter: blur(90px);
-     background-color: #3BA676;
- }
-.landing-page::after {
-     content: "";
-     position: absolute;
-     width: 123px;
-     height: 123px;
-     left: 80%;
-     top: 550px;
-     background-color: #3BA676;
-     filter: blur(80px);
- }
-@media only screen and (max-width: 1024px){
-    .landing-page {
-        margin: 0 auto;
-        padding: 0 10px;
-        background: linear-gradient(180deg,#222 10%, #111 100%);
-    }
-}
+
 
 .square {
     width: 150px;
