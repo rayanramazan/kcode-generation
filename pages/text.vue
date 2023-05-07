@@ -13,9 +13,7 @@
                     class="border border-primary text-primary hover:bg-primary hover:text-white duration-200 text-xl w-[30px] h-[30px] rounded">
                     +
                 </button>
-                <span class="text-white">
-                    {{ char }}
-                </span>
+                <input type="number" v-model="char" class="text-white text-center bg-transparent border-0 outline-none ring-0" />
                 <button
                     @click="char -= 10"
                     class="border border-primary text-primary hover:bg-primary hover:text-white duration-200 text-xl w-[30px] h-[30px] rounded">
@@ -34,9 +32,7 @@
                     class="border border-primary text-primary hover:bg-primary hover:text-white duration-200 text-xl w-[30px] h-[30px] rounded">
                     +
                 </button>
-                <span class="text-white">
-                    {{ paragraph }}
-                </span>
+                <input type="number" v-model="paragraph" class="text-white text-center bg-transparent border-0 outline-none ring-0" />
                 <button
                     @click="paragraph--"
                     class="border border-primary text-primary hover:bg-primary hover:text-white duration-200 text-xl w-[30px] h-[30px] rounded">
