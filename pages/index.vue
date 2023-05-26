@@ -1,9 +1,5 @@
 <template>
     <div class="flex flex-col justify-center items-center mt-10">
-      <div class="w-full">
-        <img src="../assets/img/managing-reviews.png" class="w-full h-96 object-cover bg-top	rounded" alt="" srcset="">
-      </div>
-
     <span class="mt-20 mb-1 text-2xl text-white font-bold">
         {{ $t('resource') }}
     </span>

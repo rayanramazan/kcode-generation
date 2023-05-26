@@ -16,7 +16,7 @@ const MyTheme = {
   transform: ['hover', 'focus'],
   colors: {
     primary: {
-      DEFAULT: '#3BA676',
+      DEFAULT: '#241127',
       '50': '#B4E4CF',
       '100': '#A5DFC5',
       '200': '#87D4B2',
