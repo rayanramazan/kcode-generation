@@ -1,4 +1,5 @@
 <template>
+  <navbar />
   <div class="w-full gap-4 px-4 pt-4 items-start flex flex-row-reverse">
     <div class="w-full flex flex-col">
       <div class="py-4 flex justify-between lg:justify-end items-center px-4 bg-white/5 rounded-md border-1 border-white/10">
@@ -82,6 +83,7 @@
 </template>
 <script setup lang="ts">
 import Sidebar from "~/layouts/sidebar.vue";
+import Navbar from "~/layouts/navbar.vue";
 const isOpen = ref(false)
 const localeLanguage =  useState<string>('locale.setting')
 </script>
