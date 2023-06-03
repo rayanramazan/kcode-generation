@@ -4,7 +4,7 @@ const {t} = useLang()
 const locale=  useState<string>('locale.setting')
 AppSetup()
 useHead( {
-  title: 'KTOOLS',
+  title: 'KCODE',
   meta: [
     {name: 'viewport', content: 'width=device-width, initial-scale=1'},
     {hid: 'description', name: 'description', content: 'This is the meta description for this page.'},
