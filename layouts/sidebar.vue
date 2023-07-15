@@ -1,17 +1,6 @@
 <template>
   <ul class="flex flex-col gap-2 text-white">
-      <li  
-      dir="ltr"
-      :class="localeLanguage != 'EN_US' ? 'justify-end' : 'justify-start'"
-      class="flex items-center gap-1 text-xl lg:text-2xl font-bold">
-        <span class="text-primary">
-          K
-        </span>
-        <span class="text-white">
-          TOOLS
-        </span>
-      </li>
-      <li class="px-2 font-bold hover:text-primary duration-300 cursor-pointer">
+      <li class="px-2 font-bold hover:text-[#C147E9] duration-300 cursor-pointer">
       <NuxtLink
           class="duration-300"
           exact-active-class="active" active-class="active"
@@ -20,7 +9,7 @@
       </NuxtLink>
     </li>
     <li
-        class="px-2 font-bold hover:text-primary duration-300 cursor-pointer">
+        class="px-2 font-bold hover:text-[#C147E9] duration-300 cursor-pointer">
       <NuxtLink
           exact-active-class="active" active-class="active"
           to="resource">
@@ -28,14 +17,14 @@
       </NuxtLink>
     </li>
     <li
-        class="px-2 font-bold hover:text-primary duration-300 cursor-pointer">
+        class="px-2 font-bold hover:text-[#C147E9] duration-300 cursor-pointer">
       <NuxtLink
           exact-active-class="active" active-class="active"
           :to="localePath('contact')">
         {{ $t('contact') }}
       </NuxtLink>
     </li>
-    <hr class="my-4 border-white/10">
+    <hr class="my-4 border-white/0">
     <li v-for="page in pages" class="pl-2" :key="page.id">
       <span class="mb-2 font-bold">
         {{ page.title[localeLanguage] }}
@@ -45,12 +34,12 @@
           <NuxtLink
               :to="localePath(child.slug)"
               exact-active-class="active" active-class="active"
-              class="mx-2 text-base hover:text-primary duration-300 cursor-pointer">
+              class="mx-2 text-base hover:text-[#C147E9] duration-300 cursor-pointer">
             {{ child.titlePage[localeLanguage] }}
           </NuxtLink>
         </li>
       </ul>
-      <hr class="my-4 border-white/10">
+      <hr class="my-4 border-white/0">
     </li>
   </ul>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <navbar />
-  <div class="w-full gap-4 px-4 pt-4 items-start flex flex-row-reverse">
+  <div class="w-full gap-4 items-start flex flex-row-reverse">
     <div class="w-full flex flex-col">
       <div class="py-4 flex justify-between lg:justify-end items-center px-4 bg-white/5 rounded-md border-1 border-white/10">
 
@@ -60,19 +60,7 @@
     <div
       style="z-index: 9999;"
         :class="isOpen ? 'active' : ''"
-        class="w-70 left-4 top-22 invisible lg:visible sm:w-96 h-0 absolute duration-300 lg:static lg:h-auto overflow-hidden p-4 bg-[#222] lg:bg-white/5 rounded-md border-1 border-white/10">
-      <div
-          dir="ltr"
-          :class="localeLanguage != 'EN_US' ? 'justify-end' : 'justify-start'"
-          class="hidden lg:flex items-center gap-1 text-3xl font-bold">
-        <span class="text-primary">
-          K
-        </span>
-        <span class="text-white">
-          TOOLS
-        </span>
-      </div>
-      <hr class="hidden lg:block my-4 border-white/20">
+        class="w-70 left-4 top-22 invisible lg:visible sm:w-96 h-0 absolute duration-300 lg:static lg:h-auto overflow-hidden p-4 lg:p-0 bg-[#222] lg:bg-transparent rounded-md lg:rounded-none border-1 lg:border-0 border-white/10">
       <sidebar class="mt-4 lg:mt-0"/>
     </div>
 
@@ -82,7 +70,7 @@
   <NuxtLayout name="footer" />
 </template>
 <script setup lang="ts">
-import Sidebar from "~/layouts/sidebar.vue";
+import sidebar from "~/layouts/sidebar.vue";
 import Navbar from "~/layouts/navbar.vue";
 const isOpen = ref(false)
 const localeLanguage =  useState<string>('locale.setting')
