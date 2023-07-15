@@ -6,9 +6,11 @@
     </div>
 
     <div class="flex items-center gap-6">
-      <Icon name="iconoir:translate" class="w-[24px] h-[24px] text-white"/>
+      <ButtonLang />
+      <!-- <Icon name="iconoir:translate" class="w-[24px] h-[24px] text-white"/> -->
       <hr class="h-8 bg-white w-[1px] ">
       <Icon name="iconoir:github" class="w-[24px] h-[24px] text-white"/>
     </div>
   </div>
+  <hr class="my-4 w-full border-0 h-[1px] bg-[#371F36]">
 </template>
