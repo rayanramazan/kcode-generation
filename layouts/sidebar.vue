@@ -1,6 +1,6 @@
 <template>
-  <ul class="flex flex-col gap-2 p-4 text-white lg:h-screen lg:overflow-y-auto lg:fixed lg:w-70 scrollbar-sidebar scrollbar scrollbar-track-[#202020]">
-      <li class="px-2 font-bold hover:text-[#C147E9] duration-300 cursor-pointer">
+  <ul class="flex flex-col gap-2 px-4 lg:px-8 py-4 text-white lg:h-screen lg:overflow-y-auto lg:fixed lg:w-70 scrollbar-sidebar scrollbar scrollbar-track-[#202020]">
+      <li class="px-2 font-normal hover:text-[#C147E9] duration-300 cursor-pointer">
       <NuxtLink
           class="duration-300"
           exact-active-class="active" active-class="active"
@@ -9,7 +9,7 @@
       </NuxtLink>
     </li>
     <li
-        class="px-2 font-bold hover:text-[#C147E9] duration-300 cursor-pointer">
+        class="px-2 font-normal hover:text-[#C147E9] duration-300 cursor-pointer">
       <NuxtLink
           exact-active-class="active" active-class="active"
           to="resource">
@@ -17,7 +17,7 @@
       </NuxtLink>
     </li>
     <li
-        class="px-2 font-bold hover:text-[#C147E9] duration-300 cursor-pointer">
+        class="px-2 font-normal hover:text-[#C147E9] duration-300 cursor-pointer">
       <NuxtLink
           exact-active-class="active" active-class="active"
           :to="localePath('contact')">
@@ -34,7 +34,7 @@
           <NuxtLink
               :to="localePath(child.slug)"
               exact-active-class="active" active-class="active"
-              class="mx-2 text-base hover:text-[#C147E9] duration-300 cursor-pointer">
+              class="mx-2 text-base font-normal hover:text-[#C147E9] duration-300 cursor-pointer">
             {{ child.titlePage[localeLanguage] }}
           </NuxtLink>
         </li>

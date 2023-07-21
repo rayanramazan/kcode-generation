@@ -1,6 +1,6 @@
 <template>
   <div class="navbb backdrop-filter backdrop-blur-2xl rounded-none border-b-[1px] border-[#371f36]">
-    <div class="w-full flex justify-between items-center p-4">
+    <div class="w-full flex justify-between items-center py-4 px-8">
       <div class="flex items-end gap-2">
         <h1 class="text-4xl font-semibold text-[#C147E9] ">KCODE</h1>
         <span class="text-2xl text-white">Generation</span>
