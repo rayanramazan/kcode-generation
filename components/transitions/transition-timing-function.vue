@@ -1,8 +1,9 @@
 <template>
-    <span class="mt-8 mb-4  text-xl md:text-2xl text-white font-bold">
+  <div class="mt-26 lg:p-0 p-4">
+    <span class="mb-12  text-xl md:text-2xl text-white font-bold">
       {{ $t('transitions-timing-function') }}
     </span>
-        <div class="w-full px-2 sm:px-0">
+        <div class="w-full px-2 sm:px-0 mt-4">
       <TabGroup>
         <TabList class="flex space-x-1 rounded-xl bg-primary/20 p-1">
           <Tab
@@ -91,6 +92,7 @@
         </TabPanels>
       </TabGroup>
     </div>
+  </div> 
 </template>
 
 

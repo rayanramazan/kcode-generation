@@ -44,8 +44,9 @@ body{
 
 .landing-page {
   margin: 0 auto;
-  padding: 16px 32px;
+  /* padding: 16px 32px; */
   position: relative;
+ 
   max-width: 100%;
   width: 100%;
   min-height: 100vh;
@@ -58,16 +59,27 @@ body{
    height: 900px;
    right: -200px;
    top: -200px;
-   filter: blur(200px);
-   background-color: rgba(193, 71, 233, 0.25);
+   filter: blur(300px);
+   background-color: rgba(193, 71, 233, 0.400);
 
 }
 @media only screen and (max-width: 1024px){
   .landing-page {
       margin: 0 auto;
-      padding: 0 10px;
-      background: linear-gradient(180deg,#222 10%, #111 100%);
+      padding: 0 0px;
+      
   }
+  .landing-page::before {
+    content: "";
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    right: -200px;
+    top: -200px;
+    filter: blur(300px);
+    background-color: rgba(193, 71, 233, 0.25);
+ 
+ }
 }
 
 
@@ -76,14 +88,15 @@ input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     height: 15px;
-    background: #3BA676;
+    background: rgba(193, 71, 233, 0.82);
     box-shadow: -405px 0 0 400px #605E5C;
     border-radius: 50%;
 }
 
 .active{
-    color: #3BA676;
-    border-left: 2px solid #3BA676;
+    color: #C147E9;
+    border-left: 2px solid #C147E9;
+    opacity: 0.9;
     padding: 0px 10px;
     font-weight: bold;
 }
@@ -250,55 +263,55 @@ input[type="range"]::-webkit-slider-thumb {
 .front {
     -webkit-transform: translateZ(100px);
     transform: translateZ(100px);
-    background-color: #3BA676;
+    background-color: rgba(193, 71, 233, 0.82);
 }
 
 .back {
     -webkit-transform: translateZ(-100px) rotateY(180deg);
     transform: translateZ(-100px) rotateY(180deg);
-    background-color: #4BBF8B;
+    background-color: #411A4A;
 }
 
 .top {
     -webkit-transform: rotateX(-270deg) translateY(-100px);
     transform: rotateX(-270deg) translateY(-100px);
     transform-origin: top center;
-    background-color: #69CA9E;
+    background-color: #C147E9;
 }
 
 .bottom {
     -webkit-transform: rotateX(270deg) translateY(100px);
     transform: rotateX(270deg) translateY(100px);
     transform-origin: bottom center;
-    background-color: #87D4B2;
+    background-color: #83418e;
 }
 
 .left {
     -webkit-transform: rotateY(270deg) translateX(-100px);
     transform: rotateY(270deg) translateX(-100px);
     transform-origin: center left;
-    background-color: #A5DFC5;
+    background-color: #9d25b3;
 }
 
 .right {
     -webkit-transform: rotateY(-270deg) translateX(100px);
     transform: rotateY(-270deg) translateX(100px);
     transform-origin: top right;
-    background-color: #B4E4CF;
+    background-color: #732b7e;
 }
 
-  .css-button-arrow--red{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;overflow:hidden;border-radius:5px;border:none;background-color:#3BA676}.css-button-arrow--red:hover{border-radius:5px;padding-right:24px;padding-left:8px}.css-button-arrow--red:hover:after{opacity:1;right:10px}.css-button-arrow--red:after{content:'\00BB';position:absolute;opacity:0;font-size:20px;line-height:40px;top:0;right:-20px;transition:.4s}
-  .css-button-sliding-to-top--green{min-width:130px;height:40px;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;z-index:0;background:transparent;overflow:hidden;border:2px solid #3BA676;color:#3BA676}.css-button-sliding-to-top--green:hover{color:#fff}.css-button-sliding-to-top--green:hover:after{height:100%}.css-button-sliding-to-top--green:after{content:'';position:absolute;z-index:-1;transition:.3s;right:0;bottom:0;height:0;width:100%;background:#3BA676}
-  .css-button-sliding-to-bottom--green{min-width:130px;height:40px;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;z-index:0;background:transparent;overflow:hidden;border:2px solid #3BA676;color:#3BA676}.css-button-sliding-to-bottom--green:hover{color:#fff}.css-button-sliding-to-bottom--green:hover:after{height:100%}.css-button-sliding-to-bottom--green:after{content:'';position:absolute;z-index:-1;transition:.3s;right:0;top:0;height:0;width:100%;background:#3BA676}
-  .css-button-sliding-to-right--green{min-width:130px;height:40px;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;z-index:0;background:transparent;overflow:hidden;border:2px solid #3BA676;color:#3BA676}.css-button-sliding-to-right--green:hover{color:#fff}.css-button-sliding-to-right--green:hover:after{width:100%}.css-button-sliding-to-right--green:after{content:'';position:absolute;z-index:-1;transition:.3s;right:0;top:0;width:0;height:100%;background:#3BA676}
-  .css-button-sliding-to-left--green{min-width:130px;height:40px;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;z-index:0;background:transparent;overflow:hidden;border:2px solid #3BA676;color:#3BA676}.css-button-sliding-to-left--green:hover{color:#fff}.css-button-sliding-to-left--green:hover:after{width:100%}.css-button-sliding-to-left--green:after{content:'';position:absolute;z-index:-1;transition:.3s;left:0;top:0;width:0;height:100%;background:#3BA676}
-  .css-button-fully-rounded--green{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:20px;border:2px solid #3BA676;background:#3BA676}.css-button-fully-rounded--green:hover{background:transparent;color:#3BA676}
-  .css-button-rounded--green{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;border:2px solid #3BA676;background:#3BA676}.css-button-rounded--green:hover{background:transparent;color:#3BA676}
-  .css-button-sharp--green{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border:2px solid #3BA676;background:#3BA676}.css-button-sharp--green:hover{background:transparent;color:#3BA676}
-  .css-button-shadow-border-sliding--green,.css-button-shadow-border-sliding--green:after{box-shadow:inset 2px 2px 2px 0 rgba(255,255,255,.5),7px 7px 20px 0 rgba(0,0,0,.1),4px 4px 5px 0 rgba(0,0,0,.1);transition:.3s}.css-button-shadow-border-sliding--green{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;position:relative;display:inline-block;outline:0;border-radius:5px;border:none;background:#3BA676;z-index:1}.css-button-shadow-border-sliding--green:hover:after{width:100%;left:0}.css-button-shadow-border-sliding--green:after{border-radius:5px;position:absolute;content:"";width:0;height:100%;top:0;z-index:-1;background-color:#2C7D59;right:0}.css-button-shadow-border-sliding--green:active{top:2px}
-  .css-button-3d--rose{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;border:none;background:#3BA676;box-shadow:0 5px #B4E4CF}.css-button-3d--rose:hover{box-shadow:0 3px #a1e9ca;top:1px}.css-button-3d--rose:active{box-shadow:0 0 #ff0a78;top:5px}
-  .css-button-shadow-border--green{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;border:none;box-shadow:inset 2px 2px 2px 0 rgba(255,255,255,.5),7px 7px 20px 0 rgba(0,0,0,.1),4px 4px 5px 0 rgba(0,0,0,.1);background:#3BA676}.css-button-shadow-border--green:hover{background-color:#2C7D59}.css-button-shadow-border--green:active{top:2px}
-  .css-button-retro--green{min-width:130px;height:40px;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border:1px solid #fff;color:#fff;background:0 0;z-index:0}.css-button-retro--green:hover:after{top:0;left:0}.css-button-retro--green:after{content:'';width:100%;z-index:-1;position:absolute;height:100%;top:5px;left:5px;transition:.2s;background-color:#3BA676}
+  .css-button-arrow--red{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;overflow:hidden;border-radius:5px;border:none;background-color:rgba(193, 71, 233, 0.82)}.css-button-arrow--red:hover{border-radius:5px;padding-right:24px;padding-left:8px}.css-button-arrow--red:hover:after{opacity:1;right:10px}.css-button-arrow--red:after{content:'\00BB';position:absolute;opacity:0;font-size:20px;line-height:40px;top:0;right:-20px;transition:.4s}
+  .css-button-sliding-to-top--green{min-width:130px;height:40px;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;z-index:0;background:transparent;overflow:hidden;border:2px solid rgba(193, 71, 233, 0.82);color:rgba(193, 71, 233, 0.82)}.css-button-sliding-to-top--green:hover{color:#fff}.css-button-sliding-to-top--green:hover:after{height:100%}.css-button-sliding-to-top--green:after{content:'';position:absolute;z-index:-1;transition:.3s;right:0;bottom:0;height:0;width:100%;background:rgba(193, 71, 233, 0.82)}
+  .css-button-sliding-to-bottom--green{min-width:130px;height:40px;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;z-index:0;background:transparent;overflow:hidden;border:2px solid rgba(193, 71, 233, 0.82);color:rgba(193, 71, 233, 0.82)}.css-button-sliding-to-bottom--green:hover{color:#fff}.css-button-sliding-to-bottom--green:hover:after{height:100%}.css-button-sliding-to-bottom--green:after{content:'';position:absolute;z-index:-1;transition:.3s;right:0;top:0;height:0;width:100%;background:rgba(193, 71, 233, 0.82)}
+  .css-button-sliding-to-right--green{min-width:130px;height:40px;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;z-index:0;background:transparent;overflow:hidden;border:2px solid rgba(193, 71, 233, 0.82);color:rgba(193, 71, 233, 0.82)}.css-button-sliding-to-right--green:hover{color:#fff}.css-button-sliding-to-right--green:hover:after{width:100%}.css-button-sliding-to-right--green:after{content:'';position:absolute;z-index:-1;transition:.3s;right:0;top:0;width:0;height:100%;background:rgba(193, 71, 233, 0.82)}
+  .css-button-sliding-to-left--green{min-width:130px;height:40px;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;z-index:0;background:transparent;overflow:hidden;border:2px solid rgba(193, 71, 233, 0.82);color:rgba(193, 71, 233, 0.82)}.css-button-sliding-to-left--green:hover{color:#fff}.css-button-sliding-to-left--green:hover:after{width:100%}.css-button-sliding-to-left--green:after{content:'';position:absolute;z-index:-1;transition:.3s;left:0;top:0;width:0;height:100%;background:rgba(193, 71, 233, 0.82)}
+  .css-button-fully-rounded--green{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:20px;border:2px solid rgba(193, 71, 233, 0.82);background:rgba(193, 71, 233, 0.82)}.css-button-fully-rounded--green:hover{background:transparent;color:rgba(193, 71, 233, 0.82)}
+  .css-button-rounded--green{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;border:2px solid rgba(193, 71, 233, 0.82);background:rgba(193, 71, 233, 0.82)}.css-button-rounded--green:hover{background:transparent;color:rgba(193, 71, 233, 0.82)}
+  .css-button-sharp--green{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border:2px solid rgba(193, 71, 233, 0.82);background:rgba(193, 71, 233, 0.82)}.css-button-sharp--green:hover{background:transparent;color:rgba(193, 71, 233, 0.82)}
+  .css-button-shadow-border-sliding--green,.css-button-shadow-border-sliding--green:after{box-shadow:inset 2px 2px 2px 0 rgba(255,255,255,.5),7px 7px 20px 0 rgba(0,0,0,.1),4px 4px 5px 0 rgba(0,0,0,.1);transition:.3s}.css-button-shadow-border-sliding--green{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;position:relative;display:inline-block;outline:0;border-radius:5px;border:none;background:rgba(193, 71, 233, 0.82);z-index:1}.css-button-shadow-border-sliding--green:hover:after{width:100%;left:0}.css-button-shadow-border-sliding--green:after{border-radius:5px;position:absolute;content:"";width:0;height:100%;top:0;z-index:-1;background-color:#311F37;right:0}.css-button-shadow-border-sliding--green:active{top:2px}
+  .css-button-3d--rose{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;border:none;background:rgba(193, 71, 233, 0.82);box-shadow:0 5px #B4E4CF}.css-button-3d--rose:hover{box-shadow:0 3px #311F37;top:1px}.css-button-3d--rose:active{box-shadow:0 0 #ff0a78;top:5px}
+  .css-button-shadow-border--green{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border-radius:5px;border:none;box-shadow:inset 2px 2px 2px 0 rgba(255,255,255,.5),7px 7px 20px 0 rgba(0,0,0,.1),4px 4px 5px 0 rgba(0,0,0,.1);background:rgba(193, 71, 233, 0.82)}.css-button-shadow-border--green:hover{background-color:#311F37}.css-button-shadow-border--green:active{top:2px}
+  .css-button-retro--green{min-width:130px;height:40px;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;border:1px solid #fff;color:#fff;background:0 0;z-index:0}.css-button-retro--green:hover:after{top:0;left:0}.css-button-retro--green:after{content:'';width:100%;z-index:-1;position:absolute;height:100%;top:5px;left:5px;transition:.2s;background-color:rgba(193, 71, 233, 0.82)}
 
 
 

@@ -19,12 +19,12 @@ useHead( {
   <Body
       :dir="locale === 'EN_US' ? 'ltr' : 'rtl'"
       :class="locale === 'EN_US' ? 'english' : 'kurdish'"
-      class="selection:bg-primary selection:text-light overflow-x-hidden bg-light scrollbar scrollbar-thumb-primary scrollbar-track-[#202020]"
+      class="selection:bg-primary selection:text-light overflow-x-hidden bg-light scrollbar scrollbar-thumb-secondary-50 scrollbar-track-primary"
   >
 
   <div class="landing-page">
   <NuxtLayout name="header">
-      <NuxtPage />
+      <NuxtPage  class=" z-30"/>
   </NuxtLayout>
   </div>
 
@@ -35,14 +35,5 @@ useHead( {
 <style>
 @import './assets/css/style.css';
 @import './assets/css/loader-generator.css';
-/* .page-enter-active,
-.page-leave-active {
-  transition: all 0.4s;
-}
-.page-enter-from,
-.page-leave-to {
-  opacity: 0;
-  filter: blur(1rem);
-} */
 </style>
 

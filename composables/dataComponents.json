@@ -38,7 +38,7 @@
         {
             "id": 8,
             "html": "<div class='custom-loader8'></div>",
-            "css": ".custom-loader8{\n     width:50px;\n     height:50px;\n     border-radius:50%;\n     padding: 1px;\n      background:conic-gradient(#0000 10%,#3BA676) content-box;\n     -webkit-mask: repeating-conic-gradient(#0000 0deg,#000 1deg 20deg,#0000 21deg 36deg),    radial-gradient(farthest-side,#0000 calc(100% - 9px),#000 calc(100% - 8px));\n     -webkit-mask-composite: destination-in;\n     mask-composite: intersect;\n     animation: s12 1s infinite steps(10);\n}\n@keyframes s12{\n     to{\n     transform:rotate(1turn)\n     }\n}"
+            "css": ".custom-loader8{\n     width:50px;\n     height:50px;\n     border-radius:50%;\n     padding: 1px;\n      background:conic-gradient(#0000 10%,#3BA676) content-box;\n     -webkit-mask: repeating-conic-gradient(#0000 0deg,#000 1deg 20deg,#0000 21deg 36deg),\n    radial-gradient(farthest-side,#0000 calc(100% - 9px),\n#000 calc(100% - 8px));\n     -webkit-mask-composite: destination-in;\n     mask-composite: intersect;\n     animation: s12 1s infinite steps(10);\n}\n@keyframes s12{\n     to{\n     transform:rotate(1turn)\n     }\n}"
         },
         {
             "id": 9,
@@ -58,22 +58,22 @@
         {
             "id": 12,
             "html": "<div class='custom-loader12'></div>",
-            "css": ".custom-loader12{\n     width:50px;\n     height:28px;\n     background:radial-gradient(farthest-side,#3BA67690%,#0000) 50% 0,radial-gradient(farthest-side,#3BA67690%,#0000) 100% 0;\n     background-size:12px 12px;\n     background-repeat:no-repeat;\n     position:relative;\n     animation:1.5s linear infinite d3-0\n}\n.custom-loader12:before{\n     content:'';\n     position:absolute;\n     width:12px;\n     height:12px;\n     border-radius:50%;\n     background:#766df4;\n     left:0;\n     top:0;\n     animation:1.5s linear infinite d3-1,.5s cubic-bezier(0,200,.8,200) infinite d3-2\n}\n@keyframes d3-0{\n     0%,31%,43%,64%,79%{\n     background-position:50% 0,100% 0}33%{background-position:50% 100%,100% 0}66%{background-position:50% 0,100% 100%}100%{transform:translateX(calc(-100%/3))\n}\n}\n@keyframes d3-1{\n     100%{\n     left:calc(100% + 7px)}\n    \n}\n@keyframes d3-2{\n     100%{\n     top:-.1px\n     }\n}"
+            "css": ".custom-loader12{\n     width:50px;\n     height:28px;\n     background:radial-gradient(farthest-side,#3BA67690%,#0000) 50% 0,\nradial-gradient(farthest-side,#3BA67690%,#0000) 100% 0;\n     background-size:12px 12px;\n     background-repeat:no-repeat;\n     position:relative;\n     animation:1.5s linear infinite d3-0\n}\n.custom-loader12:before{\n     content:'';\n     position:absolute;\n     width:12px;\n     height:12px;\n     border-radius:50%;\n     background:#766df4;\n     left:0;\n     top:0;\n     animation:1.5s linear infinite d3-1,.5s cubic-bezier(0,200,.8,200) infinite d3-2\n}\n@keyframes d3-0{\n     0%,31%,43%,64%,79%{\n     background-position:50% 0,100% 0}33%\n{background-position:50% 100%,100% 0}66%\n{background-position:50% 0,100% 100%}100%\n{transform:translateX(calc(-100%/3))\n}\n}\n@keyframes d3-1{\n     100%{\n     left:calc(100% + 7px)}\n    \n}\n@keyframes d3-2{\n     100%{\n     top:-.1px\n     }\n}"
         },
         {
             "id": 13,
             "html": "<div class='custom-loader13'></div>",
-            "css": ".custom-loader13{\n     width:120px;\n     height:20px;\n     border-radius:20px;\n     background:repeating-linear-gradient(135deg,#3ba676 0 10px,#3ba67646 0 20px) left/0 100% no-repeat,repeating-linear-gradient(135deg,#3ba67646 0 10px,#3ba67626 0 20px) left/100% 100%;\n     animation:2s infinite p3\n}\n@keyframes p3{\n     100%{background-size:100% 100%}\n}"
+            "css": ".custom-loader13{\n     width:120px;\n     height:20px;\n     border-radius:20px;\n     background:repeating-linear-gradient(135deg,#3ba676 0 10px,#3ba67646 0 20px) \nleft/0 100% no-repeat,\nrepeating-linear-gradient(135deg,#3ba67646 0 10px\n,#3ba67626 0 20px) left/100% 100%;\n     animation:2s infinite p3\n}\n@keyframes p3{\n     100%{background-size:100% 100%}\n}"
         },
         {
             "id": 14,
             "html": "<div class='custom-loader14'></div>",
-            "css": ".custom-loader14{\n     width:120px;\n     height:20px;\n     -webkit-mask:linear-gradient(90deg,#766DF4 70%,#0000 0) left/20% 100%;background:linear-gradient(#766df4 0 0) left/0 100% no-repeat #e4e4ed;\n     animation:2s steps(6) infinite p4\n}\n@keyframes p4{\n     100%{background-size:120% 100%}\n     }"
+            "css": ".custom-loader14{\n     width:120px;\n     height:20px;\n     -webkit-mask:linear-gradient(90deg,#766DF4 70%,#0000 0) left/20% 100%;\nbackground:linear-gradient(#766df4 0 0) left/0 100% no-repeat #e4e4ed;\n     animation:2s steps(6) infinite p4\n}\n@keyframes p4{\n     100%{background-size:120% 100%}\n     }"
         },
         {
             "id": 15,
             "html": "<div class='custom-loader15'></div>",
-            "css": ".custom-loader15{\n     width:40px;\n     height:40px;\n     color:#3ba676;\n     background:linear-gradient(currentColor 0 0),linear-gradient(currentColor 0 0),linear-gradient(currentColor 0 0),linear-gradient(currentColor 0 0);\n     background-size:21px 21px;\n     background-repeat:no-repeat;\n     animation:1.5s cubic-bezier(.3,1,0,1) infinite sh5\n}\n@keyframes sh5{\n     0%{background-position:0 0,100% 0,100% 100%,0 100%}\n     33%{background-position:0 0,100% 0,100% 100%,0 100%;width:60px;height:60px}\n     66%{background-position:100% 0,100% 100%,0 100%,0 0;width:60px;height:60px}\n     100%{background-position:100% 0,100% 100%,0 100%,0 0}\n}"
+            "css": ".custom-loader15{\n     width:40px;\n     height:40px;\n     color:#3ba676;\n     background:linear-gradient(currentColor 0 0),\nlinear-gradient(currentColor 0 0),\nlinear-gradient(currentColor 0 0),\nlinear-gradient(currentColor 0 0);\n     background-size:21px 21px;\n     background-repeat:no-repeat;\n     animation:1.5s cubic-bezier(.3,1,0,1) infinite sh5\n}\n@keyframes sh5{\n     0%{background-position:0 0,100% 0,100% 100%,0 100%}\n     33%{background-position:0 0,100% 0,100% 100%,0 100%;width:60px;height:60px}\n     66%{background-position:100% 0,100% 100%,0 100%,0 0;width:60px;height:60px}\n     100%{background-position:100% 0,100% 100%,0 100%,0 0}\n}"
         },
         {
             "id": 16,
