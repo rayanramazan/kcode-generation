@@ -1,7 +1,7 @@
 <template>
   <div class="w-full md:flex none justify-between items-center">
     <div class="flex items-end gap-2">
-      <h1 class="text-4xl font-semibold text-white ">KCODE</h1>
+      <h1 class="text-4xl font-semibold text-[#C147E9] ">KCODE</h1>
       <span class="text-2xl text-white">Generation</span>
     </div>
 
