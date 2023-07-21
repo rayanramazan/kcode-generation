@@ -13,7 +13,7 @@
             {{ $t('resource') }}
         </span>
 
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-2 lg:mr-4 gap-4 relative z-30">
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-6 lg:mr-4 gap-4 relative z-30">
 
         <div 
         v-for="data in resources.slice(0, 6)" :key="data.id"
@@ -46,17 +46,11 @@
 
     <CardCourse />
 
-    <hr class="border-0 h-[1px] bg-white/20 w-full mt-20 mb-4">
-
-
-    <span class="mt-4 mb-4 text-2xl text-white font-bold">
+    <span class="mt-12 text-2xl text-white font-bold">
         {{ $t('buttons-generator') }}
     </span>
-    <p class="text-white/80">
-        {{ $t('d-button') }}
-    </p>
     <div class="flex flex-col mt-4 mb-10 w-full">
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-3 gap-4 relative z-30">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-3 gap-4 relative z-30 lg:mr-4">
             <NuxtLink
             :to="localePath('buttons')"
             class="text-center" 
@@ -65,6 +59,30 @@
     </div>
 
 
+    <div class="flex justify-between items-center text-white/50 lg:mr-4 mt-20">
+        <div class="flex items-center gap-x-1">
+            <span>KCODE Generation </span>
+            <Icon name="uil:copyright" class="w-6 h-6"/>
+            <span>by</span>
+            <NuxtLink to="/" class="hover:text-white transition-all duration-300">
+                Rayan Ramazan
+            </NuxtLink>
+        </div>
+        <div class="flex items-center gap-4">
+            <NuxtLink to="/privacy-policy" class="hover:text-white transition-all duration-300">
+                <Icon name="ph:github-logo" class="w-7 h-7"/>
+            </NuxtLink>
+            <NuxtLink to="/privacy-policy" class="hover:text-white transition-all duration-300">
+                <Icon name="ph:facebook-logo" class="w-7 h-7"/>
+            </NuxtLink>
+            <NuxtLink to="/privacy-policy" class="hover:text-white transition-all duration-300">
+                <Icon name="ph:instagram-logo" class="w-7 h-7"/>
+            </NuxtLink>
+            <NuxtLink to="/privacy-policy" class="hover:text-white transition-all duration-300">
+                <Icon name="ph:linkedin-logo" class="w-7 h-7"/>
+            </NuxtLink>
+        </div>
+    </div>
     </div>
 </template>
 
