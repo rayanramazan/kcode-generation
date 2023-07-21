@@ -12,13 +12,13 @@
                 <p class="font-bold text-white text-xl">
                     {{ $t('options-meta') }}
                 </p>
-                <div class=" bg-[#222] flex flex-col p-4 gap-6 rounded">
+                <div class="flex flex-col gap-6 rounded">
                     <div class="flex flex-col gap-1">
                         <label for="" class="text-white">{{ $t('charset') }}</label>
                         <Listbox v-model="selectedCharset">
                             <div class="relative mt-1">
                                 <ListboxButton
-                                class="relative w-full cursor-default rounded-lg bg-transparent border border-primary py-2 pl-3 pr-10 text-left shadow-md focus:outline-none text-white sm:text-sm"
+                                class="relative w-full cursor-default rounded-lg bg-transparent border border-secondary/50 py-2 pl-3 pr-10 text-left shadow-md focus:outline-none text-white sm:text-sm"
                                 >
                                 <span class="block truncate">{{ selectedCharset.name }}</span>
                                 <span
@@ -37,7 +37,7 @@
                                 leave-to-class="opacity-0"
                                 >
                                 <ListboxOptions
-                                    class="absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-[#222] py-1 text-base shadow-lg focus:outline-none sm:text-sm"
+                                    class="absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-[#411A4A] py-1 text-base shadow-lg focus:outline-none sm:text-sm"
                                 >
                                     <ListboxOption
                                     v-slot="{ active, selected }"
@@ -48,7 +48,7 @@
                                     >
                                     <li
                                         :class="[
-                                        active ? 'bg-primary/10 text-primary' : 'text-white',
+                                        active ? 'bg-secondary/10 text-secondary' : 'text-white',
                                         'relative cursor-default select-none py-2 pl-10 pr-4',
                                         ]"
                                     >
@@ -78,28 +78,28 @@
                         <label for="" class="text-white">
                             {{ $t('title-meta') }}
                         </label>
-                        <input type="text" v-model="title" class="outline-none bg-transparent rounded-lg text-white border border-primary py-2 pl-3 pr-10">
+                        <input type="text" v-model="title" class="outline-none bg-transparent rounded-lg text-white border border-secondary/50 py-2 pl-3 pr-10">
                     </div>
     
                     <div class="flex flex-col gap-1">
                         <label for="" class="text-white">
                             {{ $t('description-meta') }}
                         </label>
-                        <textarea rows="3" v-model="description" class="outline-none bg-transparent rounded-lg text-white border border-primary py-2 pl-3 pr-10"></textarea>
+                        <textarea rows="3" v-model="description" class="outline-none bg-transparent rounded-lg text-white border border-secondary/50 py-2 pl-3 pr-10"></textarea>
                     </div>
     
                     <div class="flex flex-col gap-1">
                         <label for="" class="text-white">
                             {{ $t('author-meta') }}
                         </label>
-                        <input type="text" v-model="author" class="outline-none bg-transparent rounded-lg text-white border border-primary py-2 pl-3 pr-10">
+                        <input type="text" v-model="author" class="outline-none bg-transparent rounded-lg text-white border border-secondary/50 py-2 pl-3 pr-10">
                     </div>
     
                     <div class="flex flex-col gap-1">
                         <label for="" class="text-white">
                             {{ $t('copyright-meta') }}
                         </label>
-                        <input type="text" v-model="copyright" class="outline-none bg-transparent rounded-lg text-white border border-primary py-2 pl-3 pr-10">
+                        <input type="text" v-model="copyright" class="outline-none bg-transparent rounded-lg text-white border border-secondary/50 py-2 pl-3 pr-10">
                     </div>
     
                 </div>
@@ -115,12 +115,12 @@
                         {{ $t('code-copy') }}
                     </p>
                     <CodeEditor :code='
-                    `<meta charset="${selectedCharset.name}">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>${title}</title>
-    <meta name="description" content="${description}">
-    <meta name="author" content="${author}">
-    <meta name="copyright" content="${copyright}">
+                `<meta charset="${selectedCharset.name}">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${title}</title>
+<meta name="description" content="${description}">
+<meta name="author" content="${author}">
+<meta name="copyright" content="${copyright}">
                     `
                     ' />
                 </div>
