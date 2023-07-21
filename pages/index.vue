@@ -1,17 +1,23 @@
 <template>
-    <div class="flex flex-col justify-center items-center mt-10">
-    <span class="mt-20 mb-1 text-2xl text-white font-bold">
-        {{ $t('resource') }}
-    </span>
-    <p class="text-white/80">
-        {{ $t('d-resource') }}
-    </p>
+    <div class="flex flex-col mt-26">
+        <div class="flex justify-start flex-col w-full">
+        <span class="mb-1 text-4xl text-white font-bold">
+            Make your job easier
+        </span>
+        <p class="text-white/80 text-xl">
+            Here we have a lot of things available for advanced website developers
+        </p>
+        </div>
 
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-6 gap-4 relative z-30">
+        <span class="mt-10 text-2xl text-white font-bold">
+            {{ $t('resource') }}
+        </span>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-2 mr-4 gap-4 relative z-30">
 
         <div 
         v-for="data in resources.slice(0, 3)" :key="data.id"
-        class="bg-[#222] flex flex-col justify-between p-4 w-full border hover:border-primary/40 duration-300 border-transparent  rounded-lg">
+        class="bg-[#311F37] flex flex-col justify-between p-4 w-full border hover:border-primary/40 duration-300 border-transparent  rounded-lg">
             <div>
                 <h1 class="text-2xl text-white">
                     {{ data.title }}
@@ -23,8 +29,8 @@
             <hr class="my-4 border-0 bg-white/20 h-[1px] w-full">
             <div class="flex justify-between items-center">
                 <NuxtLink :to="data.link" class="flex gap-1 items-center group">
-                    <span class="text-white transform group-hover:mr-2 duration-300 group-hover:text-primary">Website</span>
-                    <Icon name="ic:baseline-keyboard-arrow-right" class="w-6 h-6 text-primary"/>
+                    <span class="text-[#C147E9] transform group-hover:mr-2 duration-300">Try now</span>
+                    <Icon name="ic:baseline-keyboard-arrow-right" class="w-6 h-6 text-[#C147E9]"/>
                 </NuxtLink>
             </div>
         </div>
