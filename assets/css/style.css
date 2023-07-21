@@ -269,35 +269,35 @@ input[type="range"]::-webkit-slider-thumb {
 .back {
     -webkit-transform: translateZ(-100px) rotateY(180deg);
     transform: translateZ(-100px) rotateY(180deg);
-    background-color: #4BBF8B;
+    background-color: #411A4A;
 }
 
 .top {
     -webkit-transform: rotateX(-270deg) translateY(-100px);
     transform: rotateX(-270deg) translateY(-100px);
     transform-origin: top center;
-    background-color: #69CA9E;
+    background-color: #C147E9;
 }
 
 .bottom {
     -webkit-transform: rotateX(270deg) translateY(100px);
     transform: rotateX(270deg) translateY(100px);
     transform-origin: bottom center;
-    background-color: #87D4B2;
+    background-color: #83418e;
 }
 
 .left {
     -webkit-transform: rotateY(270deg) translateX(-100px);
     transform: rotateY(270deg) translateX(-100px);
     transform-origin: center left;
-    background-color: #A5DFC5;
+    background-color: #9d25b3;
 }
 
 .right {
     -webkit-transform: rotateY(-270deg) translateX(100px);
     transform: rotateY(-270deg) translateX(100px);
     transform-origin: top right;
-    background-color: #B4E4CF;
+    background-color: #732b7e;
 }
 
   .css-button-arrow--red{min-width:130px;height:40px;color:#fff;padding:5px 10px;font-weight:700;cursor:pointer;transition:.3s;position:relative;display:inline-block;outline:0;overflow:hidden;border-radius:5px;border:none;background-color:rgba(193, 71, 233, 0.82)}.css-button-arrow--red:hover{border-radius:5px;padding-right:24px;padding-left:8px}.css-button-arrow--red:hover:after{opacity:1;right:10px}.css-button-arrow--red:after{content:'\00BB';position:absolute;opacity:0;font-size:20px;line-height:40px;top:0;right:-20px;transition:.4s}
