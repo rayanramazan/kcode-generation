@@ -19,7 +19,7 @@ useHead( {
   <Body
       :dir="locale === 'EN_US' ? 'ltr' : 'rtl'"
       :class="locale === 'EN_US' ? 'english' : 'kurdish'"
-      class="selection:bg-primary selection:text-light overflow-x-hidden bg-light scrollbar scrollbar-thumb-primary scrollbar-track-[#202020]"
+      class="selection:bg-primary selection:text-light overflow-x-hidden bg-light scrollbar scrollbar-thumb-secondary-50 scrollbar-track-primary"
   >
 
   <div class="landing-page">
