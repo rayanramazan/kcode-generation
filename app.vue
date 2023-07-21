@@ -24,7 +24,7 @@ useHead( {
 
   <div class="landing-page">
   <NuxtLayout name="header">
-      <NuxtPage />
+      <NuxtPage  class=" z-30"/>
   </NuxtLayout>
   </div>
 
