@@ -1,5 +1,5 @@
 <template>
-  <ul class="flex flex-col gap-2 px-4 lg:px-8 py-4 text-white lg:h-screen lg:overflow-y-auto lg:fixed lg:w-70 scrollbar-sidebar scrollbar scrollbar-track-[#202020]">
+  <ul class="flex flex-col gap-2 px-4 lg:px-8 pt-4 pb-20 text-white lg:h-screen lg:overflow-y-auto lg:fixed lg:w-70 scrollbar-sidebar scrollbar scrollbar-track-[#202020]">
       <li class="px-2 font-normal hover:text-[#C147E9] duration-300 cursor-pointer">
       <NuxtLink
           class="duration-300"

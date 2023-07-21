@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center items-center gap-8 sm:gap-20 flex-wrap mt-8 mb-4 w-full" style="z-index: 999;">
+    <div class="flex justify-center items-center gap-8 sm:gap-20 flex-wrap mt-26 lg:p-0 p-4 mb-4 w-full" style="z-index: 999;">
         <div class="flex flex-col gap-2 items-center">
             <span class="text-white">
                 {{ $t('charachter') }}

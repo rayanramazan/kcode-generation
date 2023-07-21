@@ -1,5 +1,6 @@
 <template>
-    <span class="mt-8 text-xl md:text-2xl text-white font-bold">
+    <div class="mt-26 lg:p-0 p-4">
+        <span class="mt-8 text-xl md:text-2xl text-white font-bold">
        {{ $t('3d-transform') }}
     </span>
     <div class="box">
@@ -43,6 +44,8 @@
         <br>
     <CodeEditor
         :code="`.cube {\n   transform: scaleX(${ranges[0].value})\n   scaleY(${ranges[1].value})\n   scaleZ(${ranges[2].value})\n   rotateX(${ranges[3].value}deg)\n   rotateY(${ranges[4].value}deg)\n   rotateZ(${ranges[5].value}deg)\n   translateX(${ranges[6].value}px)\n   translateY(${ranges[7].value}px)\n   translateZ(${ranges[8].value}px)\n   skewX(${ranges[9].value}deg)\n   skewY(${ranges[10].value}deg);\n}`" />
+    </div>
+    
 </template>
 
 <script setup lang="ts">
