@@ -57,7 +57,7 @@ const localeLanguage =  useState<string>('locale.setting')
 window.addEventListener('scroll', () => {
   const scrollContainer = document.querySelector('.scroll');
   if (scrollContainer) {
-    if (window.scrollY > 100) { // Adjust the scroll position value (100 in this example) to your preference
+    if (window.scrollY > 50) { // Adjust the scroll position value (100 in this example) to your preference
       scrollContainer.classList.add('scrolled');
     } else {
       scrollContainer.classList.remove('scrolled');
