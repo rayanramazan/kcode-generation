@@ -39,8 +39,6 @@
   </div>
   </div>
 
-
-  <NuxtLayout name="footer" />
 </template>
 <script setup lang="ts">
 import sidebar from "~/layouts/sidebar.vue";
