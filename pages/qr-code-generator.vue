@@ -14,7 +14,7 @@
             </label>
             <input 
                 type="text"
-                class="outline-none bg-transparent rounded-lg text-white border border-primary py-2 pl-3 pr-10"
+                class="outline-none bg-transparent rounded-lg text-white border border-secondary/50 py-2 pl-3 pr-10"
                 v-model="url"
                 id="url"
             >
@@ -27,7 +27,7 @@
                 </label>
                 <input 
                     type="number" 
-                    class="outline-none bg-transparent rounded-lg text-white border border-primary py-2 pl-3 pr-10"
+                    class="outline-none bg-transparent rounded-lg text-white border border-secondary/50 py-2 pl-3 pr-10"
                     v-model.number="qrCodeSize"
                     id="size"
                 >
@@ -37,13 +37,13 @@
                 <label for="color" class="text-white">
                     {{ $t('foreground-color-qr') }}
                 </label>
-                <div class="w-full flex justify-between bg-[#222] border-primary border rounded h-10">
+                <div class="w-full flex justify-between bg-primary border-secondary/50 border rounded h-10">
                     <label
                         class="rounded"
                         for="color-border">
                         <input
                             v-model="qrCodeColor" id="color"
-                            class="form-input w-24 h-full rounded bg-[#222]"
+                            class="form-input w-24 h-full rounded bg-primary"
                             type="color"
                         >
     
@@ -56,7 +56,7 @@
                 <label for="background" class="text-white">
                     {{ $t('background-color-qr') }}
                 </label>
-                <div class="w-full flex justify-between bg-[#222] border border-primary rounded h-10">
+                <div class="w-full flex justify-between bg-primary border border-secondary/50 rounded h-10">
                     <label
                         class="rounded"
                         for="color-border">
