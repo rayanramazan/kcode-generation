@@ -8,7 +8,7 @@
       :key="spinner.id"
       v-html="spinner.html"
       @click="code = spinner.css"
-      class="bg-[#222] h-40 w-full flex justify-center items-center z-30 rounded border border-white/10 duration-300 hover:border-primary">
+      class="bg-[#411A4A] h-40 w-full flex justify-center items-center z-30 rounded border border-white/10 duration-300 hover:border-primary">
       </div>
     </div>
 

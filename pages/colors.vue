@@ -16,10 +16,10 @@
       :style="`background-color: ${color.secondary}`"
       :class="`w-[50%] h-full`"></div>
     <div class="flex absolute justify-between w-full bottom-0">
-      <span class="bg-[#222] px-3 py-2 rounded-tr-2xl text-white">
+      <span class="bg-primary px-3 py-2 rounded-tr-2xl text-white">
         {{ color.primary }}
       </span>
-      <span class="bg-[#222] px-3 py-2 rounded-tl-2xl text-white">
+      <span class="bg-primary px-3 py-2 rounded-tl-2xl text-white">
         {{ color.secondary }}
       </span>
     </div>
