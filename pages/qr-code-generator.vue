@@ -86,21 +86,21 @@ import qrcode from 'qrcode'
 
 const url = ref('')
     const qrCodeImage = ref('')
-    const qrCodeBackground = ref('#222222')
-    const qrCodeColor = ref('#3BA676')
+    const qrCodeBackground = ref('#241127')
+    const qrCodeColor = ref('#C147E9')
     const qrCodeSize = ref(300)
 
     const generateQRCode = () => {
       const qrCodeOptions = {
-        width: qrCodeSize.value, // use the value of the ref instead of the ref itself
+        width: qrCodeSize.value,
         color: {
-          dark: qrCodeColor.value, // use the value of the ref instead of the ref itself
-          light: qrCodeBackground.value // use the value of the ref instead of the ref itself
+          dark: qrCodeColor.value,
+          light: qrCodeBackground.value
         }
       }
 
       const qrCodeData = url.value
-      qrcode.toDataURL(qrCodeData, qrCodeOptions, (err, url) => {
+      qrcode.toDataURL(qrCodeData, qrCodeOptions, (err: any, url: string) => {
         if (err) {
           console.error(err)
           return
