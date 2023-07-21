@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div class="relative">
     <navbar />
   <div class="w-full gap-4 items-start flex flex-row-reverse">
-    <div class="w-full flex flex-col static" style="z-index: 99;">
-      <div class="py-4 flex justify-between lg:justify-end items-center px-4 rounded-md">
+    <div class="w-full flex flex-col">
+      <div class="py-4 flex justify-between fixed lg:justify-end items-center px-4 rounded-md w-full scroll" style="z-index: 999;">
 
         <div class="flex items-center gap-4">
           <button class="block lg:hidden" @click="isOpen = !isOpen">
@@ -32,7 +32,7 @@
     <div
       style="z-index: 99999; opacity: 1 !important;"
         :class="isOpen ? 'active' : ''"
-        class="w-70 left-4 top-16 invisible lg:visible sm:w-96 h-0 absolute duration-300 lg:static lg:h-auto overflow-hidden  lg:p-0 bg-primary lg:bg-transparent rounded-md lg:rounded-none border-1 lg:border-0 border-white/10 scrollbar-sidebar scrollbar scrollbar-track-[#202020]">
+        class="w-70 left-4 top-18 invisible lg:visible sm:w-96 h-0 fixed duration-300 lg:static lg:h-auto overflow-hidden  lg:p-0 bg-primary lg:bg-transparent rounded-md lg:rounded-none border-1 lg:border-0 border-white/10 scrollbar-sidebar scrollbar scrollbar-track-[#202020]">
       <sidebar class="mt-4 lg:mt-0"/>
     </div>
 
@@ -53,6 +53,17 @@ const props = defineProps({
   },
 })
 const localeLanguage =  useState<string>('locale.setting')
+
+window.addEventListener('scroll', () => {
+  const scrollContainer = document.querySelector('.scroll');
+  if (scrollContainer) {
+    if (window.scrollY > 100) { // Adjust the scroll position value (100 in this example) to your preference
+      scrollContainer.classList.add('scrolled');
+    } else {
+      scrollContainer.classList.remove('scrolled');
+    }
+  }
+});
 </script>
 <style>
 .active{
@@ -62,7 +73,15 @@ const localeLanguage =  useState<string>('locale.setting')
   @apply sm:flex hidden
 }
 .btn_lang{
-  @apply sm:hidden block
+  @apply lg:hidden block
+}
+.scrolled{
+  @apply backdrop-filter backdrop-blur-2xl rounded-none
+}
+@media only screen and (min-width: 1024px) {
+  .scroll{
+    visibility: hidden;
+  }
 }
 
 
