@@ -60,7 +60,7 @@ body{
    right: -200px;
    top: -200px;
    filter: blur(300px);
-   background-color: rgba(193, 71, 233, 0.25);
+   background-color: rgba(193, 71, 233, 0.400);
 
 }
 @media only screen and (max-width: 1024px){
