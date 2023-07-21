@@ -1,5 +1,5 @@
 <template>
-  <ul class="flex flex-col gap-2 text-white">
+  <ul class="flex flex-col gap-2 text-white h-screen overflow-y-auto fixed w-70 scrollbar-sidebar scrollbar scrollbar-track-[#202020]">
       <li class="px-2 font-bold hover:text-[#C147E9] duration-300 cursor-pointer">
       <NuxtLink
           class="duration-300"
@@ -49,3 +49,14 @@ const localeLanguage =  useState<string>('locale.setting')
 const pages = await usePage()
 const {t} = useLang()
 </script>
+
+<style>
+.scrollbar-sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar-sidebar::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: #371F36;
+}
+</style>
