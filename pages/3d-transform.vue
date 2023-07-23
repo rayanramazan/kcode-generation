@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-26 lg:p-0 p-4">
+    <div class="w-full mt-26 lg:mx-0 p-4">
         <span class="mt-8 text-xl md:text-2xl text-white font-bold">
        {{ $t('3d-transform') }}
     </span>

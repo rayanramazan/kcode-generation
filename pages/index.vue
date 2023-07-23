@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col mt-26 lg:p-0 p-4">
+    <div class="flex flex-col mt-26 lg:p-0 p-4 lg:mx-4">
         <div class="flex justify-start flex-col w-full">
         <span class="mb-1 lg:text-4xl text-3xl text-white font-bold">
             Make your job easier
@@ -67,7 +67,8 @@
 <style>
 .card-course {
     border-radius: 6px;
-background: linear-gradient(316deg, #2D033B 0%, rgba(193, 71, 233, 0.82) 100%);
+    background: linear-gradient(316deg, #2D033B 0%,
+     rgba(193, 71, 233, 0.82) 100%);
 }
 </style>
 

@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full mt-26 lg:p-0 p-4">
+  <section class="w-full mt-26 lg:mx-0 p-4">
     <div class="flex flex-col md:flex-row justify-between px-0 py-2 md:p-6 gap-4">
       <div class="flex flex-col gap-6">
         <h1

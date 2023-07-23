@@ -46,17 +46,6 @@
             </MenuItem>
             <MenuItem v-slot="{ active }">
               <button
-                  @click="localeLanguage = 'KUKA_KU'"
-                  :class="[
-                  active ? 'bg-primary text-white' : 'text-white',
-                  'group flex w-full items-center rounded-md px-2 py-2 text-sm',
-                ]"
-              >
-                <span class="font-mono text-[10px] mr-2"> KR </span> KURDISH [BA]
-              </button>
-            </MenuItem>
-            <MenuItem v-slot="{ active }">
-              <button
                   @click="localeLanguage = 'AR_IQ'"
                   :class="[
                   active ? 'bg-primary text-white' : 'text-white',

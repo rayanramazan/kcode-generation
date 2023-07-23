@@ -1,5 +1,5 @@
 <template>
-    <div class="mt-26 lg:p-0 p-4">
+    <div class="mt-26 lg:p-0 p-4 lg:mx-4">
         <span class="mt-8 text-2xl text-white font-bold">
             {{ $t('resource') }}
         </span>
@@ -12,7 +12,7 @@
         <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-6 gap-4 relative z-30">
             <div 
                 v-for="data in resources" :key="data.id"
-                class="bg-[#222] flex flex-col justify-between p-4 w-full border hover:border-primary/40 duration-300 border-transparent  rounded-lg">
+                class="bg-[#311F37] flex flex-col justify-between p-4 w-full border hover:border-primary/40 duration-300 border-transparent  rounded-lg">
                 <div>
                     <h1 class="lg:text-2xl text-xl font-bold text-white">
                         {{ data.title }}
