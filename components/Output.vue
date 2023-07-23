@@ -28,7 +28,7 @@ const props = defineProps({
 
 const textToCopy = ref(null)
 const response = ref(false)
-// Function to copy the text to the clipboard
+
 const copyText = () => {
   if (textToCopy.value) {
     const text = textToCopy.value.innerText
