@@ -39,7 +39,7 @@
               contrast(${ranges[7].value}%)
               invert(${ranges[8].value}%);
               `"
-            src="https://images.pexels.com/photos/13862593/pexels-photo-13862593.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
+            src="https://images.pexels.com/photos/60628/flower-garden-blue-sky-hokkaido-japan-60628.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
             class="w-full md:w-96 h-96 bg-primary object-cover"
         alt="img">
 
