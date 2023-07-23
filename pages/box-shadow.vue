@@ -38,6 +38,8 @@
     <Output :data="`${ranges[0].value}px ${ranges[1].value}px ${ranges[2].value}px rgba(255, 255, 255, ${ranges[3].value})`"
             stylesheet="text-shadow:"
     />
+
+    <Footer />
   </section>
 </template>
 

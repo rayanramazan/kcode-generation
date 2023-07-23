@@ -14,6 +14,8 @@
 
     <CodeEditor :code="code" />
 
+    <Footer />
+
   </div>
     
 </template>

@@ -39,6 +39,8 @@
     <Output :data="`${ranges[0].value}% ${ranges[1].value}% ${ranges[2].value}% ${ranges[3].value}%`"
             stylesheet="border-radius:"
     />
+
+    <Footer />
   </section>
 </template>
 

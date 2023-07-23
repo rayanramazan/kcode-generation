@@ -14,6 +14,8 @@
             </div>
         </div>
         <CodeEditor :code="code" lang="css" v-show="code == null"/>
+
+        <Footer />
     </div>
 
 </template>

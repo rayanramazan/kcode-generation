@@ -36,6 +36,8 @@
     <Output :data="`rgb(${ranges[0].value}, ${ranges[1].value}, ${ranges[2].value})`"
             stylesheet="background: "
     />
+
+    <Footer />
   </section>
 </template>
 

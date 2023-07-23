@@ -1,4 +1,5 @@
 <template>
+  <div class="lg:mr-4">
     <span class="mt-8 mb-4 text-xl md:text-2xl text-white font-bold">
       {{ $t('transitions-delay') }}
     </span>
@@ -94,6 +95,7 @@
         </TabPanels>
       </TabGroup>
     </div>
+  </div>
 </template>
 
 

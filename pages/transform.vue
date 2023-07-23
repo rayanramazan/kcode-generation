@@ -44,6 +44,8 @@
                translate(${ranges[3].value}px , ${ranges[4].value}px)`"
             stylesheet="transform:"
     />
+
+    <Footer />
   </section>
 </template>
 

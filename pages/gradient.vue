@@ -66,6 +66,8 @@
     <Output :data="`linear-gradient(${ranges.value}deg,${startColor} 0%,${endColor} 100%);`"
             stylesheet="background:"
     />
+
+    <Footer />
   </section>
 </template>
 

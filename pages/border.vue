@@ -105,6 +105,8 @@
     <Output :data="`${ranges.value}px ${selectedStyle} ${color}`"
             stylesheet="border:"
     />
+
+    <Footer />
   </section>
 </template>
 

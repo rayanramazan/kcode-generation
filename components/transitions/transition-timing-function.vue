@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-26 lg:p-0 p-4">
+  <div class="mt-26 lg:p-0 p-4 lg:mr-4">
     <span class="mb-12  text-xl md:text-2xl text-white font-bold">
       {{ $t('transitions-timing-function') }}
     </span>
