@@ -56,7 +56,6 @@
               invert(${ranges[8].value}%);`"
             stylesheet="filter:"
     />
-
     <Footer />
   </section>
 </template>
