@@ -12,7 +12,7 @@
         class="px-2 font-normal hover:text-[#C147E9] duration-300 cursor-pointer">
       <NuxtLink
           exact-active-class="active" active-class="active"
-          to="resource">
+          :to="localePath('resource')">
         {{ $t('resources') }} 
       </NuxtLink>
     </li>
