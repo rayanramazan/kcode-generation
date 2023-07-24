@@ -2,10 +2,10 @@
     <div class="flex flex-col mt-26 lg:p-0 p-4 lg:mx-4">
         <div class="flex justify-start flex-col w-full">
         <span class="mb-1 lg:text-4xl text-3xl text-white font-bold">
-            Make your job easier
+            {{ $t('title_home') }}
         </span>
         <p class="text-white/80 text-lg lg:text-xl">
-            Here we have a lot of things available for advanced website developers
+            {{ $t('description_home_page') }}
         </p>
         </div>
 
@@ -14,7 +14,6 @@
         </span>
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-6 lg:mr-4 gap-4 relative z-30">
-
         <div 
         v-for="data in resources.slice(0, 6)" :key="data.id"
         class="bg-[#311F37] flex flex-col justify-between p-4 w-full border hover:border-primary/40 duration-300 border-transparent  rounded-lg">
@@ -29,16 +28,15 @@
             <hr class="my-4 border-0 bg-white/20 h-[1px] w-full lg:text-base text-sm">
             <div class="flex justify-between items-center">
                 <NuxtLink :to="data.link" class="flex gap-1 items-center group">
-                    <span class="text-[#C147E9] transform group-hover:mr-2 duration-300">Try now</span>
+                    <span class="text-[#C147E9] transform group-hover:mr-2 duration-300">
+                        {{ $t('try_now') }}
+                    </span>
                     <Icon name="ic:baseline-keyboard-arrow-right" class="w-6 h-6 text-[#C147E9]"/>
                 </NuxtLink>
             </div>
         </div>
 
     </div>
-
-
-    <!-- <hr class="border-0 h-[1px] bg-white/20 w-full mt-20 mb-4"> -->
 
     <span class="mt-12 mb-6 text-2xl text-white font-bold">
         Course
@@ -54,7 +52,9 @@
             <NuxtLink
             :to="localePath('buttons')"
             class="text-center" 
-            v-for="data in buttons.slice(0, 6)" :key="data.id" :class="data.component.className">Click Me</NuxtLink>
+            v-for="data in buttons.slice(0, 6)" :key="data.id" :class="data.component.className">
+            {{ $t('click_me') }}
+        </NuxtLink>
         </div>
     </div>
 

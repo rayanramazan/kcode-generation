@@ -69,5 +69,13 @@
   "transitions-duration": "مدة الانتقالات",
   "transitions-timing-function": "وظيفة توقيت الانتقالات",
   
-  "result": "النتيجة"
+  "result": "النتيجة",
+
+  "course": "دورة",
+  "click_me": "انقر هنا",
+  "coming_soon": "قريباً",
+  "try_now": "جرب الآن",
+  "title_home": "اجعل عملك أسهل",
+  "description_home_page": "هنا لدينا الكثير من الأشياء المتاحة لمطوري مواقع الويب المتقدمين"
+
 }

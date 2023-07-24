@@ -70,5 +70,12 @@
   "transitions-duration": "کاتی گۆڕانکاری",
   "transitions-timing-function": "کارکردنی کاتی گۆڕانکاری",
 
-  "result": "ئەنجام"
+  "result": "ئەنجام",
+
+  "course": "کۆرسى",
+  "click_me": "کلیکى ئێرە بکە",
+  "coming_soon": "بەم زووانە دەگات",
+  "try_now": "ئێستا تاقیبكه‌ره‌وه‌",
+  "title_home": "کارەکەت ئاسانتر بکە",
+  "description_home_page": "لێرەدا زۆر شتمان هەیە بۆ گەشەپێدەرانی پێشکەوتووی ماڵپەڕ"
 }
