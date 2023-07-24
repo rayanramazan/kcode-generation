@@ -4,7 +4,6 @@
     "title": {
       "EN_US": "Tools",
       "AR_IQ": "أدوات",
-      "KUKA_KU": "ئامراز",
       "KUSA_KU": "ئامرازەکان"
     },
     "children": [
@@ -13,7 +12,6 @@
         "titlePage": {
           "EN_US": "Border",
           "AR_IQ": "حدود",
-          "KUKA_KU": "سنوور",
           "KUSA_KU": "سنوور"
         },
         "slug": "border"
@@ -23,7 +21,6 @@
         "titlePage": {
           "EN_US": "Border Radius",
           "AR_IQ": "نصف قطر الحد",
-          "KUKA_KU": "چەوماندنا سنوورى",
           "KUSA_KU": "تیژڕەوی سنوور"
         },
         "slug": "border-radius"
@@ -33,7 +30,6 @@
         "titlePage": {
           "EN_US": "Gradient",
           "AR_IQ": "الانحدار",
-          "KUKA_KU": "گرادێنت",
           "KUSA_KU": "گرادێنت"
         },
         "slug": "gradient"
@@ -43,7 +39,6 @@
         "titlePage": {
           "EN_US": "Text Shadow",
           "AR_IQ": "ظل النص",
-          "KUKA_KU": "سیبەرا دەقى",
           "KUSA_KU": "سێبەری دەق"
         },
         "slug": "text-shadow"
@@ -53,7 +48,6 @@
         "titlePage": {
           "EN_US": "Box Shadow",
           "AR_IQ": "ظل الصندوق",
-          "KUKA_KU": "سیبەرا سندوقى",
           "KUSA_KU": "سێبەری سندوق"
         },
         "slug": "box-shadow"
@@ -63,7 +57,6 @@
         "titlePage": {
           "EN_US": "Filter",
           "AR_IQ": "منقي",
-          "KUKA_KU": "فلتەر",
           "KUSA_KU": "فلتەر"
         },
         "slug": "filter"
@@ -73,7 +66,6 @@
         "titlePage": {
           "EN_US": "RGB Color",
           "AR_IQ": "لون RGB",
-          "KUKA_KU": "ڕەنگێ rgb",
           "KUSA_KU": "ڕەنگی rgb"
         },
         "slug": "rgb-color"
@@ -83,7 +75,6 @@
         "titlePage": {
           "EN_US": "Transform",
           "AR_IQ": "تحول",
-          "KUKA_KU": "گوهڕین",
           "KUSA_KU": "گۆڕان"
         },
         "slug": "transform"
@@ -92,9 +83,8 @@
         "id": 10,
         "titlePage": {
           "EN_US": "3D Transform",
-          "AR_IQ": "تحول",
-          "KUKA_KU": "گوهڕین",
-          "KUSA_KU": "گۆڕان"
+          "AR_IQ": "تحويل ثلاثي الأبعاد",
+          "KUSA_KU": "گۆڕینی سێ ڕەهەندی"
         },
         "slug": "3d-transform"
       }
@@ -105,7 +95,6 @@
     "title": {
       "EN_US": "Others",
       "AR_IQ": "عناصر",
-      "KUKA_KU": "پێکهات",
       "KUSA_KU": "پێکهاتەکان"
     },
     "children": [
@@ -114,7 +103,6 @@
         "titlePage": {
           "EN_US": "Transitions",
           "AR_IQ": "الانتقالات",
-          "KUKA_KU": "ڤەگوهاستن",
           "KUSA_KU": "گواستنەوەکان"
         },
         "slug": "transitions"
@@ -124,7 +112,6 @@
         "titlePage": {
           "EN_US": "Colors",
           "AR_IQ": "الألوان",
-          "KUKA_KU": "ڕەنگەکان",
           "KUSA_KU": "ڕەنگەکان"
         },
         "slug": "colors"
@@ -134,7 +121,6 @@
         "titlePage": {
           "EN_US": "Gradients Colors",
           "AR_IQ": "التدرجات",
-          "KUKA_KU": "گرادێنت",
           "KUSA_KU": "گرادێنتەکان"
         },
         "slug": "gradients-colors"
@@ -144,7 +130,6 @@
         "titlePage": {
           "EN_US": "Text",
           "AR_IQ": "نص",
-          "KUKA_KU": "دەق",
           "KUSA_KU": "دەق"
         },
         "slug": "text"
@@ -154,7 +139,6 @@
         "titlePage": {
           "EN_US": "Buttons",
           "AR_IQ": "أزرار",
-          "KUKA_KU": "دوگمە",
           "KUSA_KU": "دوگمە"
         },
         "slug": "buttons"
@@ -163,9 +147,8 @@
         "id": 6,
         "titlePage": {
           "EN_US": "Loader",
-          "AR_IQ": "أزرار",
-          "KUKA_KU": "دوگمە",
-          "KUSA_KU": "دوگمە"
+          "AR_IQ": "محمل",
+          "KUSA_KU": "لۆدەر"
         },
         "slug": "loader-generator"
       },
@@ -174,7 +157,6 @@
         "titlePage": {
           "EN_US": "Minifier",
           "AR_IQ": "المصغر",
-          "KUKA_KU": "مینیفایەر",
           "KUSA_KU": "مینیفایەر"
         },
         "slug": "minifier"
@@ -184,7 +166,6 @@
         "titlePage": {
           "EN_US": "Meta Tag",
           "AR_IQ": "علامة متغيرة",
-          "KUKA_KU": "مێتا تاگ",
           "KUSA_KU": "مێتا تاگ"
         },
         "slug": "meta"
@@ -194,7 +175,6 @@
         "titlePage": {
           "EN_US": "QR code",
           "AR_IQ": "رمز الاستجابة السريعة",
-          "KUKA_KU": "کۆد QR",
           "KUSA_KU": "کۆد QR"
         },
         "slug": "qr-code-generator"

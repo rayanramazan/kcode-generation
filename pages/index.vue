@@ -39,7 +39,7 @@
     </div>
 
     <span class="mt-12 mb-6 text-2xl text-white font-bold">
-        Course
+        {{ $t('course').slice(0, -1) }}
     </span>
 
     <CardCourse />
