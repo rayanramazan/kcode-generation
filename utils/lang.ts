@@ -15,14 +15,6 @@ export interface ILocales {
 export const availableLocales: ILocales = {
     AR_IQ: {name: 'العربية', iso: 'EN_US', code: 'AR_IQ', status: '1', favicon: 'storage/1/ar.jpg', direction: 'rtl'},
     EN_US: {name: 'English', iso: '', code: 'EN_US', status: '1', favicon: 'storage/1/en.jpg', direction: 'ltr'},
-    KUKA_KU: {
-        name: 'Kurdish (Kurmanji)',
-        iso: 'en-us',
-        code: 'KUKA_KU',
-        status: '1',
-        favicon: 'storage/1/en.jpg',
-        direction: 'ltr'
-    },
     KUSA_KU: {
         name: 'Kurdish (Sorani)',
         iso: 'en-us',

@@ -1,6 +1,5 @@
 import EN_US from './locale/en.json'
 import AR_IQ from './locale/ar.json'
-import KUKA_KU from './locale/kr_ba.json'
 import KUSA_KU from './locale/kr_so.json'
 export default defineNuxtConfig({
     ssr: false,
@@ -52,9 +51,6 @@ export default defineNuxtConfig({
           '@vueuse/nuxt',
           '@nuxtjs/i18n',
       ],
-    // app: {
-    //     pageTransition: { name: 'page', mode: 'out-in' }
-    // },
     i18n: {
         locales: [
             {
@@ -68,12 +64,6 @@ export default defineNuxtConfig({
                 name: 'Arabic',
                 iso: 'ar-IQ',
                 files: ['ar.JSON']
-            },
-            {
-                code: 'KUKA_KU',
-                iso: 'ku-KU',
-                name: 'Kurdish (Kurmanji)',
-                files: ['kr_ba.JSON']
             },
             {
                 code: 'KUSA_KU',
@@ -90,7 +80,6 @@ export default defineNuxtConfig({
             messages: {
                 'EN_US': EN_US,
                 'AR_IQ': AR_IQ,
-                'KUKA_KU': KUKA_KU,
                 'KUSA_KU': KUSA_KU,
             }
         }
