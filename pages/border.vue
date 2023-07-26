@@ -7,7 +7,6 @@
         >
           {{ $t('border-options') }}
         </h1>
-
         <div
             class="w-full md:w-80 flex flex-col gap-2">
           <span class="text-white">
@@ -32,7 +31,6 @@
                 class="form-input w-24 h-full rounded bg-transparent"
                 type="color"
             >
-
           </label>
           <span class="text-white self-center px-2"> {{ color }} </span>
         </div>
