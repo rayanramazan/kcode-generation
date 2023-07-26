@@ -54,7 +54,6 @@ const {t} = useLang()
 .scrollbar-sidebar::-webkit-scrollbar {
   width: 6px;
 }
-
 .scrollbar-sidebar::-webkit-scrollbar-thumb {
   border-radius: 5px;
   background: #371F36;
