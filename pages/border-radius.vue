@@ -3,7 +3,7 @@
     <div class="flex flex-col md:flex-row justify-between px-0 py-2 md:p-6 gap-4">
       <div class="flex flex-col gap-6">
         <h1
-            class="bg-white/5 rounded-md border-1 border-white/10 text-lg text-white p-2"
+            class="pb-1 text-lg text-white border-b-1 border-white/10 font-bold"
         >
           {{ $t('border-radius-options') }}
         </h1>

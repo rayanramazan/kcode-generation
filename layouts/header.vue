@@ -9,16 +9,16 @@
               <Icon name="gg:menu-left" class="w-6 h-6 text-white"/>
             </button>
             <div 
-            dir="ltr"
-            class="flex lg:hidden justify-center items-end gap-1 text-2xl lg:text-3xl font-bold text-white">
-            <span>
-              KCODE
-          </span>
-          <span class="text-white font-normal text-sm mb-[1.1px]">
-            Generation
-          </span>
-        </div>
-      </div>
+              dir="ltr"
+              class="flex lg:hidden justify-center items-end gap-1 text-2xl lg:text-3xl font-bold text-white">
+              <span>
+                  KCODE
+              </span>
+              <span class="text-white font-normal text-sm mb-[1.1px]">
+                Generation
+              </span>
+            </div>
+          </div>
       
       
       <ButtonLang class="btn_lang" />
