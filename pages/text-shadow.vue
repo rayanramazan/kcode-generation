@@ -29,9 +29,9 @@
       <div>
         <div
             :style="`
-              text-shadow: ${ranges[0].value}px ${ranges[1].value}px ${ranges[2].value}px rgba(0, 0, 0, ${ranges[3].value});
+              text-shadow: ${ranges[0].value}px ${ranges[1].value}px ${ranges[2].value}px rgba(255, 255, 255, ${ranges[3].value});
               `"
-            class="w-full md:w-96 flex justify-center items-center text-3xl font-bold h-96 bg-primary">
+            class="w-full md:w-96 flex justify-center items-center text-3xl font-bold h-96 bg-primary text-white">
           KTOOLS
         </div>
       </div>

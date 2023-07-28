@@ -46,8 +46,8 @@
                     {{ data.english.slice(0, char) }}
                 </div>
             </div>
-            <Footer />
         </div>
+        <Footer />
 
 
 

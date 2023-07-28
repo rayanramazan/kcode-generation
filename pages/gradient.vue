@@ -73,9 +73,9 @@
 
 <script setup>
 import Output from "~/components/Output.vue";
-const startColor = ref('#3BA676')
+const startColor = ref('#C147E9')
 const colorInputStart = ref(null)
-const endColor = ref('#1E533B')
+const endColor = ref('#4E1F5B')
 const colorInputEnd = ref(null)
 
 watch(startColor, endColor, (newValueStart,newValueEnd) => {

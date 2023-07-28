@@ -52,7 +52,7 @@ const ranges = ref([
       'KUKA_KU': 'سوور',
       'KUSA_KU': 'سوور'
     },
-    value: 59
+    value: 193
   },
   {
     id: 2,
@@ -62,7 +62,7 @@ const ranges = ref([
       'KUKA_KU': 'سەوز',
       'KUSA_KU': 'سەوز'
     },
-    value: 166
+    value: 71
   },
   {
     id: 3,
@@ -72,7 +72,7 @@ const ranges = ref([
       'KUKA_KU': 'شین',
       'KUSA_KU': 'شین'
     },
-    value: 118
+    value: 233
   },
 ])
 
