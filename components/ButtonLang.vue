@@ -4,6 +4,7 @@
       <div>
         <MenuButton
             class="w-full text-white"
+            aria-label="lang button"
         >
           <Icon name="iconoir:translate" class="w-[24px] h-[24px] text-white"/>
           <Icon name="ph:caret-down-light" class="w-4 h-4 mx-2"/>

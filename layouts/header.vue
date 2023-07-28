@@ -5,7 +5,7 @@
         <div class="py-4 flex justify-between fixed lg:justify-end items-center px-4 rounded-md w-full scroll" style="z-index: 999;">
           
           <div class="flex items-center gap-4">
-            <button class="block lg:hidden" @click="isOpen = !isOpen">
+            <button class="block lg:hidden" @click="isOpen = !isOpen" aria-label="menu button">
               <Icon name="gg:menu-left" class="w-6 h-6 text-white"/>
             </button>
             <div 
