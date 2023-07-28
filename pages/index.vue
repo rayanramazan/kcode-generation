@@ -50,6 +50,7 @@
     <div class="flex flex-col mt-4 mb-10 w-full">
         <div class="grid md:grid-cols-2 lg:grid-cols-3 mt-3 gap-4 relative z-30 lg:mr-4">
             <NuxtLink
+            aria-label="click_button"
             :to="localePath('buttons')"
             class="text-center" 
             v-for="data in buttons.slice(0, 6)" :key="data.id" :class="data.component.className">

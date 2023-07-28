@@ -9,16 +9,31 @@
             </NuxtLink>
         </div>
         <div class="flex items-center gap-4">
-            <NuxtLink to="https://github.com/rayanramazan" class="hover:text-white transition-all duration-300">
+            <NuxtLink to="https://github.com/rayanramazan" 
+            class="hover:text-white transition-all duration-300"
+            aria-label="github"
+            >
                 <Icon name="ph:github-logo" class="w-7 h-7"/>
             </NuxtLink>
-            <NuxtLink to="https://www.facebook.com/rayan.kordesh.5/" class="hover:text-white transition-all duration-300">
+            <NuxtLink 
+            to="https://www.facebook.com/rayan.kordesh.5/" 
+            class="hover:text-white transition-all duration-300"
+            aria-label="facebook"
+            >
                 <Icon name="ph:facebook-logo" class="w-7 h-7"/>
             </NuxtLink>
-            <NuxtLink to="https://instagram.com/rayan.ramazan" class="hover:text-white transition-all duration-300">
+            <NuxtLink 
+            to="https://instagram.com/rayan.ramazan" 
+            class="hover:text-white transition-all duration-300"
+            aria-label="instagram"
+            >
                 <Icon name="ph:instagram-logo" class="w-7 h-7"/>
             </NuxtLink>
-            <NuxtLink to="https://www.linkedin.com/in/rayan-ramazan/" class="hover:text-white transition-all duration-300">
+            <NuxtLink 
+            to="https://www.linkedin.com/in/rayan-ramazan/" 
+            class="hover:text-white transition-all duration-300"
+            aria-label="linkedln"
+            >
                 <Icon name="ph:linkedin-logo" class="w-7 h-7"/>
             </NuxtLink>
         </div>
