@@ -16,14 +16,6 @@
         {{ $t('resources') }} 
       </NuxtLink>
     </li>
-    <li
-        class="px-2 font-normal hover:text-[#C147E9] duration-300 cursor-pointer">
-      <NuxtLink
-          exact-active-class="active" active-class="active"
-          :to="localePath('contact')">
-        {{ $t('contact') }}
-      </NuxtLink>
-    </li>
     <hr class="my-4 border-white/0">
     <li v-for="page in pages" class="pl-2" :key="page.id">
       <span class="mb-2 font-bold">
