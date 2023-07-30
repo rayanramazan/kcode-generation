@@ -15,9 +15,6 @@ useHead( {
   ]
 } )
 
-onBeforeRouteLeave((to, from, next) => {
-  next(false);
-})
 
 </script>
 <template>
