@@ -40,4 +40,3 @@ useHead( {
 @import './assets/css/style.css';
 @import './assets/css/loader-generator.css';
 </style>
-
