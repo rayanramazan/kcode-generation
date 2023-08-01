@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body{
-  /* background: url('../img/bg-3.jpg');*/
-  /*background-size: cover;*/
-  /*background-repeat: no-repeat;*/
-  /*background-position: center;*/
      background: linear-gradient(180deg,#241127 40%, #241127 100%);
 }
 
@@ -46,7 +42,6 @@ body{
   margin: 0 auto;
   /* padding: 16px 32px; */
   position: relative;
- 
   max-width: 100%;
   width: 100%;
   min-height: 100vh;
@@ -82,7 +77,6 @@ body{
  }
 }
 
-
 input[type="range"]::-webkit-slider-thumb {
     width: 15px;
     -webkit-appearance: none;
@@ -101,12 +95,9 @@ input[type="range"]::-webkit-slider-thumb {
     font-weight: bold;
 }
 
-
 .hidden {
     display: none;
 }
-
-
 
 .square {
     width: 150px;
@@ -116,7 +107,6 @@ input[type="range"]::-webkit-slider-thumb {
     padding: 8px;
     margin-bottom: 4px;
     color: #fff;
-  
     transition-property: width;
     transition-duration: 1s;
   }
