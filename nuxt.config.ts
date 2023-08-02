@@ -34,9 +34,7 @@ export default defineNuxtConfig({
     },
     target: 'static',
     runtimeConfig: {
-        // The private keys which are only available server-side
         apiSecret: '123',
-        // Keys within public are also exposed client-side
         public: {
           apiBase: '/api'
         }
@@ -72,7 +70,6 @@ export default defineNuxtConfig({
                 files: ['kr_so.JSON']
             },
         ],
-
         defaultLocale: 'EN_US',
         langDir: "locale/",
         lazy: false,
@@ -87,5 +84,4 @@ export default defineNuxtConfig({
     plugins: [
         '~/plugins/i18n.ts',
     ],
-      
 })
