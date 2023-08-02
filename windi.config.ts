@@ -1,13 +1,7 @@
 import { defineConfig } from 'windicss/helpers'
 import type { Plugin } from 'windicss/types/interfaces'
-
-// colors
 import colors from 'windicss/colors'
-
-// themes
 import defaultTheme from 'windicss/defaultTheme'
-
-// plugins
 import TypographyPlugin from 'windicss/plugin/typography'
 import AspectRatioPlugin from 'windicss/plugin/aspect-ratio'
 import FiltersPlugin from 'windicss/plugin/filters'
@@ -28,7 +22,6 @@ const MyTheme = {
       '800': '#0F2A1E',
       '900': '#000000',
     },
-    // a65b3b
     dark:{
       DEFAULT: '#202020',
       '50': '#202020'
@@ -39,7 +32,6 @@ const MyTheme = {
     },
   },
 }
-
 export default defineConfig({
   darkMode: 'class',
   attributify: false,
@@ -87,7 +79,6 @@ export default defineConfig({
     'dark-img': 'hidden dark:block',
   },
   plugins: [
-    // filters plugin require for navbar blur
     FiltersPlugin as Plugin,
     TypographyPlugin as Plugin,
     AspectRatioPlugin as Plugin,
