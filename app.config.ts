@@ -16,6 +16,5 @@ export default defineAppConfig({
     },
     windiCSS: {
         safelist: 'prose prose-sm m-auto',
-
     }
 })
