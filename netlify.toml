@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = ".output/server"
+  environment = { NODE_VERSION = "18" }
+
+[[redirects]]
+  from = "/*"
+  to = "/index.mjs"
+  status = 200
