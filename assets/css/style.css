@@ -40,9 +40,7 @@ body{
 
 .landing-page {
   margin: 0 auto;
-  /* padding: 16px 32px; */
   position: relative;
-  max-width: 100%;
   width: 100%;
   min-height: 100vh;
   background: #241127;
@@ -69,8 +67,8 @@ body{
     position: absolute;
     width: 900px;
     height: 900px;
-    right: -200px;
-    top: -200px;
+    right: 0px;
+    top: 0px;
     filter: blur(300px);
     background-color: rgba(193, 71, 233, 0.25);
  
