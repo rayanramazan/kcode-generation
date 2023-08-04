@@ -45,7 +45,9 @@
     "vue": "^3.2.47",
     "vue-ace": "^0.0.1",
     "vue-codemirror": "^6.1.1",
-    "vue-i18n": "9.3.0-beta.16",
-    "vue3-ace-editor": "^2.2.2"
+    "vue-i18n": "9.3.0-beta.16"
+  },
+  "pnpm": {
+    "version": "8.6.11"
   }
 }
