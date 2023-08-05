@@ -11,7 +11,6 @@ export interface ILocales {
     }
 }
 
-
 export const availableLocales: ILocales = {
     AR_IQ: {name: 'العربية', iso: 'EN_US', code: 'AR_IQ', status: '1', favicon: 'storage/1/ar.jpg', direction: 'rtl'},
     EN_US: {name: 'English', iso: '', code: 'EN_US', status: '1', favicon: 'storage/1/en.jpg', direction: 'ltr'},
@@ -25,7 +24,6 @@ export const availableLocales: ILocales = {
     }
 };
 
-// {
 export function LanguageManager() {
     const prevRoutePath = ref<string>("")
     const route = useRoute()
