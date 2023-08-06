@@ -8,6 +8,7 @@ export default defineNuxtConfig({
     buildModules: [
         '@nuxtjs/compression'
     ],
+    target: 'static',
     compression: {
         threshold: 10240,
         gzip: {
@@ -32,7 +33,6 @@ export default defineNuxtConfig({
             }
         }
     },
-    target: 'static',
     runtimeConfig: {
         apiSecret: '123',
         public: {
