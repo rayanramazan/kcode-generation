@@ -15,7 +15,6 @@ useHead( {
   ]
 } )
 
-
 </script>
 <template>
   <Html lang="en">
