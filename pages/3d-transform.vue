@@ -30,7 +30,6 @@
     </div>
 
     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-30 mb-10">
-
         <div v-for="range in ranges" :key="range.id" class="flex flex-col gap-2">
             <span class="text-white">
                 {{ range.title }}
