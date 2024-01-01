@@ -9,7 +9,7 @@
                     <span class="font-bold">HTML</span>
                 </div>
                 <span class="text-white text-sm lg:text-base">
-                    {{ $t('coming_soon') }}
+                    {{ $t('available') }}
                 </span>
             </div>
             <Icon name="uil:arrow-growth" class="lg:w-9 w-7 lg:h-9 h-7 text-white"/>
@@ -23,7 +23,7 @@
                     <span class="font-bold">CSS</span>
                 </div>
                 <span class="text-white text-sm lg:text-base">
-                    {{ $t('coming_soon') }}
+                    {{ $t('available') }}
                 </span>
             </div>
             <Icon name="uil:arrow-growth" class="lg:w-9 w-7 lg:h-9 h-7 text-white"/>
@@ -37,7 +37,7 @@
                     <span class="font-bold">Vue.JS</span>
                 </div>
                 <span class="text-white text-sm lg:text-base">
-                    {{ $t('coming_soon') }}
+                    {{ $t('available') }}
                 </span>
             </div>
             <Icon name="uil:arrow-growth" class="lg:w-9 w-7 lg:h-9 h-7 text-white"/>
