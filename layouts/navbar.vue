@@ -9,7 +9,11 @@
       <div class="flex items-center gap-6">
         <ButtonLang />
         <hr class="h-8 bg-white w-[1px] ">
+        <NuxtLink
+          to="https://github.com/rayanramazan">
         <Icon name="iconoir:github" class="w-[24px] h-[24px] text-white"/>
+      </NuxtLink>
+        
       </div>
     </div>
   </div>
